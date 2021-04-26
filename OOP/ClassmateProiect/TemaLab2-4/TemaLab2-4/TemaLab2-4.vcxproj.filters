@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\tests">
+      <UniqueIdentifier>{a2af64d6-8ade-4061-9f20-9f0b9ab9e6f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\domain">
+      <UniqueIdentifier>{41aef14f-fc07-41c3-b565-b9fb5d57f441}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\repository">
+      <UniqueIdentifier>{d3e13539-edeb-4213-823f-ba15870281cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\validation">
+      <UniqueIdentifier>{e398cca0-d66f-448c-b0d5-12251ad9cb6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\service">
+      <UniqueIdentifier>{2eb34491-748c-47af-9631-8de3301e4878}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ui">
+      <UniqueIdentifier>{7d36c750-2c26-4333-9b89-65b36ea89325}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Sorting">
+      <UniqueIdentifier>{7d0fea5d-c794-471d-8336-d90af2034990}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="teste.c">
+      <Filter>Source Files\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="produs.c">
+      <Filter>Source Files\domain</Filter>
+    </ClCompile>
+    <ClCompile Include="MyList.c">
+      <Filter>Source Files\repository</Filter>
+    </ClCompile>
+    <ClCompile Include="validare.c">
+      <Filter>Source Files\validation</Filter>
+    </ClCompile>
+    <ClCompile Include="service.c">
+      <Filter>Source Files\service</Filter>
+    </ClCompile>
+    <ClCompile Include="ui.c">
+      <Filter>Source Files\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="mySort.c">
+      <Filter>Source Files\Sorting</Filter>
+    </ClCompile>
+    <ClCompile Include="undoList.c">
+      <Filter>Source Files\repository</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="teste.h">
+      <Filter>Source Files\tests</Filter>
+    </ClInclude>
+    <ClInclude Include="produs.h">
+      <Filter>Source Files\domain</Filter>
+    </ClInclude>
+    <ClInclude Include="MyList.h">
+      <Filter>Source Files\repository</Filter>
+    </ClInclude>
+    <ClInclude Include="validare.h">
+      <Filter>Source Files\validation</Filter>
+    </ClInclude>
+    <ClInclude Include="service.h">
+      <Filter>Source Files\service</Filter>
+    </ClInclude>
+    <ClInclude Include="ui.h">
+      <Filter>Source Files\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="mySort.h">
+      <Filter>Source Files\Sorting</Filter>
+    </ClInclude>
+    <ClInclude Include="undoList.h">
+      <Filter>Source Files\repository</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

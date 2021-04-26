@@ -1,0 +1,56 @@
+        -:    0:Source:D:/FacultyProjects/OOP/ImmobileAdministrator/domain/expense.c
+        -:    0:Graph:D:\FacultyProjects\OOP\ImmobileAdministrator\cmake-build-debug-coverage\CMakeFiles\ImmobileAdministrator.dir\domain\expense.c.gcno
+        -:    0:Data:D:\FacultyProjects\OOP\ImmobileAdministrator\cmake-build-debug-coverage\CMakeFiles\ImmobileAdministrator.dir\domain\expense.c.gcda
+        -:    0:Runs:1
+        -:    1://
+        -:    2:// Created by Hodosi on 3/5/2021.
+        -:    3://
+        -:    4:
+        -:    5:#include "valueObject.h"
+        -:    6:#include <string.h>
+        -:    7:#include <stdlib.h>
+        -:    8:
+        -:    9://water, sewer, heating, gas
+       61:   10:Expense* createExpense(int number_of_apartment, double cost, char *type){
+       61:   11:    Expense *expense  = (Expense*)malloc(sizeof(Expense));
+        -:   12:
+       61:   13:    expense -> number_of_apartment = number_of_apartment;
+       61:   14:    expense -> cost = cost;
+       61:   15:    expense -> type = (char*)malloc(sizeof(char)*(strlen(type) + 1));
+       61:   16:    strcpy(expense -> type, type);
+        -:   17:
+       61:   18:    return expense;
+       61:   18-block  0
+        -:   19:}
+        -:   20:
+       37:   21:void destroyExpense(Expense *expense){
+       37:   22:    free(expense -> type);
+       37:   23:    free(expense);
+       37:   24:}
+        -:   25:
+       24:   26:Expense* copyExpense(Expense *expense){
+       24:   27:    int number_of_apartment = expense -> number_of_apartment;
+       24:   28:    double cost = expense -> cost;
+       24:   29:    char* type = expense -> type;
+       24:   30:    return createExpense(number_of_apartment, cost, type);
+       24:   30-block  0
+        -:   31:}
+        -:   32:
+        5:   33:int getApartmentNumberOfExpense(Expense *expense){
+        5:   34:    return expense -> number_of_apartment;
+        5:   34-block  0
+        -:   35:}
+        -:   36:
+       48:   37:double getCost(Expense *expense){
+       48:   38:    return expense -> cost;
+       48:   38-block  0
+        -:   39:}
+        -:   40:
+       24:   41:void setCost(Expense *expense, double new_cost){
+       24:   42:    expense -> cost = new_cost;
+       24:   43:}
+        -:   44:
+      217:   45:void getType(Expense *expense, char* type){
+      217:   46:    strcpy(type, expense -> type);
+      217:   47:}
+        -:   48:

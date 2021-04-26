@@ -1,0 +1,81 @@
+<<<<<<< HEAD
+<<<<<<< HEAD
+﻿  main.cpp
+  Travel_Agency.vcxproj -> D:\FacultyProjects\OOP\TravelAgency\Travel_Agency\Debug\Travel_Agency.exe
+D:\FacultyProjects\OOP\TravelAgency\Travel_Agency\Travel_Agency\ValueObject.h(23): warning C26455: Default constructor may not throw. Declare it 'noexcept' (f.6).
+D:\FacultyProjects\OOP\TravelAgency\Travel_Agency\Travel_Agency\ValueObject.h(48): warning C26432: If you define or delete any default operation in the type 'class TouristOffer', define or delete them all (c.21).
+D:\FacultyProjects\OOP\TravelAgency\Travel_Agency\Travel_Agency\ValueObject.h(115): warning C26455: Default constructor may not throw. Declare it 'noexcept' (f.6).
+D:\FacultyProjects\OOP\TravelAgency\Travel_Agency\Travel_Agency\Repository.h(41): warning C26432: If you define or delete any default operation in the type 'class Repository', define or delete them all (c.21).
+D:\FacultyProjects\OOP\TravelAgency\Travel_Agency\Travel_Agency\Undo.h(17): warning C26432: If you define or delete any default operation in the type 'class UndoAction', define or delete them all (c.21).
+D:\FacultyProjects\OOP\TravelAgency\Travel_Agency\Travel_Agency\Repository.cpp(3): warning C26435: Function 'MemoryRepository::addOffer' should specify exactly one of 'virtual', 'override', or 'final' (c.128).
+D:\FacultyProjects\OOP\TravelAgency\Travel_Agency\Travel_Agency\Repository.cpp(15): warning C26435: Function 'MemoryRepository::modifyOffer' should specify exactly one of 'virtual', 'override', or 'final' (c.128).
+D:\FacultyProjects\OOP\TravelAgency\Travel_Agency\Travel_Agency\Repository.cpp(33): warning C26435: Function 'MemoryRepository::deleteOffer' should specify exactly one of 'virtual', 'override', or 'final' (c.128).
+D:\FacultyProjects\OOP\TravelAgency\Travel_Agency\Travel_Agency\DynamicArray.h(125): warning C26481: Don't use pointer arithmetic. Use span instead (bounds.1).
+D:\FacultyProjects\OOP\TravelAgency\Travel_Agency\Travel_Agency\DynamicArray.h(105): warning C26481: Don't use pointer arithmetic. Use span instead (bounds.1).
+D:\FacultyProjects\OOP\TravelAgency\Travel_Agency\Travel_Agency\DynamicArray.h(80): warning C26481: Don't use pointer arithmetic. Use span instead (bounds.1).
+D:\FacultyProjects\OOP\TravelAgency\Travel_Agency\Travel_Agency\DynamicArray.h(62): warning C26401: Do not delete a raw pointer that is not an owner<T> (i.11).
+D:\FacultyProjects\OOP\TravelAgency\Travel_Agency\Travel_Agency\DynamicArray.h(62): warning C26409: Avoid calling new and delete explicitly, use std::make_unique<T> instead (r.11).
+D:\FacultyProjects\OOP\TravelAgency\Travel_Agency\Travel_Agency\DynamicArray.h(63): warning C26409: Avoid calling new and delete explicitly, use std::make_unique<T> instead (r.11).
+D:\FacultyProjects\OOP\TravelAgency\Travel_Agency\Travel_Agency\DynamicArray.h(57): warning C26432: If you define or delete any default operation in the type 'class DynamicVector<int>', define or delete them all (c.21).
+D:\FacultyProjects\OOP\TravelAgency\Travel_Agency\Travel_Agency\DynamicArray.h(68): warning C26481: Don't use pointer arithmetic. Use span instead (bounds.1).
+D:\FacultyProjects\OOP\TravelAgency\Travel_Agency\Travel_Agency\DynamicArray.h(41): warning C26401: Do not delete a raw pointer that is not an owner<T> (i.11).
+D:\FacultyProjects\OOP\TravelAgency\Travel_Agency\Travel_Agency\DynamicArray.h(41): warning C26409: Avoid calling new and delete explicitly, use std::make_unique<T> instead (r.11).
+D:\FacultyProjects\OOP\TravelAgency\Travel_Agency\Travel_Agency\DynamicArray.h(35): warning C26409: Avoid calling new and delete explicitly, use std::make_unique<T> instead (r.11).
+D:\FacultyProjects\OOP\TravelAgency\Travel_Agency\Travel_Agency\DynamicArray.h(35): warning C26447: The function is declared 'noexcept' but calls function 'operator new[]()' which may throw exceptions (f.6).
+D:\FacultyProjects\OOP\TravelAgency\Travel_Agency\Travel_Agency\DynamicArray.h(149): warning C26481: Don't use pointer arithmetic. Use span instead (bounds.1).
+D:\FacultyProjects\OOP\TravelAgency\Travel_Agency\Travel_Agency\DynamicArray.h(146): warning C26440: Function 'IteratorVector<int>::IteratorVector<int>' can be declared 'noexcept' (f.6).
+D:\FacultyProjects\OOP\TravelAgency\Travel_Agency\Travel_Agency\DynamicArray.h(145): warning C26440: Function 'IteratorVector<int>::IteratorVector<int>' can be declared 'noexcept' (f.6).
+D:\FacultyProjects\OOP\TravelAgency\Travel_Agency\Travel_Agency\DynamicArray.h(17): warning C26409: Avoid calling new and delete explicitly, use std::make_unique<T> instead (r.11).
+D:\FacultyProjects\OOP\TravelAgency\Travel_Agency\Travel_Agency\DynamicArray.h(17): warning C26400: Do not assign the result of an allocation or a function call with an owner<T> return value to a raw pointer, use owner<T> instead (i.11).
+D:\FacultyProjects\OOP\TravelAgency\Travel_Agency\Travel_Agency\DynamicArray.h(25): warning C26401: Do not delete a raw pointer that is not an owner<T> (i.11).
+D:\FacultyProjects\OOP\TravelAgency\Travel_Agency\Travel_Agency\DynamicArray.h(25): warning C26409: Avoid calling new and delete explicitly, use std::make_unique<T> instead (r.11).
+D:\FacultyProjects\OOP\TravelAgency\Travel_Agency\Travel_Agency\DynamicArray.h(20): warning C26481: Don't use pointer arithmetic. Use span instead (bounds.1).
+=======
+=======
+>>>>>>> 0e98786e1e605535b168fa2c5265bf61cf2746f9
+﻿  Undo.cpp
+  Travel_Agency.vcxproj -> D:\FacultyProjects\OOP\TravelAgency\Travel_Agency\Debug\Travel_Agency.exe
+D:\FacultyProjects\OOP\TravelAgency\Travel_Agency\Travel_Agency\ValueObject.h(21): warning C26455: Default constructor may not throw. Declare it 'noexcept' (f.6).
+D:\FacultyProjects\OOP\TravelAgency\Travel_Agency\Travel_Agency\ValueObject.h(46): warning C26432: If you define or delete any default operation in the type 'class TouristOffer', define or delete them all (c.21).
+D:\FacultyProjects\OOP\TravelAgency\Travel_Agency\Travel_Agency\ValueObject.h(111): warning C26455: Default constructor may not throw. Declare it 'noexcept' (f.6).
+D:\FacultyProjects\OOP\TravelAgency\Travel_Agency\Travel_Agency\Repository.h(25): warning C26455: Default constructor may not throw. Declare it 'noexcept' (f.6).
+D:\FacultyProjects\OOP\TravelAgency\Travel_Agency\Travel_Agency\WishList.h(22): warning C26455: Default constructor may not throw. Declare it 'noexcept' (f.6).
+D:\FacultyProjects\OOP\TravelAgency\Travel_Agency\Travel_Agency\Service.h(33): warning C26440: Function 'Service::Service' can be declared 'noexcept' (f.6).
+D:\FacultyProjects\OOP\TravelAgency\Travel_Agency\Travel_Agency\Service.h(199): warning C26496: The variable 'old_count' does not change after construction, mark it as const (con.4).
+D:\FacultyProjects\OOP\TravelAgency\Travel_Agency\Travel_Agency\Service.h(198): warning C26486: Don't pass a pointer that may be invalid to a function. Parameter 0 '@destination_number' in call to 'DtoOffer::DtoOffer' may be invalid (lifetime.3).
+D:\FacultyProjects\OOP\TravelAgency\Travel_Agency\Travel_Agency\UserInterface.h(12): warning C26440: Function 'UI::UI' can be declared 'noexcept' (f.6).
+D:\FacultyProjects\OOP\TravelAgency\Travel_Agency\Travel_Agency\Service.h(127): warning C26440: Function '<lambda_273afdd45bfc86a9e268cdfa4c948770>::operator()<TouristOffer const >' can be declared 'noexcept' (f.6).
+D:\FacultyProjects\OOP\TravelAgency\Travel_Agency\Travel_Agency\Repository.cpp(3): warning C26436: The type 'class Repository' with a virtual function needs either public virtual or protected non-virtual destructor (c.35).
+D:\FacultyProjects\OOP\TravelAgency\Travel_Agency\Travel_Agency\Repository.cpp(59): warning C26436: The type 'class FileRepository' with a virtual function needs either public virtual or protected non-virtual destructor (c.35).
+D:\FacultyProjects\OOP\TravelAgency\Travel_Agency\Travel_Agency\Service.cpp(70): warning C26496: The variable 'repo_size' does not change after construction, mark it as const (con.4).
+D:\FacultyProjects\OOP\TravelAgency\Travel_Agency\Travel_Agency\Test.cpp(882): warning C26486: Don't pass a pointer that may be invalid to a function. Parameter 0 '@report_destination' in call to 'DtoOffer::getCount' may be invalid (lifetime.3).
+D:\FacultyProjects\OOP\TravelAgency\Travel_Agency\Travel_Agency\Test.cpp(883): warning C26486: Don't pass a pointer that may be invalid to a function. Parameter 0 '@report_destination' in call to 'DtoOffer::getDestination' may be invalid (lifetime.3).
+D:\FacultyProjects\OOP\TravelAgency\Travel_Agency\Travel_Agency\Test.cpp(884): warning C26486: Don't pass a pointer that may be invalid to a function. Parameter 0 '@report_destination' in call to 'DtoOffer::getCount' may be invalid (lifetime.3).
+D:\FacultyProjects\OOP\TravelAgency\Travel_Agency\Travel_Agency\Test.cpp(885): warning C26486: Don't pass a pointer that may be invalid to a function. Parameter 0 '@report_destination' in call to 'DtoOffer::getDestination' may be invalid (lifetime.3).
+D:\FacultyProjects\OOP\TravelAgency\Travel_Agency\Travel_Agency\DynamicArray.h(121): warning C26481: Don't use pointer arithmetic. Use span instead (bounds.1).
+D:\FacultyProjects\OOP\TravelAgency\Travel_Agency\Travel_Agency\DynamicArray.h(104): warning C26481: Don't use pointer arithmetic. Use span instead (bounds.1).
+D:\FacultyProjects\OOP\TravelAgency\Travel_Agency\Travel_Agency\DynamicArray.h(84): warning C26481: Don't use pointer arithmetic. Use span instead (bounds.1).
+D:\FacultyProjects\OOP\TravelAgency\Travel_Agency\Travel_Agency\DynamicArray.h(66): warning C26401: Do not delete a raw pointer that is not an owner<T> (i.11).
+D:\FacultyProjects\OOP\TravelAgency\Travel_Agency\Travel_Agency\DynamicArray.h(66): warning C26409: Avoid calling new and delete explicitly, use std::make_unique<T> instead (r.11).
+D:\FacultyProjects\OOP\TravelAgency\Travel_Agency\Travel_Agency\DynamicArray.h(67): warning C26409: Avoid calling new and delete explicitly, use std::make_unique<T> instead (r.11).
+D:\FacultyProjects\OOP\TravelAgency\Travel_Agency\Travel_Agency\DynamicArray.h(62): warning C26432: If you define or delete any default operation in the type 'class DynamicVector<int>', define or delete them all (c.21).
+D:\FacultyProjects\OOP\TravelAgency\Travel_Agency\Travel_Agency\DynamicArray.h(72): warning C26481: Don't use pointer arithmetic. Use span instead (bounds.1).
+D:\FacultyProjects\OOP\TravelAgency\Travel_Agency\Travel_Agency\DynamicArray.h(43): warning C26401: Do not delete a raw pointer that is not an owner<T> (i.11).
+D:\FacultyProjects\OOP\TravelAgency\Travel_Agency\Travel_Agency\DynamicArray.h(43): warning C26409: Avoid calling new and delete explicitly, use std::make_unique<T> instead (r.11).
+D:\FacultyProjects\OOP\TravelAgency\Travel_Agency\Travel_Agency\DynamicArray.h(35): warning C26409: Avoid calling new and delete explicitly, use std::make_unique<T> instead (r.11).
+D:\FacultyProjects\OOP\TravelAgency\Travel_Agency\Travel_Agency\DynamicArray.h(35): warning C26447: The function is declared 'noexcept' but calls function 'operator new[]()' which may throw exceptions (f.6).
+D:\FacultyProjects\OOP\TravelAgency\Travel_Agency\Travel_Agency\DynamicArray.h(145): warning C26481: Don't use pointer arithmetic. Use span instead (bounds.1).
+D:\FacultyProjects\OOP\TravelAgency\Travel_Agency\Travel_Agency\DynamicArray.h(142): warning C26440: Function 'IteratorVector<int>::IteratorVector<int>' can be declared 'noexcept' (f.6).
+D:\FacultyProjects\OOP\TravelAgency\Travel_Agency\Travel_Agency\DynamicArray.h(141): warning C26440: Function 'IteratorVector<int>::IteratorVector<int>' can be declared 'noexcept' (f.6).
+D:\FacultyProjects\OOP\TravelAgency\Travel_Agency\Travel_Agency\DynamicArray.h(19): warning C26409: Avoid calling new and delete explicitly, use std::make_unique<T> instead (r.11).
+D:\FacultyProjects\OOP\TravelAgency\Travel_Agency\Travel_Agency\DynamicArray.h(19): warning C26400: Do not assign the result of an allocation or a function call with an owner<T> return value to a raw pointer, use owner<T> instead (i.11).
+D:\FacultyProjects\OOP\TravelAgency\Travel_Agency\Travel_Agency\DynamicArray.h(27): warning C26401: Do not delete a raw pointer that is not an owner<T> (i.11).
+D:\FacultyProjects\OOP\TravelAgency\Travel_Agency\Travel_Agency\DynamicArray.h(27): warning C26409: Avoid calling new and delete explicitly, use std::make_unique<T> instead (r.11).
+D:\FacultyProjects\OOP\TravelAgency\Travel_Agency\Travel_Agency\DynamicArray.h(22): warning C26481: Don't use pointer arithmetic. Use span instead (bounds.1).
+D:\FacultyProjects\OOP\TravelAgency\Travel_Agency\Travel_Agency\ValueObject.cpp(43): warning C26440: Function 'DtoOffer::getCount' can be declared 'noexcept' (f.6).
+D:\FacultyProjects\OOP\TravelAgency\Travel_Agency\Travel_Agency\ValueObject.cpp(47): warning C26440: Function 'DtoOffer::setCount' can be declared 'noexcept' (f.6).
+D:\FacultyProjects\OOP\TravelAgency\Travel_Agency\Travel_Agency\WishList.cpp(15): warning C26440: Function 'WishList::deleteWishOffers' can be declared 'noexcept' (f.6).
+<<<<<<< HEAD
+>>>>>>> 0e98786e1e605535b168fa2c5265bf61cf2746f9
+=======
+>>>>>>> 0e98786e1e605535b168fa2c5265bf61cf2746f9

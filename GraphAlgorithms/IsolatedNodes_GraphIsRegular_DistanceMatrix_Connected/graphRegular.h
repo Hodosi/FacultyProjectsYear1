@@ -1,0 +1,15 @@
+//
+// Created by Hodosi on 3/12/2021.
+//
+
+#ifndef ISOLATEDNODES_GRAPHISREGULAR_DISTANCEMATRIX_CONNECTED_GRAPHREGULAR_H
+#define ISOLATEDNODES_GRAPHISREGULAR_DISTANCEMATRIX_CONNECTED_GRAPHREGULAR_H
+
+#include <vector>
+
+using namespace std;
+
+bool isRegular(vector<vector<int >>, int);
+void printRegular(bool);
+
+#endif //ISOLATEDNODES_GRAPHISREGULAR_DISTANCEMATRIX_CONNECTED_GRAPHREGULAR_H

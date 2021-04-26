@@ -1,0 +1,344 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C26455",
+          "message": {
+            "text": "Default constructor may not throw. Declare it 'noexcept' (f.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/FacultyProjects/OOP/TravelAgency/Travel_Agency/Travel_Agency/ValueObject.h"
+                },
+                "region": {
+<<<<<<< HEAD
+<<<<<<< HEAD
+                  "startLine": 23,
+                  "startColumn": 2,
+                  "endLine": 23,
+=======
+                  "startLine": 21,
+                  "startColumn": 2,
+                  "endLine": 21,
+>>>>>>> 0e98786e1e605535b168fa2c5265bf61cf2746f9
+=======
+                  "startLine": 21,
+                  "startColumn": 2,
+                  "endLine": 21,
+>>>>>>> 0e98786e1e605535b168fa2c5265bf61cf2746f9
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0TouristOffer@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26432",
+          "message": {
+            "text": "If you define or delete any default operation in the type 'class TouristOffer', define or delete them all (c.21)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/FacultyProjects/OOP/TravelAgency/Travel_Agency/Travel_Agency/ValueObject.h"
+                },
+                "region": {
+<<<<<<< HEAD
+<<<<<<< HEAD
+                  "startLine": 48,
+                  "startColumn": 3,
+                  "endLine": 48,
+=======
+                  "startLine": 46,
+                  "startColumn": 3,
+                  "endLine": 46,
+>>>>>>> 0e98786e1e605535b168fa2c5265bf61cf2746f9
+=======
+                  "startLine": 46,
+                  "startColumn": 3,
+                  "endLine": 46,
+>>>>>>> 0e98786e1e605535b168fa2c5265bf61cf2746f9
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??1TouristOffer@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26455",
+          "message": {
+            "text": "Default constructor may not throw. Declare it 'noexcept' (f.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/FacultyProjects/OOP/TravelAgency/Travel_Agency/Travel_Agency/ValueObject.h"
+                },
+                "region": {
+<<<<<<< HEAD
+<<<<<<< HEAD
+                  "startLine": 115,
+                  "startColumn": 2,
+                  "endLine": 115,
+=======
+                  "startLine": 111,
+                  "startColumn": 2,
+                  "endLine": 111,
+>>>>>>> 0e98786e1e605535b168fa2c5265bf61cf2746f9
+=======
+                  "startLine": 111,
+                  "startColumn": 2,
+                  "endLine": 111,
+>>>>>>> 0e98786e1e605535b168fa2c5265bf61cf2746f9
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0DtoOffer@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 0e98786e1e605535b168fa2c5265bf61cf2746f9
+        },
+        {
+          "ruleId": "C26440",
+          "message": {
+            "text": "Function 'DtoOffer::getCount' can be declared 'noexcept' (f.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/FacultyProjects/OOP/TravelAgency/Travel_Agency/Travel_Agency/ValueObject.cpp"
+                },
+                "region": {
+                  "startLine": 43,
+                  "startColumn": 15,
+                  "endLine": 43,
+                  "endColumn": 15
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?getCount@DtoOffer@@QBEHXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26440",
+          "message": {
+            "text": "Function 'DtoOffer::setCount' can be declared 'noexcept' (f.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/FacultyProjects/OOP/TravelAgency/Travel_Agency/Travel_Agency/ValueObject.cpp"
+                },
+                "region": {
+                  "startLine": 47,
+                  "startColumn": 16,
+                  "endLine": 47,
+                  "endColumn": 16
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?setCount@DtoOffer@@QAEXH@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+<<<<<<< HEAD
+>>>>>>> 0e98786e1e605535b168fa2c5265bf61cf2746f9
+=======
+>>>>>>> 0e98786e1e605535b168fa2c5265bf61cf2746f9
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.28.29912.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+<<<<<<< HEAD
+<<<<<<< HEAD
+          "commandLine": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.28.29910\\bin\\HostX86\\x86\\c1xx.dll\" -ACf{1F7B090C-16DB-4822-966A-A93D26ED4681} -ACpmspft140.dll -Alint -D_PREFAST_ -D_AST_FE_ -Analyze -zm0x0013B1C0 -il C:\\Users\\Hodosi\\AppData\\Local\\Temp\\_CL_c93c323east -typedil -f ValueObject.cpp -Ze -D_MSC_EXTENSIONS -Zp8 -Gs -pc \\:/ -D_MSC_VER=1928 -D_MSC_FULL_VER=192829912 -D_MSC_BUILD=0 -D_WIN32 -D_M_IX86=600 -D_M_IX86_FP=2 -GR -D_CPPRTTI -nologo -W 4 -WX -diagnostics:column -D_GUARDOVERFLOW_CRT_ALLOCATORS=1 -Ot -DCODE_ANALYSIS -DWIN32 -D_DEBUG -D_CONSOLE -D_UNICODE -DUNICODE -EHs -D_CPPUNWIND -EHc -D__MSVC_RUNTIME_CHECKS -RTCs -RTCu -MDd -D_DEBUG -D_MT -D_DLL -GS -D_M_FP_PRECISE -permissive- -Zc:wchar_t -Zc:forScope -std:c++17 -FoDebug\\ValueObject.obj -FdDebug\\vc142.pdb -Gd -analyze:projectdirectory D:\\FacultyProjects\\OOP\\TravelAgency\\Travel_Agency\\Travel_Agency -analyze:rulesetdirectory ;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Team Tools\\Static Analysis Tools\\\\Rule Sets; -analyze:ruleset CppCore.ruleset -analyze:quiet -analyze:plugin C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.28.29910\\bin\\HostX86\\x86\\EspXEngine.dll -FC -errorreport:prompt -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.28.29910\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.28.29910\\atlmfc\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary\\VS\\include -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -I C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8\\Include\\um",
+=======
+          "commandLine": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.28.29910\\bin\\HostX86\\x86\\c1xx.dll\" -ACf{1F7B090C-16DB-4822-966A-A93D26ED4681} -ACpmspft140.dll -Alint -D_PREFAST_ -D_AST_FE_ -Analyze -zm0x009CB1C0 -il C:\\Users\\Hodosi\\AppData\\Local\\Temp\\_CL_c16c9492ast -typedil -f ValueObject.cpp -Ze -D_MSC_EXTENSIONS -Zp8 -Gs -pc \\:/ -D_MSC_VER=1928 -D_MSC_FULL_VER=192829912 -D_MSC_BUILD=0 -D_WIN32 -D_M_IX86=600 -D_M_IX86_FP=2 -GR -D_CPPRTTI -nologo -W 4 -WX -diagnostics:column -D_GUARDOVERFLOW_CRT_ALLOCATORS=1 -Ot -DCODE_ANALYSIS -DWIN32 -D_DEBUG -D_CONSOLE -D_UNICODE -DUNICODE -EHs -D_CPPUNWIND -EHc -D__MSVC_RUNTIME_CHECKS -RTCs -RTCu -MDd -D_DEBUG -D_MT -D_DLL -GS -D_M_FP_PRECISE -permissive- -Zc:wchar_t -Zc:forScope -std:c++17 -FoDebug\\ValueObject.obj -FdDebug\\vc142.pdb -Gd -analyze:projectdirectory D:\\FacultyProjects\\OOP\\TravelAgency\\Travel_Agency\\Travel_Agency -analyze:rulesetdirectory ;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Team Tools\\Static Analysis Tools\\\\Rule Sets; -analyze:ruleset CppCore.ruleset -analyze:quiet -analyze:plugin C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.28.29910\\bin\\HostX86\\x86\\EspXEngine.dll -FC -errorreport:prompt -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.28.29910\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.28.29910\\atlmfc\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary\\VS\\include -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -I C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8\\Include\\um",
+>>>>>>> 0e98786e1e605535b168fa2c5265bf61cf2746f9
+=======
+          "commandLine": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.28.29910\\bin\\HostX86\\x86\\c1xx.dll\" -ACf{1F7B090C-16DB-4822-966A-A93D26ED4681} -ACpmspft140.dll -Alint -D_PREFAST_ -D_AST_FE_ -Analyze -zm0x009CB1C0 -il C:\\Users\\Hodosi\\AppData\\Local\\Temp\\_CL_c16c9492ast -typedil -f ValueObject.cpp -Ze -D_MSC_EXTENSIONS -Zp8 -Gs -pc \\:/ -D_MSC_VER=1928 -D_MSC_FULL_VER=192829912 -D_MSC_BUILD=0 -D_WIN32 -D_M_IX86=600 -D_M_IX86_FP=2 -GR -D_CPPRTTI -nologo -W 4 -WX -diagnostics:column -D_GUARDOVERFLOW_CRT_ALLOCATORS=1 -Ot -DCODE_ANALYSIS -DWIN32 -D_DEBUG -D_CONSOLE -D_UNICODE -DUNICODE -EHs -D_CPPUNWIND -EHc -D__MSVC_RUNTIME_CHECKS -RTCs -RTCu -MDd -D_DEBUG -D_MT -D_DLL -GS -D_M_FP_PRECISE -permissive- -Zc:wchar_t -Zc:forScope -std:c++17 -FoDebug\\ValueObject.obj -FdDebug\\vc142.pdb -Gd -analyze:projectdirectory D:\\FacultyProjects\\OOP\\TravelAgency\\Travel_Agency\\Travel_Agency -analyze:rulesetdirectory ;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Team Tools\\Static Analysis Tools\\\\Rule Sets; -analyze:ruleset CppCore.ruleset -analyze:quiet -analyze:plugin C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.28.29910\\bin\\HostX86\\x86\\EspXEngine.dll -FC -errorreport:prompt -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.28.29910\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.28.29910\\atlmfc\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary\\VS\\include -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -I C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8\\Include\\um",
+>>>>>>> 0e98786e1e605535b168fa2c5265bf61cf2746f9
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///D:/FacultyProjects/OOP/TravelAgency/Travel_Agency/Travel_Agency/ValueObject.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+<<<<<<< HEAD
+<<<<<<< HEAD
+            "md5": "730b3bb9c49e46967f9494a567260397"
+=======
+            "md5": "5ca5559c75f31e477d8a45f2a8cc050e"
+>>>>>>> 0e98786e1e605535b168fa2c5265bf61cf2746f9
+=======
+            "md5": "5ca5559c75f31e477d8a45f2a8cc050e"
+>>>>>>> 0e98786e1e605535b168fa2c5265bf61cf2746f9
+          }
+        },
+        {
+          "location": {
+<<<<<<< HEAD
+<<<<<<< HEAD
+            "uri": "file:///d:/facultyprojects/oop/travelagency/travel_agency/travel_agency/wishlist.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "961d18a213d0fedff3dae499462d3a92"
+=======
+=======
+>>>>>>> 0e98786e1e605535b168fa2c5265bf61cf2746f9
+            "uri": "file:///D:/FacultyProjects/OOP/TravelAgency/Travel_Agency/Travel_Agency/WishList.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "67ce1c0470ac5794483019d9e39bad29"
+<<<<<<< HEAD
+>>>>>>> 0e98786e1e605535b168fa2c5265bf61cf2746f9
+=======
+>>>>>>> 0e98786e1e605535b168fa2c5265bf61cf2746f9
+          }
+        },
+        {
+          "location": {
+<<<<<<< HEAD
+<<<<<<< HEAD
+            "uri": "file:///d:/facultyprojects/oop/travelagency/travel_agency/travel_agency/wishlist.h"
+          },
+          "hashes": {
+            "md5": "d0ba35356500be56f4c6efc4c8e69de0"
+=======
+=======
+>>>>>>> 0e98786e1e605535b168fa2c5265bf61cf2746f9
+            "uri": "file:///D:/FacultyProjects/OOP/TravelAgency/Travel_Agency/Travel_Agency/WishList.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "383677f9c766f61a53677c633f0c151b"
+<<<<<<< HEAD
+>>>>>>> 0e98786e1e605535b168fa2c5265bf61cf2746f9
+=======
+>>>>>>> 0e98786e1e605535b168fa2c5265bf61cf2746f9
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/facultyprojects/oop/travelagency/travel_agency/travel_agency/exception.h"
+          },
+          "hashes": {
+<<<<<<< HEAD
+<<<<<<< HEAD
+            "md5": "b758cc3604ab20ebc3029284b62d1121"
+=======
+=======
+>>>>>>> 0e98786e1e605535b168fa2c5265bf61cf2746f9
+            "md5": "d9d345c6ab3050b3e5418feb4ba8b312"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/facultyprojects/oop/travelagency/travel_agency/travel_agency/dynamicarray.h"
+          },
+          "hashes": {
+            "md5": "83d37b5ac5cfd3abdec28687fed86b19"
+<<<<<<< HEAD
+>>>>>>> 0e98786e1e605535b168fa2c5265bf61cf2746f9
+=======
+>>>>>>> 0e98786e1e605535b168fa2c5265bf61cf2746f9
+          }
+        },
+        {
+          "location": {
+<<<<<<< HEAD
+<<<<<<< HEAD
+            "uri": "file:///d:/facultyprojects/oop/travelagency/travel_agency/travel_agency/valueobject.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "bba3138376194db8fb0be088dc065f65"
+=======
+=======
+>>>>>>> 0e98786e1e605535b168fa2c5265bf61cf2746f9
+            "uri": "file:///D:/FacultyProjects/OOP/TravelAgency/Travel_Agency/Travel_Agency/ValueObject.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "ea33dbe66d054b98a53b85f3358900bf"
+<<<<<<< HEAD
+>>>>>>> 0e98786e1e605535b168fa2c5265bf61cf2746f9
+=======
+>>>>>>> 0e98786e1e605535b168fa2c5265bf61cf2746f9
+          }
+        }
+      ]
+    }
+  ]
+}

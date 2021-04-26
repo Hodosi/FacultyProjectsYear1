@@ -1,0 +1,22 @@
+        -:    0:Source:D:/FacultyProjects/OOP/ImmobileAdministrator/main.c
+        -:    0:Graph:D:\FacultyProjects\OOP\ImmobileAdministrator\cmake-build-debug-coverage\CMakeFiles\ImmobileAdministrator.dir\main.c.gcno
+        -:    0:Data:D:\FacultyProjects\OOP\ImmobileAdministrator\cmake-build-debug-coverage\CMakeFiles\ImmobileAdministrator.dir\main.c.gcda
+        -:    0:Runs:1
+        -:    1:#include "presentation/userInterface.h"
+        -:    2:
+        -:    3:#include "test/test.h"
+        -:    4:
+        1:    5:int main() {
+        1:    6:    runAllTests();
+        1:    6-block  0
+        -:    7:
+        1:    8:    RepositoryImmobile *repository_immobile = createRepository();
+        1:    9:    ServiceImmobile *service_immobile = createService(repository_immobile);
+        1:   10:    UserInterfaceImmobile *ui_immobile = createUserInterface(service_immobile);
+        -:   11:
+        1:   12:    runUserInterface(ui_immobile);
+        -:   13:
+        1:   14:    destroyUserInterface(ui_immobile);
+        -:   15:
+        1:   16:    return 0;
+        -:   17:}

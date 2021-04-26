@@ -1,0 +1,202 @@
+        -:    0:Source:D:/FacultyProjects/OOP/ImmobileAdministrator/business/service.c
+        -:    0:Graph:D:\FacultyProjects\OOP\ImmobileAdministrator\cmake-build-debug-coverage\CMakeFiles\ImmobileAdministrator.dir\business\service.c.gcno
+        -:    0:Data:D:\FacultyProjects\OOP\ImmobileAdministrator\cmake-build-debug-coverage\CMakeFiles\ImmobileAdministrator.dir\business\service.c.gcda
+        -:    0:Runs:1
+        -:    1://
+        -:    2:// Created by Hodosi on 3/5/2021.
+        -:    3://
+        -:    4:
+        -:    5:#include "service.h"
+        -:    6:#include <stdlib.h>
+        -:    7:
+        -:    8:#include "../validation/validator.h"
+        -:    9:
+        3:   10:ServiceImmobile* createService(RepositoryImmobile *repository_immobile){
+        3:   11:    ServiceImmobile *service = (ServiceImmobile*)malloc(sizeof(ServiceImmobile));
+        -:   12:
+        3:   13:    service -> repository_immobile = repository_immobile;
+        -:   14:
+        3:   15:    return service;
+        3:   15-block  0
+        -:   16:}
+        -:   17:
+        3:   18:void destroyService(ServiceImmobile *service_immobile){
+        3:   19:    destroyRepository(service_immobile -> repository_immobile);
+        3:   19-block  0
+        3:   20:    free(service_immobile);
+        3:   21:}
+        -:   22:
+        3:   23:void generateApartments(ServiceImmobile *service, int number_of_apartments){
+        -:   24:    Apartment *apartment;
+       10:   25:    for(int number_of_apartment = 0; number_of_apartment < number_of_apartments; number_of_apartment++){
+        3:   25-block  0
+       10:   25-block  1
+        7:   26:        apartment = createApartment(number_of_apartment);
+        7:   26-block  0
+        7:   27:        addApartment(service -> repository_immobile, apartment);
+        -:   28:    }
+        3:   29:}
+        -:   30:
+        1:   31:Element getApartments(ServiceImmobile *service){
+        1:   32:    return getAllApartments(service -> repository_immobile);
+        1:   32-block  0
+        -:   33:}
+        -:   34:
+       13:   35:int addExpense(ServiceImmobile *service, int number_of_apartment, double cost, char *type){
+       13:   36:    int repo_size = getRepositorySize(service -> repository_immobile);
+       13:   36-block  0
+        -:   37:
+       13:   38:    if(validateApartmentNumber(repo_size, number_of_apartment) != 0){
+        2:   39:        return 2;
+        2:   39-block  0
+        -:   40:    }
+       11:   41:    if(validateType(type) != 0){
+       11:   41-block  0
+        2:   42:        return 2;
+        2:   42-block  0
+        -:   43:    }
+        -:   44:
+        9:   45:    addApartmentExpense(service -> repository_immobile, number_of_apartment, cost, type);
+        9:   45-block  0
+        -:   46:
+        9:   47:    return 0;
+        -:   48:}
+        -:   49:
+        9:   50:int modifyExpense(ServiceImmobile *service, int number_of_apartment, double cost, char *type){
+        9:   51:    int repo_size = getRepositorySize(service -> repository_immobile);
+        9:   51-block  0
+        -:   52:
+        9:   53:    if(validateApartmentNumber(repo_size, number_of_apartment) != 0){
+        2:   54:        return 2;
+        2:   54-block  0
+        -:   55:    }
+        7:   56:    if(validateType(type) != 0){
+        7:   56-block  0
+        2:   57:        return 2;
+        2:   57-block  0
+        -:   58:    }
+        -:   59:
+        5:   60:    modifyApartmentExpense(service -> repository_immobile, number_of_apartment, cost, type);
+        5:   60-block  0
+        -:   61:
+        5:   62:    return 0;
+        -:   63:}
+        -:   64:
+        9:   65:int deleteExpense(ServiceImmobile *service, int number_of_apartment,  char *type){
+        9:   66:    int repo_size = getRepositorySize(service -> repository_immobile);
+        9:   66-block  0
+        -:   67:
+        9:   68:    if(validateApartmentNumber(repo_size, number_of_apartment) != 0){
+        2:   69:        return 2;
+        2:   69-block  0
+        -:   70:    }
+        7:   71:    if(validateType(type) != 0){
+        7:   71-block  0
+        2:   72:        return 2;
+        2:   72-block  0
+        -:   73:    }
+        -:   74:
+        5:   75:    deleteApartmentExpense(service -> repository_immobile, number_of_apartment, type);
+        5:   75-block  0
+        -:   76:
+        5:   77:    return 0;
+        -:   78:}
+        -:   79:
+        3:   80:Element filtrationBySumAndType(ServiceImmobile *service, double min_cost, double max_cost, char *type){
+        3:   81:    if(validateCosts(min_cost, max_cost) != 0){
+        3:   81-block  0
+        1:   82:        return NULL;
+        1:   82-block  0
+        -:   83:    }
+        2:   84:    if(validateType(type) != 0){
+        2:   84-block  0
+        1:   85:        return NULL;
+        1:   85-block  0
+        -:   86:    }
+        -:   87:
+        1:   88:    Element items = getAllApartments(service -> repository_immobile);
+        1:   88-block  0
+        -:   89:
+        1:   90:    DynamicVector *vector_filtration = items;
+        -:   91:    //DynamicStaticVector *vector_filtration = items;
+        -:   92:
+        1:   93:    Element res_of_filtration = createDynamicVector();
+        -:   94:    //Element res_of_filtration = createDynamicStaticVector();
+        -:   95:
+        -:   96:    Apartment *apartment, *copy_apartment;
+        -:   97:
+        1:   98:    int size = vector_filtration -> length;
+        -:   99:    double cost;
+        5:  100:    for(int i = 0; i < size; i++){
+        4:  100-block  0
+        5:  100-block  1
+        4:  101:        apartment = vector_filtration -> items[i];
+        4:  102:        cost = getCostByType(apartment, type);
+        4:  102-block  0
+        4:  103:        if(min_cost <= cost && cost <= max_cost){
+        2:  103-block  0
+        2:  104:            copy_apartment = copyApartment(apartment);
+        2:  104-block  0
+        2:  105:            add(res_of_filtration, copy_apartment);
+        -:  106:            //addStatic(res_of_filtration, copy_apartment);
+        -:  107:        }
+        -:  108:    }
+        -:  109:
+        1:  110:    return res_of_filtration;
+        1:  110-block  0
+        -:  111:}
+        -:  112:
+        2:  113:Element sortingApartmentsBySum(ServiceImmobile *service, char *type){
+        2:  114:    if(validateType(type) != 0){
+        2:  114-block  0
+        1:  115:        return NULL;
+        1:  115-block  0
+        -:  116:    }
+        -:  117:
+        1:  118:    Element items = getAllApartments(service -> repository_immobile);
+        1:  118-block  0
+        -:  119:
+        1:  120:    DynamicVector *vector_sorting = items;
+        -:  121:    //DynamicStaticVector *vector_sorting = items;
+        -:  122:
+        1:  123:    DynamicVector *res_of_sorting = createDynamicVector();
+        -:  124:    //DynamicStaticVector *res_of_sorting = createDynamicStaticVector();
+        -:  125:
+        -:  126:    Apartment *apartment, *apartment_i, *apartment_j, *copy_apartment;
+        -:  127:
+        1:  128:    int size = vector_sorting -> length;
+        -:  129:    double cost_i, cost_j;
+        -:  130:
+        5:  131:    for(int i = 0; i < size; i++){
+        5:  131-block  0
+        4:  132:        apartment = vector_sorting -> items[i];
+        4:  133:        copy_apartment = copyApartment(apartment);
+        4:  133-block  0
+        4:  134:        add(res_of_sorting, copy_apartment);
+        -:  135:        //addStatic(res_of_sorting, copy_apartment);
+        -:  136:    }
+        -:  137:
+        4:  138:    for(int i = 0; i < size - 1; i++){
+        1:  138-block  0
+        3:  138-block  1
+        4:  138-block  2
+        9:  139:        for(int j = i+1; j < size; j++){
+        3:  139-block  0
+        6:  139-block  1
+        9:  139-block  2
+        6:  140:            apartment_i = res_of_sorting -> items[i];
+        6:  141:            apartment_j = res_of_sorting -> items[j];
+        6:  142:            cost_i = getCostByType(apartment_i, type);
+        6:  142-block  0
+        6:  143:            cost_j = getCostByType(apartment_j, type);
+        6:  144:            if(cost_i > cost_j) {
+        2:  145:                res_of_sorting->items[i] = apartment_j;
+        2:  146:                res_of_sorting->items[j] = apartment_i;
+        2:  146-block  0
+        -:  147:            }
+        -:  148:        }
+        -:  149:    }
+        -:  150:
+        1:  151:    return res_of_sorting;
+        1:  151-block  0
+        -:  152:}

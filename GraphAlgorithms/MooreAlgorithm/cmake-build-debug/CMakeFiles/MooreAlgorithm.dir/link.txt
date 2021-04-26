@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\MooreAlgorithm.dir/objects.a
+C:\TDM-GCC-64\bin\ar.exe cr CMakeFiles\MooreAlgorithm.dir/objects.a @CMakeFiles\MooreAlgorithm.dir\objects1.rsp
+C:\TDM-GCC-64\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\MooreAlgorithm.dir/objects.a -Wl,--no-whole-archive  -o MooreAlgorithm.exe -Wl,--out-implib,libMooreAlgorithm.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\MooreAlgorithm.dir\linklibs.rsp

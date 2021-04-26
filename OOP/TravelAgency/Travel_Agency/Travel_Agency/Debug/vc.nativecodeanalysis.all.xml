@@ -1,0 +1,998 @@
+﻿<?xml version="1.0" encoding="utf-8"?><DEFECTS><DEFECT>
+    <SFA>
+      <FILEPATH>D:\FacultyProjects\OOP\TravelAgency\Travel_Agency\Travel_Agency\</FILEPATH>
+      <FILENAME>ValueObject.h</FILENAME>
+<<<<<<< HEAD
+<<<<<<< HEAD
+      <LINE>23</LINE>
+=======
+      <LINE>21</LINE>
+>>>>>>> 0e98786e1e605535b168fa2c5265bf61cf2746f9
+=======
+      <LINE>21</LINE>
+>>>>>>> 0e98786e1e605535b168fa2c5265bf61cf2746f9
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26455</DEFECTCODE>
+    <DESCRIPTION>Default constructor may not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>TouristOffer::{ctor}</FUNCTION>
+    <DECORATED>??0TouristOffer@@QAE@XZ</DECORATED>
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <FUNCLINE>23</FUNCLINE>
+=======
+    <FUNCLINE>21</FUNCLINE>
+>>>>>>> 0e98786e1e605535b168fa2c5265bf61cf2746f9
+=======
+    <FUNCLINE>21</FUNCLINE>
+>>>>>>> 0e98786e1e605535b168fa2c5265bf61cf2746f9
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\FacultyProjects\OOP\TravelAgency\Travel_Agency\Travel_Agency\</FILEPATH>
+      <FILENAME>ValueObject.h</FILENAME>
+<<<<<<< HEAD
+<<<<<<< HEAD
+      <LINE>48</LINE>
+=======
+      <LINE>46</LINE>
+>>>>>>> 0e98786e1e605535b168fa2c5265bf61cf2746f9
+=======
+      <LINE>46</LINE>
+>>>>>>> 0e98786e1e605535b168fa2c5265bf61cf2746f9
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>26432</DEFECTCODE>
+    <DESCRIPTION>If you define or delete any default operation in the type 'class TouristOffer', define or delete them all (c.21).</DESCRIPTION>
+    <FUNCTION>TouristOffer::{dtor}</FUNCTION>
+    <DECORATED>??1TouristOffer@@QAE@XZ</DECORATED>
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <FUNCLINE>48</FUNCLINE>
+=======
+    <FUNCLINE>46</FUNCLINE>
+>>>>>>> 0e98786e1e605535b168fa2c5265bf61cf2746f9
+=======
+    <FUNCLINE>46</FUNCLINE>
+>>>>>>> 0e98786e1e605535b168fa2c5265bf61cf2746f9
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\FacultyProjects\OOP\TravelAgency\Travel_Agency\Travel_Agency\</FILEPATH>
+      <FILENAME>ValueObject.h</FILENAME>
+<<<<<<< HEAD
+<<<<<<< HEAD
+      <LINE>115</LINE>
+=======
+      <LINE>111</LINE>
+>>>>>>> 0e98786e1e605535b168fa2c5265bf61cf2746f9
+=======
+      <LINE>111</LINE>
+>>>>>>> 0e98786e1e605535b168fa2c5265bf61cf2746f9
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26455</DEFECTCODE>
+    <DESCRIPTION>Default constructor may not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>DtoOffer::{ctor}</FUNCTION>
+    <DECORATED>??0DtoOffer@@QAE@XZ</DECORATED>
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <FUNCLINE>115</FUNCLINE>
+=======
+    <FUNCLINE>111</FUNCLINE>
+>>>>>>> 0e98786e1e605535b168fa2c5265bf61cf2746f9
+=======
+    <FUNCLINE>111</FUNCLINE>
+>>>>>>> 0e98786e1e605535b168fa2c5265bf61cf2746f9
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\FacultyProjects\OOP\TravelAgency\Travel_Agency\Travel_Agency\</FILEPATH>
+      <FILENAME>Repository.h</FILENAME>
+<<<<<<< HEAD
+<<<<<<< HEAD
+      <LINE>41</LINE>
+      <COLUMN>10</COLUMN>
+    </SFA>
+    <DEFECTCODE>26432</DEFECTCODE>
+    <DESCRIPTION>If you define or delete any default operation in the type 'class Repository', define or delete them all (c.21).</DESCRIPTION>
+    <FUNCTION>Repository::{dtor}</FUNCTION>
+    <DECORATED>??1Repository@@UAE@XZ</DECORATED>
+    <FUNCLINE>41</FUNCLINE>
+=======
+=======
+>>>>>>> 0e98786e1e605535b168fa2c5265bf61cf2746f9
+      <LINE>25</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26455</DEFECTCODE>
+    <DESCRIPTION>Default constructor may not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>Repository::{ctor}</FUNCTION>
+    <DECORATED>??0Repository@@QAE@XZ</DECORATED>
+    <FUNCLINE>25</FUNCLINE>
+<<<<<<< HEAD
+>>>>>>> 0e98786e1e605535b168fa2c5265bf61cf2746f9
+=======
+>>>>>>> 0e98786e1e605535b168fa2c5265bf61cf2746f9
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\FacultyProjects\OOP\TravelAgency\Travel_Agency\Travel_Agency\</FILEPATH>
+<<<<<<< HEAD
+<<<<<<< HEAD
+      <FILENAME>Undo.h</FILENAME>
+      <LINE>17</LINE>
+      <COLUMN>10</COLUMN>
+    </SFA>
+    <DEFECTCODE>26432</DEFECTCODE>
+    <DESCRIPTION>If you define or delete any default operation in the type 'class UndoAction', define or delete them all (c.21).</DESCRIPTION>
+    <FUNCTION>UndoAction::{dtor}</FUNCTION>
+    <DECORATED>??1UndoAction@@UAE@XZ</DECORATED>
+    <FUNCLINE>17</FUNCLINE>
+=======
+=======
+>>>>>>> 0e98786e1e605535b168fa2c5265bf61cf2746f9
+      <FILENAME>WishList.h</FILENAME>
+      <LINE>22</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26455</DEFECTCODE>
+    <DESCRIPTION>Default constructor may not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>WishList::{ctor}</FUNCTION>
+    <DECORATED>??0WishList@@QAE@XZ</DECORATED>
+    <FUNCLINE>22</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\FacultyProjects\OOP\TravelAgency\Travel_Agency\Travel_Agency\</FILEPATH>
+      <FILENAME>Service.h</FILENAME>
+      <LINE>33</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Function 'Service::Service' can be declared 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>Service::{ctor}</FUNCTION>
+    <DECORATED>??0Service@@QAE@AAVRepository@@AAVTravelAgencyValidator@@AAVWishList@@@Z</DECORATED>
+    <FUNCLINE>33</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\FacultyProjects\OOP\TravelAgency\Travel_Agency\Travel_Agency\</FILEPATH>
+      <FILENAME>Service.h</FILENAME>
+      <LINE>199</LINE>
+      <COLUMN>8</COLUMN>
+    </SFA>
+    <DEFECTCODE>26496</DEFECTCODE>
+    <DESCRIPTION>The variable 'old_count' does not change after construction, mark it as const (con.4).</DESCRIPTION>
+    <FUNCTION>Service::report</FUNCTION>
+    <DECORATED>?report@Service@@QBE@XZ</DECORATED>
+    <FUNCLINE>188</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\FacultyProjects\OOP\TravelAgency\Travel_Agency\Travel_Agency\</FILEPATH>
+      <FILENAME>Service.h</FILENAME>
+      <LINE>198</LINE>
+      <COLUMN>23</COLUMN>
+    </SFA>
+    <DEFECTCODE>26486</DEFECTCODE>
+    <DESCRIPTION>Don't pass a pointer that may be invalid to a function. Parameter 0 '@destination_number' in call to 'DtoOffer::DtoOffer' may be invalid (lifetime.3).</DESCRIPTION>
+    <FUNCTION>Service::report</FUNCTION>
+    <DECORATED>?report@Service@@QBE@XZ</DECORATED>
+    <FUNCLINE>188</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>D:\FacultyProjects\OOP\TravelAgency\Travel_Agency\Travel_Agency\</FILEPATH>
+        <FILENAME>Service.h</FILENAME>
+        <LINE>193</LINE>
+        <COLUMN>76</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\FacultyProjects\OOP\TravelAgency\Travel_Agency\Travel_Agency\</FILEPATH>
+      <FILENAME>UserInterface.h</FILENAME>
+      <LINE>12</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Function 'UI::UI' can be declared 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>UI::{ctor}</FUNCTION>
+    <DECORATED>??0UI@@QAE@ABVService@@@Z</DECORATED>
+    <FUNCLINE>12</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\FacultyProjects\OOP\TravelAgency\Travel_Agency\Travel_Agency\</FILEPATH>
+      <FILENAME>Service.h</FILENAME>
+      <LINE>127</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Function '&lt;lambda_273afdd45bfc86a9e268cdfa4c948770&gt;::operator()&lt;TouristOffer const &gt;' can be declared 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>Service::getOffersByPrice::&lt;lambda_273afdd45bfc86a9e268cdfa4c948770&gt;::()</FUNCTION>
+    <DECORATED>??$?R$$CBVTouristOffer@@@&lt;lambda_273afdd45bfc86a9e268cdfa4c948770&gt;@@QBE_NABVTouristOffer@@@Z</DECORATED>
+    <FUNCLINE>127</FUNCLINE>
+<<<<<<< HEAD
+>>>>>>> 0e98786e1e605535b168fa2c5265bf61cf2746f9
+=======
+>>>>>>> 0e98786e1e605535b168fa2c5265bf61cf2746f9
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\FacultyProjects\OOP\TravelAgency\Travel_Agency\Travel_Agency\</FILEPATH>
+      <FILENAME>Repository.cpp</FILENAME>
+      <LINE>3</LINE>
+<<<<<<< HEAD
+<<<<<<< HEAD
+      <COLUMN>23</COLUMN>
+    </SFA>
+    <DEFECTCODE>26435</DEFECTCODE>
+    <DESCRIPTION>Function 'MemoryRepository::addOffer' should specify exactly one of 'virtual', 'override', or 'final' (c.128).</DESCRIPTION>
+    <FUNCTION>MemoryRepository::addOffer</FUNCTION>
+    <DECORATED>?addOffer@MemoryRepository@@UAEXABVTouristOffer@@@Z</DECORATED>
+=======
+=======
+>>>>>>> 0e98786e1e605535b168fa2c5265bf61cf2746f9
+      <COLUMN>17</COLUMN>
+    </SFA>
+    <DEFECTCODE>26436</DEFECTCODE>
+    <DESCRIPTION>The type 'class Repository' with a virtual function needs either public virtual or protected non-virtual destructor (c.35).</DESCRIPTION>
+    <FUNCTION>Repository::addOffer</FUNCTION>
+    <DECORATED>?addOffer@Repository@@UAEXABVTouristOffer@@@Z</DECORATED>
+<<<<<<< HEAD
+>>>>>>> 0e98786e1e605535b168fa2c5265bf61cf2746f9
+=======
+>>>>>>> 0e98786e1e605535b168fa2c5265bf61cf2746f9
+    <FUNCLINE>3</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\FacultyProjects\OOP\TravelAgency\Travel_Agency\Travel_Agency\</FILEPATH>
+      <FILENAME>Repository.cpp</FILENAME>
+<<<<<<< HEAD
+<<<<<<< HEAD
+      <LINE>15</LINE>
+      <COLUMN>37</COLUMN>
+    </SFA>
+    <DEFECTCODE>26435</DEFECTCODE>
+    <DESCRIPTION>Function 'MemoryRepository::modifyOffer' should specify exactly one of 'virtual', 'override', or 'final' (c.128).</DESCRIPTION>
+    <FUNCTION>MemoryRepository::modifyOffer</FUNCTION>
+    <DECORATED>?modifyOffer@MemoryRepository@@UAE?BVTouristOffer@@ABV2@@Z</DECORATED>
+    <FUNCLINE>15</FUNCLINE>
+=======
+=======
+>>>>>>> 0e98786e1e605535b168fa2c5265bf61cf2746f9
+      <LINE>59</LINE>
+      <COLUMN>21</COLUMN>
+    </SFA>
+    <DEFECTCODE>26436</DEFECTCODE>
+    <DESCRIPTION>The type 'class FileRepository' with a virtual function needs either public virtual or protected non-virtual destructor (c.35).</DESCRIPTION>
+    <FUNCTION>FileRepository::addOffer</FUNCTION>
+    <DECORATED>?addOffer@FileRepository@@UAEXABVTouristOffer@@@Z</DECORATED>
+    <FUNCLINE>59</FUNCLINE>
+<<<<<<< HEAD
+>>>>>>> 0e98786e1e605535b168fa2c5265bf61cf2746f9
+=======
+>>>>>>> 0e98786e1e605535b168fa2c5265bf61cf2746f9
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\FacultyProjects\OOP\TravelAgency\Travel_Agency\Travel_Agency\</FILEPATH>
+<<<<<<< HEAD
+<<<<<<< HEAD
+      <FILENAME>Repository.cpp</FILENAME>
+      <LINE>33</LINE>
+      <COLUMN>23</COLUMN>
+    </SFA>
+    <DEFECTCODE>26435</DEFECTCODE>
+    <DESCRIPTION>Function 'MemoryRepository::deleteOffer' should specify exactly one of 'virtual', 'override', or 'final' (c.128).</DESCRIPTION>
+    <FUNCTION>MemoryRepository::deleteOffer</FUNCTION>
+    <DECORATED>?deleteOffer@MemoryRepository@@UAEXABVTouristOffer@@@Z</DECORATED>
+    <FUNCLINE>33</FUNCLINE>
+=======
+=======
+>>>>>>> 0e98786e1e605535b168fa2c5265bf61cf2746f9
+      <FILENAME>Service.cpp</FILENAME>
+      <LINE>70</LINE>
+      <COLUMN>5</COLUMN>
+    </SFA>
+    <DEFECTCODE>26496</DEFECTCODE>
+    <DESCRIPTION>The variable 'repo_size' does not change after construction, mark it as const (con.4).</DESCRIPTION>
+    <FUNCTION>Service::generateWishOffers</FUNCTION>
+    <DECORATED>?generateWishOffers@Service@@QAEXH@Z</DECORATED>
+    <FUNCLINE>69</FUNCLINE>
+<<<<<<< HEAD
+>>>>>>> 0e98786e1e605535b168fa2c5265bf61cf2746f9
+=======
+>>>>>>> 0e98786e1e605535b168fa2c5265bf61cf2746f9
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\FacultyProjects\OOP\TravelAgency\Travel_Agency\Travel_Agency\</FILEPATH>
+<<<<<<< HEAD
+<<<<<<< HEAD
+      <FILENAME>DynamicArray.h</FILENAME>
+      <LINE>125</LINE>
+=======
+=======
+>>>>>>> 0e98786e1e605535b168fa2c5265bf61cf2746f9
+      <FILENAME>Test.cpp</FILENAME>
+      <LINE>882</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26486</DEFECTCODE>
+    <DESCRIPTION>Don't pass a pointer that may be invalid to a function. Parameter 0 '@report_destination' in call to 'DtoOffer::getCount' may be invalid (lifetime.3).</DESCRIPTION>
+    <FUNCTION>TestTravelAgency::runDtoOfferTests</FUNCTION>
+    <DECORATED>?runDtoOfferTests@TestTravelAgency@@ABEXXZ</DECORATED>
+    <FUNCLINE>839</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>D:\FacultyProjects\OOP\TravelAgency\Travel_Agency\Travel_Agency\</FILEPATH>
+        <FILENAME>Test.cpp</FILENAME>
+        <LINE>880</LINE>
+        <COLUMN>51</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\FacultyProjects\OOP\TravelAgency\Travel_Agency\Travel_Agency\</FILEPATH>
+      <FILENAME>Test.cpp</FILENAME>
+      <LINE>883</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26486</DEFECTCODE>
+    <DESCRIPTION>Don't pass a pointer that may be invalid to a function. Parameter 0 '@report_destination' in call to 'DtoOffer::getDestination' may be invalid (lifetime.3).</DESCRIPTION>
+    <FUNCTION>TestTravelAgency::runDtoOfferTests</FUNCTION>
+    <DECORATED>?runDtoOfferTests@TestTravelAgency@@ABEXXZ</DECORATED>
+    <FUNCLINE>839</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>D:\FacultyProjects\OOP\TravelAgency\Travel_Agency\Travel_Agency\</FILEPATH>
+        <FILENAME>Test.cpp</FILENAME>
+        <LINE>880</LINE>
+        <COLUMN>51</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\FacultyProjects\OOP\TravelAgency\Travel_Agency\Travel_Agency\</FILEPATH>
+      <FILENAME>Test.cpp</FILENAME>
+      <LINE>884</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26486</DEFECTCODE>
+    <DESCRIPTION>Don't pass a pointer that may be invalid to a function. Parameter 0 '@report_destination' in call to 'DtoOffer::getCount' may be invalid (lifetime.3).</DESCRIPTION>
+    <FUNCTION>TestTravelAgency::runDtoOfferTests</FUNCTION>
+    <DECORATED>?runDtoOfferTests@TestTravelAgency@@ABEXXZ</DECORATED>
+    <FUNCLINE>839</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>D:\FacultyProjects\OOP\TravelAgency\Travel_Agency\Travel_Agency\</FILEPATH>
+        <FILENAME>Test.cpp</FILENAME>
+        <LINE>880</LINE>
+        <COLUMN>51</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\FacultyProjects\OOP\TravelAgency\Travel_Agency\Travel_Agency\</FILEPATH>
+      <FILENAME>Test.cpp</FILENAME>
+      <LINE>885</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26486</DEFECTCODE>
+    <DESCRIPTION>Don't pass a pointer that may be invalid to a function. Parameter 0 '@report_destination' in call to 'DtoOffer::getDestination' may be invalid (lifetime.3).</DESCRIPTION>
+    <FUNCTION>TestTravelAgency::runDtoOfferTests</FUNCTION>
+    <DECORATED>?runDtoOfferTests@TestTravelAgency@@ABEXXZ</DECORATED>
+    <FUNCLINE>839</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>D:\FacultyProjects\OOP\TravelAgency\Travel_Agency\Travel_Agency\</FILEPATH>
+        <FILENAME>Test.cpp</FILENAME>
+        <LINE>880</LINE>
+        <COLUMN>51</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\FacultyProjects\OOP\TravelAgency\Travel_Agency\Travel_Agency\</FILEPATH>
+      <FILENAME>DynamicArray.h</FILENAME>
+      <LINE>121</LINE>
+<<<<<<< HEAD
+>>>>>>> 0e98786e1e605535b168fa2c5265bf61cf2746f9
+=======
+>>>>>>> 0e98786e1e605535b168fa2c5265bf61cf2746f9
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>26481</DEFECTCODE>
+    <DESCRIPTION>Don't use pointer arithmetic. Use span instead (bounds.1).</DESCRIPTION>
+    <FUNCTION>DynamicVector&lt;int&gt;::at</FUNCTION>
+    <DECORATED>?at@?$DynamicVector@H@@QBEAAHH@Z</DECORATED>
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <FUNCLINE>119</FUNCLINE>
+=======
+    <FUNCLINE>117</FUNCLINE>
+>>>>>>> 0e98786e1e605535b168fa2c5265bf61cf2746f9
+=======
+    <FUNCLINE>117</FUNCLINE>
+>>>>>>> 0e98786e1e605535b168fa2c5265bf61cf2746f9
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\FacultyProjects\OOP\TravelAgency\Travel_Agency\Travel_Agency\</FILEPATH>
+      <FILENAME>DynamicArray.h</FILENAME>
+<<<<<<< HEAD
+<<<<<<< HEAD
+      <LINE>105</LINE>
+=======
+      <LINE>104</LINE>
+>>>>>>> 0e98786e1e605535b168fa2c5265bf61cf2746f9
+=======
+      <LINE>104</LINE>
+>>>>>>> 0e98786e1e605535b168fa2c5265bf61cf2746f9
+      <COLUMN>12</COLUMN>
+    </SFA>
+    <DEFECTCODE>26481</DEFECTCODE>
+    <DESCRIPTION>Don't use pointer arithmetic. Use span instead (bounds.1).</DESCRIPTION>
+    <FUNCTION>DynamicVector&lt;int&gt;::erase</FUNCTION>
+    <DECORATED>?erase@?$DynamicVector@H@@QAEXH@Z</DECORATED>
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <FUNCLINE>93</FUNCLINE>
+=======
+    <FUNCLINE>95</FUNCLINE>
+>>>>>>> 0e98786e1e605535b168fa2c5265bf61cf2746f9
+=======
+    <FUNCLINE>95</FUNCLINE>
+>>>>>>> 0e98786e1e605535b168fa2c5265bf61cf2746f9
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\FacultyProjects\OOP\TravelAgency\Travel_Agency\Travel_Agency\</FILEPATH>
+      <FILENAME>DynamicArray.h</FILENAME>
+<<<<<<< HEAD
+<<<<<<< HEAD
+      <LINE>80</LINE>
+=======
+      <LINE>84</LINE>
+>>>>>>> 0e98786e1e605535b168fa2c5265bf61cf2746f9
+=======
+      <LINE>84</LINE>
+>>>>>>> 0e98786e1e605535b168fa2c5265bf61cf2746f9
+      <COLUMN>19</COLUMN>
+    </SFA>
+    <DEFECTCODE>26481</DEFECTCODE>
+    <DESCRIPTION>Don't use pointer arithmetic. Use span instead (bounds.1).</DESCRIPTION>
+    <FUNCTION>DynamicVector&lt;int&gt;::push_back</FUNCTION>
+    <DECORATED>?push_back@?$DynamicVector@H@@QAEXABH@Z</DECORATED>
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <FUNCLINE>74</FUNCLINE>
+=======
+    <FUNCLINE>80</FUNCLINE>
+>>>>>>> 0e98786e1e605535b168fa2c5265bf61cf2746f9
+=======
+    <FUNCLINE>80</FUNCLINE>
+>>>>>>> 0e98786e1e605535b168fa2c5265bf61cf2746f9
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\FacultyProjects\OOP\TravelAgency\Travel_Agency\Travel_Agency\</FILEPATH>
+      <FILENAME>DynamicArray.h</FILENAME>
+<<<<<<< HEAD
+<<<<<<< HEAD
+      <LINE>62</LINE>
+=======
+      <LINE>66</LINE>
+>>>>>>> 0e98786e1e605535b168fa2c5265bf61cf2746f9
+=======
+      <LINE>66</LINE>
+>>>>>>> 0e98786e1e605535b168fa2c5265bf61cf2746f9
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>26401</DEFECTCODE>
+    <DESCRIPTION>Do not delete a raw pointer that is not an owner&lt;T&gt; (i.11).</DESCRIPTION>
+    <FUNCTION>DynamicVector&lt;int&gt;::=</FUNCTION>
+    <DECORATED>??4?$DynamicVector@H@@QAEABV0@ABV0@@Z</DECORATED>
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <FUNCLINE>57</FUNCLINE>
+=======
+    <FUNCLINE>62</FUNCLINE>
+>>>>>>> 0e98786e1e605535b168fa2c5265bf61cf2746f9
+=======
+    <FUNCLINE>62</FUNCLINE>
+>>>>>>> 0e98786e1e605535b168fa2c5265bf61cf2746f9
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\FacultyProjects\OOP\TravelAgency\Travel_Agency\Travel_Agency\</FILEPATH>
+      <FILENAME>DynamicArray.h</FILENAME>
+<<<<<<< HEAD
+<<<<<<< HEAD
+      <LINE>62</LINE>
+=======
+      <LINE>66</LINE>
+>>>>>>> 0e98786e1e605535b168fa2c5265bf61cf2746f9
+=======
+      <LINE>66</LINE>
+>>>>>>> 0e98786e1e605535b168fa2c5265bf61cf2746f9
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>26409</DEFECTCODE>
+    <DESCRIPTION>Avoid calling new and delete explicitly, use std::make_unique&lt;T&gt; instead (r.11).</DESCRIPTION>
+    <FUNCTION>DynamicVector&lt;int&gt;::=</FUNCTION>
+    <DECORATED>??4?$DynamicVector@H@@QAEABV0@ABV0@@Z</DECORATED>
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <FUNCLINE>57</FUNCLINE>
+=======
+    <FUNCLINE>62</FUNCLINE>
+>>>>>>> 0e98786e1e605535b168fa2c5265bf61cf2746f9
+=======
+    <FUNCLINE>62</FUNCLINE>
+>>>>>>> 0e98786e1e605535b168fa2c5265bf61cf2746f9
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\FacultyProjects\OOP\TravelAgency\Travel_Agency\Travel_Agency\</FILEPATH>
+      <FILENAME>DynamicArray.h</FILENAME>
+<<<<<<< HEAD
+<<<<<<< HEAD
+      <LINE>63</LINE>
+=======
+      <LINE>67</LINE>
+>>>>>>> 0e98786e1e605535b168fa2c5265bf61cf2746f9
+=======
+      <LINE>67</LINE>
+>>>>>>> 0e98786e1e605535b168fa2c5265bf61cf2746f9
+      <COLUMN>16</COLUMN>
+    </SFA>
+    <DEFECTCODE>26409</DEFECTCODE>
+    <DESCRIPTION>Avoid calling new and delete explicitly, use std::make_unique&lt;T&gt; instead (r.11).</DESCRIPTION>
+    <FUNCTION>DynamicVector&lt;int&gt;::=</FUNCTION>
+    <DECORATED>??4?$DynamicVector@H@@QAEABV0@ABV0@@Z</DECORATED>
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <FUNCLINE>57</FUNCLINE>
+=======
+    <FUNCLINE>62</FUNCLINE>
+>>>>>>> 0e98786e1e605535b168fa2c5265bf61cf2746f9
+=======
+    <FUNCLINE>62</FUNCLINE>
+>>>>>>> 0e98786e1e605535b168fa2c5265bf61cf2746f9
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\FacultyProjects\OOP\TravelAgency\Travel_Agency\Travel_Agency\</FILEPATH>
+      <FILENAME>DynamicArray.h</FILENAME>
+<<<<<<< HEAD
+<<<<<<< HEAD
+      <LINE>57</LINE>
+=======
+      <LINE>62</LINE>
+>>>>>>> 0e98786e1e605535b168fa2c5265bf61cf2746f9
+=======
+      <LINE>62</LINE>
+>>>>>>> 0e98786e1e605535b168fa2c5265bf61cf2746f9
+      <COLUMN>35</COLUMN>
+    </SFA>
+    <DEFECTCODE>26432</DEFECTCODE>
+    <DESCRIPTION>If you define or delete any default operation in the type 'class DynamicVector&lt;int&gt;', define or delete them all (c.21).</DESCRIPTION>
+    <FUNCTION>DynamicVector&lt;int&gt;::=</FUNCTION>
+    <DECORATED>??4?$DynamicVector@H@@QAEABV0@ABV0@@Z</DECORATED>
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <FUNCLINE>57</FUNCLINE>
+=======
+    <FUNCLINE>62</FUNCLINE>
+>>>>>>> 0e98786e1e605535b168fa2c5265bf61cf2746f9
+=======
+    <FUNCLINE>62</FUNCLINE>
+>>>>>>> 0e98786e1e605535b168fa2c5265bf61cf2746f9
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\FacultyProjects\OOP\TravelAgency\Travel_Agency\Travel_Agency\</FILEPATH>
+      <FILENAME>DynamicArray.h</FILENAME>
+<<<<<<< HEAD
+<<<<<<< HEAD
+      <LINE>68</LINE>
+=======
+      <LINE>72</LINE>
+>>>>>>> 0e98786e1e605535b168fa2c5265bf61cf2746f9
+=======
+      <LINE>72</LINE>
+>>>>>>> 0e98786e1e605535b168fa2c5265bf61cf2746f9
+      <COLUMN>18</COLUMN>
+    </SFA>
+    <DEFECTCODE>26481</DEFECTCODE>
+    <DESCRIPTION>Don't use pointer arithmetic. Use span instead (bounds.1).</DESCRIPTION>
+    <FUNCTION>DynamicVector&lt;int&gt;::=</FUNCTION>
+    <DECORATED>??4?$DynamicVector@H@@QAEABV0@ABV0@@Z</DECORATED>
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <FUNCLINE>57</FUNCLINE>
+=======
+    <FUNCLINE>62</FUNCLINE>
+>>>>>>> 0e98786e1e605535b168fa2c5265bf61cf2746f9
+=======
+    <FUNCLINE>62</FUNCLINE>
+>>>>>>> 0e98786e1e605535b168fa2c5265bf61cf2746f9
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\FacultyProjects\OOP\TravelAgency\Travel_Agency\Travel_Agency\</FILEPATH>
+      <FILENAME>DynamicArray.h</FILENAME>
+<<<<<<< HEAD
+<<<<<<< HEAD
+      <LINE>41</LINE>
+=======
+      <LINE>43</LINE>
+>>>>>>> 0e98786e1e605535b168fa2c5265bf61cf2746f9
+=======
+      <LINE>43</LINE>
+>>>>>>> 0e98786e1e605535b168fa2c5265bf61cf2746f9
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>26401</DEFECTCODE>
+    <DESCRIPTION>Do not delete a raw pointer that is not an owner&lt;T&gt; (i.11).</DESCRIPTION>
+    <FUNCTION>DynamicVector&lt;int&gt;::{dtor}</FUNCTION>
+    <DECORATED>??1?$DynamicVector@H@@QAE@XZ</DECORATED>
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <FUNCLINE>40</FUNCLINE>
+=======
+    <FUNCLINE>42</FUNCLINE>
+>>>>>>> 0e98786e1e605535b168fa2c5265bf61cf2746f9
+=======
+    <FUNCLINE>42</FUNCLINE>
+>>>>>>> 0e98786e1e605535b168fa2c5265bf61cf2746f9
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\FacultyProjects\OOP\TravelAgency\Travel_Agency\Travel_Agency\</FILEPATH>
+      <FILENAME>DynamicArray.h</FILENAME>
+<<<<<<< HEAD
+<<<<<<< HEAD
+      <LINE>41</LINE>
+=======
+      <LINE>43</LINE>
+>>>>>>> 0e98786e1e605535b168fa2c5265bf61cf2746f9
+=======
+      <LINE>43</LINE>
+>>>>>>> 0e98786e1e605535b168fa2c5265bf61cf2746f9
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>26409</DEFECTCODE>
+    <DESCRIPTION>Avoid calling new and delete explicitly, use std::make_unique&lt;T&gt; instead (r.11).</DESCRIPTION>
+    <FUNCTION>DynamicVector&lt;int&gt;::{dtor}</FUNCTION>
+    <DECORATED>??1?$DynamicVector@H@@QAE@XZ</DECORATED>
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <FUNCLINE>40</FUNCLINE>
+=======
+    <FUNCLINE>42</FUNCLINE>
+>>>>>>> 0e98786e1e605535b168fa2c5265bf61cf2746f9
+=======
+    <FUNCLINE>42</FUNCLINE>
+>>>>>>> 0e98786e1e605535b168fa2c5265bf61cf2746f9
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\FacultyProjects\OOP\TravelAgency\Travel_Agency\Travel_Agency\</FILEPATH>
+      <FILENAME>DynamicArray.h</FILENAME>
+      <LINE>35</LINE>
+      <COLUMN>16</COLUMN>
+    </SFA>
+    <DEFECTCODE>26409</DEFECTCODE>
+    <DESCRIPTION>Avoid calling new and delete explicitly, use std::make_unique&lt;T&gt; instead (r.11).</DESCRIPTION>
+    <FUNCTION>DynamicVector&lt;int&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$DynamicVector@H@@QAE@XZ</DECORATED>
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <FUNCLINE>32</FUNCLINE>
+=======
+    <FUNCLINE>33</FUNCLINE>
+>>>>>>> 0e98786e1e605535b168fa2c5265bf61cf2746f9
+=======
+    <FUNCLINE>33</FUNCLINE>
+>>>>>>> 0e98786e1e605535b168fa2c5265bf61cf2746f9
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\FacultyProjects\OOP\TravelAgency\Travel_Agency\Travel_Agency\</FILEPATH>
+      <FILENAME>DynamicArray.h</FILENAME>
+      <LINE>35</LINE>
+      <COLUMN>16</COLUMN>
+    </SFA>
+    <DEFECTCODE>26447</DEFECTCODE>
+    <DESCRIPTION>The function is declared 'noexcept' but calls function 'operator new[]()' which may throw exceptions (f.6).</DESCRIPTION>
+    <FUNCTION>DynamicVector&lt;int&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$DynamicVector@H@@QAE@XZ</DECORATED>
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <FUNCLINE>32</FUNCLINE>
+=======
+    <FUNCLINE>33</FUNCLINE>
+>>>>>>> 0e98786e1e605535b168fa2c5265bf61cf2746f9
+=======
+    <FUNCLINE>33</FUNCLINE>
+>>>>>>> 0e98786e1e605535b168fa2c5265bf61cf2746f9
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\FacultyProjects\OOP\TravelAgency\Travel_Agency\Travel_Agency\</FILEPATH>
+      <FILENAME>DynamicArray.h</FILENAME>
+<<<<<<< HEAD
+<<<<<<< HEAD
+      <LINE>149</LINE>
+=======
+      <LINE>145</LINE>
+>>>>>>> 0e98786e1e605535b168fa2c5265bf61cf2746f9
+=======
+      <LINE>145</LINE>
+>>>>>>> 0e98786e1e605535b168fa2c5265bf61cf2746f9
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>26481</DEFECTCODE>
+    <DESCRIPTION>Don't use pointer arithmetic. Use span instead (bounds.1).</DESCRIPTION>
+    <FUNCTION>IteratorVector&lt;int&gt;::element</FUNCTION>
+    <DECORATED>?element@?$IteratorVector@H@@QBEAAHXZ</DECORATED>
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <FUNCLINE>148</FUNCLINE>
+=======
+    <FUNCLINE>144</FUNCLINE>
+>>>>>>> 0e98786e1e605535b168fa2c5265bf61cf2746f9
+=======
+    <FUNCLINE>144</FUNCLINE>
+>>>>>>> 0e98786e1e605535b168fa2c5265bf61cf2746f9
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\FacultyProjects\OOP\TravelAgency\Travel_Agency\Travel_Agency\</FILEPATH>
+      <FILENAME>DynamicArray.h</FILENAME>
+<<<<<<< HEAD
+<<<<<<< HEAD
+      <LINE>146</LINE>
+=======
+      <LINE>142</LINE>
+>>>>>>> 0e98786e1e605535b168fa2c5265bf61cf2746f9
+=======
+      <LINE>142</LINE>
+>>>>>>> 0e98786e1e605535b168fa2c5265bf61cf2746f9
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Function 'IteratorVector&lt;int&gt;::IteratorVector&lt;int&gt;' can be declared 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>IteratorVector&lt;int&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$IteratorVector@H@@QAE@ABV?$DynamicVector@H@@H@Z</DECORATED>
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <FUNCLINE>146</FUNCLINE>
+=======
+    <FUNCLINE>142</FUNCLINE>
+>>>>>>> 0e98786e1e605535b168fa2c5265bf61cf2746f9
+=======
+    <FUNCLINE>142</FUNCLINE>
+>>>>>>> 0e98786e1e605535b168fa2c5265bf61cf2746f9
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\FacultyProjects\OOP\TravelAgency\Travel_Agency\Travel_Agency\</FILEPATH>
+      <FILENAME>DynamicArray.h</FILENAME>
+<<<<<<< HEAD
+<<<<<<< HEAD
+      <LINE>145</LINE>
+=======
+      <LINE>141</LINE>
+>>>>>>> 0e98786e1e605535b168fa2c5265bf61cf2746f9
+=======
+      <LINE>141</LINE>
+>>>>>>> 0e98786e1e605535b168fa2c5265bf61cf2746f9
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Function 'IteratorVector&lt;int&gt;::IteratorVector&lt;int&gt;' can be declared 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>IteratorVector&lt;int&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$IteratorVector@H@@QAE@ABV?$DynamicVector@H@@@Z</DECORATED>
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <FUNCLINE>145</FUNCLINE>
+=======
+    <FUNCLINE>141</FUNCLINE>
+>>>>>>> 0e98786e1e605535b168fa2c5265bf61cf2746f9
+=======
+    <FUNCLINE>141</FUNCLINE>
+>>>>>>> 0e98786e1e605535b168fa2c5265bf61cf2746f9
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\FacultyProjects\OOP\TravelAgency\Travel_Agency\Travel_Agency\</FILEPATH>
+      <FILENAME>DynamicArray.h</FILENAME>
+<<<<<<< HEAD
+<<<<<<< HEAD
+      <LINE>17</LINE>
+=======
+      <LINE>19</LINE>
+>>>>>>> 0e98786e1e605535b168fa2c5265bf61cf2746f9
+=======
+      <LINE>19</LINE>
+>>>>>>> 0e98786e1e605535b168fa2c5265bf61cf2746f9
+      <COLUMN>27</COLUMN>
+    </SFA>
+    <DEFECTCODE>26409</DEFECTCODE>
+    <DESCRIPTION>Avoid calling new and delete explicitly, use std::make_unique&lt;T&gt; instead (r.11).</DESCRIPTION>
+    <FUNCTION>DynamicVector&lt;int&gt;::redim</FUNCTION>
+    <DECORATED>?redim@?$DynamicVector@H@@AAEXXZ</DECORATED>
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <FUNCLINE>16</FUNCLINE>
+=======
+    <FUNCLINE>18</FUNCLINE>
+>>>>>>> 0e98786e1e605535b168fa2c5265bf61cf2746f9
+=======
+    <FUNCLINE>18</FUNCLINE>
+>>>>>>> 0e98786e1e605535b168fa2c5265bf61cf2746f9
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\FacultyProjects\OOP\TravelAgency\Travel_Agency\Travel_Agency\</FILEPATH>
+      <FILENAME>DynamicArray.h</FILENAME>
+<<<<<<< HEAD
+<<<<<<< HEAD
+      <LINE>17</LINE>
+=======
+      <LINE>19</LINE>
+>>>>>>> 0e98786e1e605535b168fa2c5265bf61cf2746f9
+=======
+      <LINE>19</LINE>
+>>>>>>> 0e98786e1e605535b168fa2c5265bf61cf2746f9
+      <COLUMN>27</COLUMN>
+    </SFA>
+    <DEFECTCODE>26400</DEFECTCODE>
+    <DESCRIPTION>Do not assign the result of an allocation or a function call with an owner&lt;T&gt; return value to a raw pointer, use owner&lt;T&gt; instead (i.11).</DESCRIPTION>
+    <FUNCTION>DynamicVector&lt;int&gt;::redim</FUNCTION>
+    <DECORATED>?redim@?$DynamicVector@H@@AAEXXZ</DECORATED>
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <FUNCLINE>16</FUNCLINE>
+=======
+    <FUNCLINE>18</FUNCLINE>
+>>>>>>> 0e98786e1e605535b168fa2c5265bf61cf2746f9
+=======
+    <FUNCLINE>18</FUNCLINE>
+>>>>>>> 0e98786e1e605535b168fa2c5265bf61cf2746f9
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\FacultyProjects\OOP\TravelAgency\Travel_Agency\Travel_Agency\</FILEPATH>
+      <FILENAME>DynamicArray.h</FILENAME>
+<<<<<<< HEAD
+<<<<<<< HEAD
+      <LINE>25</LINE>
+=======
+      <LINE>27</LINE>
+>>>>>>> 0e98786e1e605535b168fa2c5265bf61cf2746f9
+=======
+      <LINE>27</LINE>
+>>>>>>> 0e98786e1e605535b168fa2c5265bf61cf2746f9
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>26401</DEFECTCODE>
+    <DESCRIPTION>Do not delete a raw pointer that is not an owner&lt;T&gt; (i.11).</DESCRIPTION>
+    <FUNCTION>DynamicVector&lt;int&gt;::redim</FUNCTION>
+    <DECORATED>?redim@?$DynamicVector@H@@AAEXXZ</DECORATED>
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <FUNCLINE>16</FUNCLINE>
+=======
+    <FUNCLINE>18</FUNCLINE>
+>>>>>>> 0e98786e1e605535b168fa2c5265bf61cf2746f9
+=======
+    <FUNCLINE>18</FUNCLINE>
+>>>>>>> 0e98786e1e605535b168fa2c5265bf61cf2746f9
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\FacultyProjects\OOP\TravelAgency\Travel_Agency\Travel_Agency\</FILEPATH>
+      <FILENAME>DynamicArray.h</FILENAME>
+<<<<<<< HEAD
+<<<<<<< HEAD
+      <LINE>25</LINE>
+=======
+      <LINE>27</LINE>
+>>>>>>> 0e98786e1e605535b168fa2c5265bf61cf2746f9
+=======
+      <LINE>27</LINE>
+>>>>>>> 0e98786e1e605535b168fa2c5265bf61cf2746f9
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>26409</DEFECTCODE>
+    <DESCRIPTION>Avoid calling new and delete explicitly, use std::make_unique&lt;T&gt; instead (r.11).</DESCRIPTION>
+    <FUNCTION>DynamicVector&lt;int&gt;::redim</FUNCTION>
+    <DECORATED>?redim@?$DynamicVector@H@@AAEXXZ</DECORATED>
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <FUNCLINE>16</FUNCLINE>
+=======
+    <FUNCLINE>18</FUNCLINE>
+>>>>>>> 0e98786e1e605535b168fa2c5265bf61cf2746f9
+=======
+    <FUNCLINE>18</FUNCLINE>
+>>>>>>> 0e98786e1e605535b168fa2c5265bf61cf2746f9
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\FacultyProjects\OOP\TravelAgency\Travel_Agency\Travel_Agency\</FILEPATH>
+      <FILENAME>DynamicArray.h</FILENAME>
+<<<<<<< HEAD
+<<<<<<< HEAD
+      <LINE>20</LINE>
+=======
+      <LINE>22</LINE>
+>>>>>>> 0e98786e1e605535b168fa2c5265bf61cf2746f9
+=======
+      <LINE>22</LINE>
+>>>>>>> 0e98786e1e605535b168fa2c5265bf61cf2746f9
+      <COLUMN>16</COLUMN>
+    </SFA>
+    <DEFECTCODE>26481</DEFECTCODE>
+    <DESCRIPTION>Don't use pointer arithmetic. Use span instead (bounds.1).</DESCRIPTION>
+    <FUNCTION>DynamicVector&lt;int&gt;::redim</FUNCTION>
+    <DECORATED>?redim@?$DynamicVector@H@@AAEXXZ</DECORATED>
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <FUNCLINE>16</FUNCLINE>
+=======
+=======
+>>>>>>> 0e98786e1e605535b168fa2c5265bf61cf2746f9
+    <FUNCLINE>18</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\FacultyProjects\OOP\TravelAgency\Travel_Agency\Travel_Agency\</FILEPATH>
+      <FILENAME>ValueObject.cpp</FILENAME>
+      <LINE>43</LINE>
+      <COLUMN>14</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Function 'DtoOffer::getCount' can be declared 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>DtoOffer::getCount</FUNCTION>
+    <DECORATED>?getCount@DtoOffer@@QBEHXZ</DECORATED>
+    <FUNCLINE>43</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\FacultyProjects\OOP\TravelAgency\Travel_Agency\Travel_Agency\</FILEPATH>
+      <FILENAME>ValueObject.cpp</FILENAME>
+      <LINE>47</LINE>
+      <COLUMN>15</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Function 'DtoOffer::setCount' can be declared 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>DtoOffer::setCount</FUNCTION>
+    <DECORATED>?setCount@DtoOffer@@QAEXH@Z</DECORATED>
+    <FUNCLINE>47</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\FacultyProjects\OOP\TravelAgency\Travel_Agency\Travel_Agency\</FILEPATH>
+      <FILENAME>WishList.cpp</FILENAME>
+      <LINE>15</LINE>
+      <COLUMN>15</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Function 'WishList::deleteWishOffers' can be declared 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>WishList::deleteWishOffers</FUNCTION>
+    <DECORATED>?deleteWishOffers@WishList@@QAEXXZ</DECORATED>
+    <FUNCLINE>15</FUNCLINE>
+<<<<<<< HEAD
+>>>>>>> 0e98786e1e605535b168fa2c5265bf61cf2746f9
+=======
+>>>>>>> 0e98786e1e605535b168fa2c5265bf61cf2746f9
+    <PATH></PATH>
+  </DEFECT></DEFECTS>

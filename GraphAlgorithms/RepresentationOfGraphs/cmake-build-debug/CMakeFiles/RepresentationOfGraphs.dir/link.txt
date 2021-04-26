@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\RepresentationOfGraphs.dir/objects.a
+C:\TDM-GCC-64\bin\ar.exe cr CMakeFiles\RepresentationOfGraphs.dir/objects.a @CMakeFiles\RepresentationOfGraphs.dir\objects1.rsp
+C:\TDM-GCC-64\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\RepresentationOfGraphs.dir/objects.a -Wl,--no-whole-archive  -o RepresentationOfGraphs.exe -Wl,--out-implib,libRepresentationOfGraphs.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\RepresentationOfGraphs.dir\linklibs.rsp

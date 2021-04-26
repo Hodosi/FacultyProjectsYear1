@@ -1,0 +1,10 @@
+travel paris full 213.5
+excursion milano empty 43.46
+trip roma full 73.51
+<<<<<<< HEAD
+<<<<<<< HEAD
+a fd df 23.5
+=======
+>>>>>>> 0e98786e1e605535b168fa2c5265bf61cf2746f9
+=======
+>>>>>>> 0e98786e1e605535b168fa2c5265bf61cf2746f9

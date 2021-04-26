@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\ImmobileAdministrator.dir/objects.a
+C:\TDM-GCC-64\bin\ar.exe cr CMakeFiles\ImmobileAdministrator.dir/objects.a @CMakeFiles\ImmobileAdministrator.dir\objects1.rsp
+C:\TDM-GCC-64\bin\gcc.exe -g   -Wl,--whole-archive CMakeFiles\ImmobileAdministrator.dir/objects.a -Wl,--no-whole-archive  -o ImmobileAdministrator.exe -Wl,--out-implib,libImmobileAdministrator.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\ImmobileAdministrator.dir\linklibs.rsp

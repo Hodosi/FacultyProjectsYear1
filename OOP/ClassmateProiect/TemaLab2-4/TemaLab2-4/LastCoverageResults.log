@@ -1,0 +1,21 @@
+[2021-03-23 19:43:59] [info] Start Program:
+Path:"D:\\FacultyProjects\\OOP\\ClassmateProiect\\TemaLab2-4\\x64\\Debug\\TemaLab2-4.exe"
+Arguments:
+Working directory: "D:\\FacultyProjects\\OOP\\ClassmateProiect\\TemaLab2-4\\TemaLab2-4\\"
+Modules: Selected: D:\FacultyProjects\OOP\ClassmateProiect\TemaLab2-4\x64\Debug\TemaLab2-4.exe Excluded: 
+Sources: Selected: D:\FacultyProjects\OOP\ClassmateProiect\TemaLab2-4\TemaLab2-4 Excluded: 
+Log Level: Normal
+Cover Children: 0
+Aggregate by file: 1
+Continue after C++ exception: 0
+Optimized build support: 0
+Export: binary C:\Users\Hodosi\AppData\Local\Temp\ppadfrjs.rrk 
+Input coverage: 
+Unified diff: 
+Excluded line regular expressions: 
+Substitute pdb source paths: 
+
+[2021-03-23 19:43:59] [info] Module: D:\FacultyProjects\OOP\ClassmateProiect\TemaLab2-4\x64\Debug\TemaLab2-4.exe is selected because it matches selected pattern: D:\FacultyProjects\OOP\ClassmateProiect\TemaLab2-4\x64\Debug\TemaLab2-4.exe
+[2021-03-23 19:43:59] [info] ----------------------------------------------------
+[2021-03-23 19:43:59] [info] Coverage binary generated in file: C:\Users\Hodosi\AppData\Local\Temp\ppadfrjs.rrk
+[2021-03-23 19:43:59] [info] ----------------------------------------------------
