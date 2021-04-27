@@ -1,3 +1,0 @@
-D:/FacultyProjects/GraphAlgorithms/MooreAlgorithm/cmake-build-debug/CMakeFiles/edit_cache.dir
-D:/FacultyProjects/GraphAlgorithms/MooreAlgorithm/cmake-build-debug/CMakeFiles/MooreAlgorithm.dir
-D:/FacultyProjects/GraphAlgorithms/MooreAlgorithm/cmake-build-debug/CMakeFiles/rebuild_cache.dir

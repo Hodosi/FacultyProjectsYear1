@@ -1,3 +1,0 @@
-D:/FacultyProjects/GraphAlgorithms/RepresentationOfGraphs/cmake-build-debug/CMakeFiles/edit_cache.dir
-D:/FacultyProjects/GraphAlgorithms/RepresentationOfGraphs/cmake-build-debug/CMakeFiles/RepresentationOfGraphs.dir
-D:/FacultyProjects/GraphAlgorithms/RepresentationOfGraphs/cmake-build-debug/CMakeFiles/rebuild_cache.dir

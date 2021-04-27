@@ -1,3 +1,0 @@
-D:/FacultyProjects/GraphAlgorithms/DFS/cmake-build-debug/CMakeFiles/DFS.dir
-D:/FacultyProjects/GraphAlgorithms/DFS/cmake-build-debug/CMakeFiles/edit_cache.dir
-D:/FacultyProjects/GraphAlgorithms/DFS/cmake-build-debug/CMakeFiles/rebuild_cache.dir

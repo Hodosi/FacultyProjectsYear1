@@ -1,3 +1,0 @@
-D:/FacultyProjects/OOP/ImmobileAdministrator/cmake-build-debug-coverage/CMakeFiles/ImmobileAdministrator.dir
-D:/FacultyProjects/OOP/ImmobileAdministrator/cmake-build-debug-coverage/CMakeFiles/edit_cache.dir
-D:/FacultyProjects/OOP/ImmobileAdministrator/cmake-build-debug-coverage/CMakeFiles/rebuild_cache.dir

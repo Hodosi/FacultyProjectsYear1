@@ -1,3 +1,0 @@
-D:/FacultyProjects/GraphAlgorithms/BFS/cmake-build-debug/CMakeFiles/BFS.dir
-D:/FacultyProjects/GraphAlgorithms/BFS/cmake-build-debug/CMakeFiles/edit_cache.dir
-D:/FacultyProjects/GraphAlgorithms/BFS/cmake-build-debug/CMakeFiles/rebuild_cache.dir

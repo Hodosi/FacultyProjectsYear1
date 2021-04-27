@@ -1,3 +1,0 @@
-D:/FacultyProjects/GraphAlgorithms/FleuryAlgorithm/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-D:/FacultyProjects/GraphAlgorithms/FleuryAlgorithm/cmake-build-debug/CMakeFiles/FleuryAlgorithm.dir
-D:/FacultyProjects/GraphAlgorithms/FleuryAlgorithm/cmake-build-debug/CMakeFiles/edit_cache.dir

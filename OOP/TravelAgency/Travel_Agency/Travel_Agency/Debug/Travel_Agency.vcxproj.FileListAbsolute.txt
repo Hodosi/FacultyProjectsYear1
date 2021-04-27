@@ -1,2 +1,0 @@
-D:\FacultyProjects\OOP\TravelAgency\Travel_Agency\Debug\Travel_Agency.exe.lastcodeanalysissucceeded
-D:\FacultyProjects\OOP\TravelAgency\Travel_Agency\Travel_Agency\Debug\NativeCodeAnalysis.read.1.tlog
