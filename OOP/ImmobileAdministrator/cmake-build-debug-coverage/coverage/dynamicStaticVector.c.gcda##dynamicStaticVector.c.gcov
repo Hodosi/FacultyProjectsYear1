@@ -1,0 +1,35 @@
+        -:    0:Source:D:/FacultyProjects/OOP/ImmobileAdministrator/persistence/dynamicStaticVector.c
+        -:    0:Graph:D:\FacultyProjects\OOP\ImmobileAdministrator\cmake-build-debug-coverage\CMakeFiles\ImmobileAdministrator.dir\persistence\dynamicStaticVector.c.gcno
+        -:    0:Data:D:\FacultyProjects\OOP\ImmobileAdministrator\cmake-build-debug-coverage\CMakeFiles\ImmobileAdministrator.dir\persistence\dynamicStaticVector.c.gcda
+        -:    0:Runs:1
+        -:    1://
+        -:    2:// Created by Hodosi on 3/7/2021.
+        -:    3://
+        -:    4:
+        -:    5:#include "dynamicStaticVector.h"
+        -:    6:#include <stdlib.h>
+        -:    7:
+        -:    8:
+    #####:    9:DynamicStaticVector* createDynamicStaticVector(){
+        -:   10:
+    #####:   11:    DynamicStaticVector* vector = (DynamicStaticVector*)malloc(sizeof(DynamicStaticVector));
+    #####:   12:    vector -> length = 0;
+    #####:   13:    vector -> capacity = 100;
+    #####:   14:    return vector;
+    %%%%%:   14-block  0
+        -:   15:}
+        -:   16:
+    #####:   17:void destroyDynamicStaticVector(DynamicStaticVector* vector){
+    #####:   18:    free(vector);
+    #####:   19:}
+        -:   20:
+    #####:   21:void addStatic(DynamicStaticVector* vector, Element item){
+    #####:   22:    if(vector -> length == vector -> capacity){
+    %%%%%:   22-block  0
+    #####:   23:        return;
+    %%%%%:   23-block  0
+        -:   24:    }
+    #####:   25:    vector -> items[vector -> length] = item;
+    #####:   26:    vector -> length++;
+    %%%%%:   26-block  0
+        -:   27:}

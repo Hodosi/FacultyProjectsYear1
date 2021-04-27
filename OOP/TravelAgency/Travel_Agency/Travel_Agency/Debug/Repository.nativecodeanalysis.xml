@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\FacultyProjects\OOP\TravelAgency\Travel_Agency\Travel_Agency\</FILEPATH>
+      <FILENAME>ValueObject.h</FILENAME>
+      <LINE>23</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26455</DEFECTCODE>
+    <DESCRIPTION>Default constructor may not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>TouristOffer::{ctor}</FUNCTION>
+    <DECORATED>??0TouristOffer@@QAE@XZ</DECORATED>
+    <FUNCLINE>23</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\FacultyProjects\OOP\TravelAgency\Travel_Agency\Travel_Agency\</FILEPATH>
+      <FILENAME>ValueObject.h</FILENAME>
+      <LINE>48</LINE>
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>26432</DEFECTCODE>
+    <DESCRIPTION>If you define or delete any default operation in the type 'class TouristOffer', define or delete them all (c.21).</DESCRIPTION>
+    <FUNCTION>TouristOffer::{dtor}</FUNCTION>
+    <DECORATED>??1TouristOffer@@QAE@XZ</DECORATED>
+    <FUNCLINE>48</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\FacultyProjects\OOP\TravelAgency\Travel_Agency\Travel_Agency\</FILEPATH>
+      <FILENAME>ValueObject.h</FILENAME>
+      <LINE>115</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26455</DEFECTCODE>
+    <DESCRIPTION>Default constructor may not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>DtoOffer::{ctor}</FUNCTION>
+    <DECORATED>??0DtoOffer@@QAE@XZ</DECORATED>
+    <FUNCLINE>115</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\FacultyProjects\OOP\TravelAgency\Travel_Agency\Travel_Agency\</FILEPATH>
+      <FILENAME>Repository.h</FILENAME>
+      <LINE>41</LINE>
+      <COLUMN>10</COLUMN>
+    </SFA>
+    <DEFECTCODE>26432</DEFECTCODE>
+    <DESCRIPTION>If you define or delete any default operation in the type 'class Repository', define or delete them all (c.21).</DESCRIPTION>
+    <FUNCTION>Repository::{dtor}</FUNCTION>
+    <DECORATED>??1Repository@@UAE@XZ</DECORATED>
+    <FUNCLINE>41</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\FacultyProjects\OOP\TravelAgency\Travel_Agency\Travel_Agency\</FILEPATH>
+      <FILENAME>Repository.cpp</FILENAME>
+      <LINE>3</LINE>
+      <COLUMN>23</COLUMN>
+    </SFA>
+    <DEFECTCODE>26435</DEFECTCODE>
+    <DESCRIPTION>Function 'MemoryRepository::addOffer' should specify exactly one of 'virtual', 'override', or 'final' (c.128).</DESCRIPTION>
+    <FUNCTION>MemoryRepository::addOffer</FUNCTION>
+    <DECORATED>?addOffer@MemoryRepository@@UAEXABVTouristOffer@@@Z</DECORATED>
+    <FUNCLINE>3</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\FacultyProjects\OOP\TravelAgency\Travel_Agency\Travel_Agency\</FILEPATH>
+      <FILENAME>Repository.cpp</FILENAME>
+      <LINE>15</LINE>
+      <COLUMN>37</COLUMN>
+    </SFA>
+    <DEFECTCODE>26435</DEFECTCODE>
+    <DESCRIPTION>Function 'MemoryRepository::modifyOffer' should specify exactly one of 'virtual', 'override', or 'final' (c.128).</DESCRIPTION>
+    <FUNCTION>MemoryRepository::modifyOffer</FUNCTION>
+    <DECORATED>?modifyOffer@MemoryRepository@@UAE?BVTouristOffer@@ABV2@@Z</DECORATED>
+    <FUNCLINE>15</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\FacultyProjects\OOP\TravelAgency\Travel_Agency\Travel_Agency\</FILEPATH>
+      <FILENAME>Repository.cpp</FILENAME>
+      <LINE>33</LINE>
+      <COLUMN>23</COLUMN>
+    </SFA>
+    <DEFECTCODE>26435</DEFECTCODE>
+    <DESCRIPTION>Function 'MemoryRepository::deleteOffer' should specify exactly one of 'virtual', 'override', or 'final' (c.128).</DESCRIPTION>
+    <FUNCTION>MemoryRepository::deleteOffer</FUNCTION>
+    <DECORATED>?deleteOffer@MemoryRepository@@UAEXABVTouristOffer@@@Z</DECORATED>
+    <FUNCLINE>33</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

@@ -1,0 +1,3 @@
+D:/FacultyProjects/GraphAlgorithms/TransitiveClosure/cmake-build-debug/CMakeFiles/TransitiveClosure.dir
+D:/FacultyProjects/GraphAlgorithms/TransitiveClosure/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/FacultyProjects/GraphAlgorithms/TransitiveClosure/cmake-build-debug/CMakeFiles/rebuild_cache.dir

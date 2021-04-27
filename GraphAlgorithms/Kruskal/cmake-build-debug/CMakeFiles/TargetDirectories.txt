@@ -1,0 +1,3 @@
+D:/FacultyProjects/GraphAlgorithms/Kruskal/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/FacultyProjects/GraphAlgorithms/Kruskal/cmake-build-debug/CMakeFiles/Kruskal.dir
+D:/FacultyProjects/GraphAlgorithms/Kruskal/cmake-build-debug/CMakeFiles/rebuild_cache.dir

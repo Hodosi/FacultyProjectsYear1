@@ -1,0 +1,3 @@
+D:/FacultyProjects/DataStructuresAndAlgorithms/Bag/cmake-build-debug/CMakeFiles/Bag.dir
+D:/FacultyProjects/DataStructuresAndAlgorithms/Bag/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/FacultyProjects/DataStructuresAndAlgorithms/Bag/cmake-build-debug/CMakeFiles/rebuild_cache.dir

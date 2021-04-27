@@ -1,0 +1,65 @@
+        -:    0:Source:D:/FacultyProjects/OOP/ImmobileAdministrator/validation/validator.c
+        -:    0:Graph:D:\FacultyProjects\OOP\ImmobileAdministrator\cmake-build-debug-coverage\CMakeFiles\ImmobileAdministrator.dir\validation\validator.c.gcno
+        -:    0:Data:D:\FacultyProjects\OOP\ImmobileAdministrator\cmake-build-debug-coverage\CMakeFiles\ImmobileAdministrator.dir\validation\validator.c.gcda
+        -:    0:Runs:1
+        -:    1://
+        -:    2:// Created by Hodosi on 3/5/2021.
+        -:    3://
+        -:    4:
+        -:    5:#include "validator.h"
+        -:    6:#include <string.h>
+        -:    7:
+       31:    8:int validateApartmentNumber(int repo_size, int number_of_apartment){
+       31:    9:    if(number_of_apartment < 0){
+       31:    9-block  0
+        3:   10:        return 2;
+        3:   10-block  0
+        -:   11:    }
+       28:   12:    if(number_of_apartment >= repo_size){
+       28:   12-block  0
+        3:   13:        return 2;
+        3:   13-block  0
+        -:   14:    }
+       25:   15:    return 0;
+       25:   15-block  0
+        -:   16:}
+        -:   17:
+       29:   18:int validateType(char *type){
+       29:   19:    if(strlen(type) == 0){
+       29:   19-block  0
+        3:   20:        return 2;
+        3:   20-block  0
+        -:   21:    }
+       26:   22:    if(strcmp(type, "water") == 0){
+       26:   22-block  0
+        3:   23:        return 0;
+        3:   23-block  0
+        -:   24:    }
+       23:   25:    if(strcmp(type, "sewer") == 0){
+       23:   25-block  0
+        3:   26:        return 0;
+        3:   26-block  0
+        -:   27:    }
+       20:   28:    if(strcmp(type, "heating") == 0){
+       20:   28-block  0
+        3:   29:        return 0;
+        3:   29-block  0
+        -:   30:    }
+       17:   31:    if(strcmp(type, "gas") == 0){
+       17:   31-block  0
+       12:   32:        return 0;
+       12:   32-block  0
+        -:   33:    }
+        5:   34:    return 2;
+        5:   34-block  0
+        -:   35:}
+        -:   36:
+        3:   37:int validateCosts(double min_cost, double max_cost){
+        3:   38:    if(min_cost > max_cost){
+        3:   38-block  0
+        1:   39:        return 2;
+        1:   39-block  0
+        -:   40:    }
+        2:   41:    return 0;
+        2:   41-block  0
+        -:   42:}

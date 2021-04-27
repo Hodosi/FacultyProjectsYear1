@@ -1,0 +1,242 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.28.29912.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "commandLine": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.28.29910\\bin\\HostX86\\x86\\c1xx.dll\" -ACf{1F7B090C-16DB-4822-966A-A93D26ED4681} -ACpmspft140.dll -Alint -D_PREFAST_ -D_AST_FE_ -Analyze -zm0x0081B1C0 -il C:\\Users\\Hodosi\\AppData\\Local\\Temp\\_CL_9b80b4a4ast -typedil -f DynamicArray.cpp -Ze -D_MSC_EXTENSIONS -Zp8 -Gs -pc \\:/ -D_MSC_VER=1928 -D_MSC_FULL_VER=192829912 -D_MSC_BUILD=0 -D_WIN32 -D_M_IX86=600 -D_M_IX86_FP=2 -GR -D_CPPRTTI -nologo -W 4 -WX -diagnostics:column -D_GUARDOVERFLOW_CRT_ALLOCATORS=1 -Ot -DCODE_ANALYSIS -DWIN32 -D_DEBUG -D_CONSOLE -D_UNICODE -DUNICODE -EHs -D_CPPUNWIND -EHc -D__MSVC_RUNTIME_CHECKS -RTCs -RTCu -MDd -D_DEBUG -D_MT -D_DLL -GS -D_M_FP_PRECISE -permissive- -Zc:wchar_t -Zc:forScope -std:c++17 -FoDebug\\DynamicArray.obj -FdDebug\\vc142.pdb -Gd -analyze:projectdirectory D:\\FacultyProjects\\OOP\\TravelAgency\\Travel_Agency\\Travel_Agency -analyze:rulesetdirectory ;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Team Tools\\Static Analysis Tools\\\\Rule Sets; -analyze:ruleset CppCore.ruleset -analyze:quiet -analyze:plugin C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.28.29910\\bin\\HostX86\\x86\\EspXEngine.dll -FC -errorreport:prompt -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.28.29910\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.28.29910\\atlmfc\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary\\VS\\include -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -I C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8\\Include\\um",
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///D:/FacultyProjects/OOP/TravelAgency/Travel_Agency/Travel_Agency/ValueObject.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "5659d8557d2e7519f45f8715c153ef0f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/facultyprojects/oop/travelagency/travel_agency/travel_agency/wishlist.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "76109470091ba378abf23211b6f3bcff"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/facultyprojects/oop/travelagency/travel_agency/travel_agency/wishlist.h"
+          },
+          "hashes": {
+            "md5": "fb2be545a194de21efea264ae8794a15"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/facultyprojects/oop/travelagency/travel_agency/travel_agency/exception.h"
+          },
+          "hashes": {
+            "md5": "d9d345c6ab3050b3e5418feb4ba8b312"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/facultyprojects/oop/travelagency/travel_agency/travel_agency/dynamicarray.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "83d37b5ac5cfd3abdec28687fed86b19"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/facultyprojects/oop/travelagency/travel_agency/travel_agency/valueobject.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "eb44359fbd63657109681af65cf8b80d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/facultyprojects/oop/travelagency/travel_agency/travel_agency/validator.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "33a65c1faf3fc382b5c84466d21bda91"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/facultyprojects/oop/travelagency/travel_agency/travel_agency/validator.h"
+          },
+          "hashes": {
+            "md5": "32b8761fbf93c4a6b9312ba568017a48"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/FacultyProjects/OOP/TravelAgency/Travel_Agency/Travel_Agency/Repository.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "aa7cff6ae5c2a8b496c7872a446b5521"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/FacultyProjects/OOP/TravelAgency/Travel_Agency/Travel_Agency/Undo.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "26e68652b8a7210e9eab487b1539d3eb"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/FacultyProjects/OOP/TravelAgency/Travel_Agency/Travel_Agency/Service.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "0c3b0a1f232df89150dfa75210c874b1"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/facultyprojects/oop/travelagency/travel_agency/travel_agency/userinterface.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "d58b6f385cba4937f43255b84ef24ad9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/facultyprojects/oop/travelagency/travel_agency/travel_agency/userinterface.h"
+          },
+          "hashes": {
+            "md5": "43efe262a707063665624f03d27d42a4"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/facultyprojects/oop/travelagency/travel_agency/travel_agency/undo.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "d41d8cd98f00b204e9800998ecf8427e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/FacultyProjects/OOP/TravelAgency/Travel_Agency/Travel_Agency/Test.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "9c2954854de5b9f85c0dceb7b782a23d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/facultyprojects/oop/travelagency/travel_agency/travel_agency/test.h"
+          },
+          "hashes": {
+            "md5": "872d802815a872c4aabd70bdc15c51b5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/facultyprojects/oop/travelagency/travel_agency/travel_agency/service.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "85d59631dbf4218caf123e97e2010e8a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/facultyprojects/oop/travelagency/travel_agency/travel_agency/repository.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "750819016bb50dc43ca51ab0616b80a7"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/facultyprojects/oop/travelagency/travel_agency/travel_agency/main.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "bf8ec10ef98f8e8ad2e0189f3ca03644"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/facultyprojects/oop/travelagency/travel_agency/travel_agency/exception.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "d41d8cd98f00b204e9800998ecf8427e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/facultyprojects/oop/travelagency/travel_agency/travel_agency/dynamicarray.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "d41d8cd98f00b204e9800998ecf8427e"
+          }
+        }
+      ]
+    }
+  ]
+}

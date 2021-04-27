@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/FacultyProjects/GraphAlgorithms/Bellman_Ford/bellmanFord.h
+domain.h
+D:/FacultyProjects/GraphAlgorithms/Bellman_Ford/domain.h
+vector
+-
+fstream
+-
+
+D:/FacultyProjects/GraphAlgorithms/Bellman_Ford/domain.h
+
+D:/FacultyProjects/GraphAlgorithms/Bellman_Ford/edgeList.h
+domain.h
+D:/FacultyProjects/GraphAlgorithms/Bellman_Ford/domain.h
+fstream
+-
+vector
+-
+
+D:/FacultyProjects/GraphAlgorithms/Bellman_Ford/main.cpp
+domain.h
+D:/FacultyProjects/GraphAlgorithms/Bellman_Ford/domain.h
+edgeList.h
+D:/FacultyProjects/GraphAlgorithms/Bellman_Ford/edgeList.h
+bellmanFord.h
+D:/FacultyProjects/GraphAlgorithms/Bellman_Ford/bellmanFord.h
+iostream
+-
+fstream
+-
+vector
+-
+

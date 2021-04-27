@@ -1,0 +1,905 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C26455",
+          "message": {
+            "text": "Default constructor may not throw. Declare it 'noexcept' (f.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/FacultyProjects/OOP/TravelAgency/Travel_Agency/Travel_Agency/ValueObject.h"
+                },
+                "region": {
+                  "startLine": 23,
+                  "startColumn": 2,
+                  "endLine": 23,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0TouristOffer@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26432",
+          "message": {
+            "text": "If you define or delete any default operation in the type 'class TouristOffer', define or delete them all (c.21)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/FacultyProjects/OOP/TravelAgency/Travel_Agency/Travel_Agency/ValueObject.h"
+                },
+                "region": {
+                  "startLine": 48,
+                  "startColumn": 3,
+                  "endLine": 48,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??1TouristOffer@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26455",
+          "message": {
+            "text": "Default constructor may not throw. Declare it 'noexcept' (f.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/FacultyProjects/OOP/TravelAgency/Travel_Agency/Travel_Agency/ValueObject.h"
+                },
+                "region": {
+                  "startLine": 115,
+                  "startColumn": 2,
+                  "endLine": 115,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0DtoOffer@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26432",
+          "message": {
+            "text": "If you define or delete any default operation in the type 'class Repository', define or delete them all (c.21)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/FacultyProjects/OOP/TravelAgency/Travel_Agency/Travel_Agency/Repository.h"
+                },
+                "region": {
+                  "startLine": 41,
+                  "startColumn": 11,
+                  "endLine": 41,
+                  "endColumn": 11
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??1Repository@@UAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26432",
+          "message": {
+            "text": "If you define or delete any default operation in the type 'class UndoAction', define or delete them all (c.21)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/FacultyProjects/OOP/TravelAgency/Travel_Agency/Travel_Agency/Undo.h"
+                },
+                "region": {
+                  "startLine": 17,
+                  "startColumn": 11,
+                  "endLine": 17,
+                  "endColumn": 11
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??1UndoAction@@UAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26481",
+          "message": {
+            "text": "Don't use pointer arithmetic. Use span instead (bounds.1)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/FacultyProjects/OOP/TravelAgency/Travel_Agency/Travel_Agency/DynamicArray.h"
+                },
+                "region": {
+                  "startLine": 125,
+                  "startColumn": 3,
+                  "endLine": 125,
+                  "endColumn": 25
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?at@?$DynamicVector@H@@QBEAAHH@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26481",
+          "message": {
+            "text": "Don't use pointer arithmetic. Use span instead (bounds.1)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/FacultyProjects/OOP/TravelAgency/Travel_Agency/Travel_Agency/DynamicArray.h"
+                },
+                "region": {
+                  "startLine": 105,
+                  "startColumn": 4,
+                  "endLine": 105,
+                  "endColumn": 26
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?erase@?$DynamicVector@H@@QAEXH@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26481",
+          "message": {
+            "text": "Don't use pointer arithmetic. Use span instead (bounds.1)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/FacultyProjects/OOP/TravelAgency/Travel_Agency/Travel_Agency/DynamicArray.h"
+                },
+                "region": {
+                  "startLine": 105,
+                  "startColumn": 4,
+                  "endLine": 105,
+                  "endColumn": 26
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?erase@?$DynamicVector@H@@QAEXH@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26481",
+          "message": {
+            "text": "Don't use pointer arithmetic. Use span instead (bounds.1)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/FacultyProjects/OOP/TravelAgency/Travel_Agency/Travel_Agency/DynamicArray.h"
+                },
+                "region": {
+                  "startLine": 80,
+                  "startColumn": 3,
+                  "endLine": 80,
+                  "endColumn": 22
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?push_back@?$DynamicVector@H@@QAEXABH@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26401",
+          "message": {
+            "text": "Do not delete a raw pointer that is not an owner<T> (i.11)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/FacultyProjects/OOP/TravelAgency/Travel_Agency/Travel_Agency/DynamicArray.h"
+                },
+                "region": {
+                  "startLine": 62,
+                  "startColumn": 3,
+                  "endLine": 62,
+                  "endColumn": 16
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??4?$DynamicVector@H@@QAEABV0@ABV0@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26409",
+          "message": {
+            "text": "Avoid calling new and delete explicitly, use std::make_unique<T> instead (r.11)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/FacultyProjects/OOP/TravelAgency/Travel_Agency/Travel_Agency/DynamicArray.h"
+                },
+                "region": {
+                  "startLine": 62,
+                  "startColumn": 3,
+                  "endLine": 62,
+                  "endColumn": 16
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??4?$DynamicVector@H@@QAEABV0@ABV0@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26409",
+          "message": {
+            "text": "Avoid calling new and delete explicitly, use std::make_unique<T> instead (r.11)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/FacultyProjects/OOP/TravelAgency/Travel_Agency/Travel_Agency/DynamicArray.h"
+                },
+                "region": {
+                  "startLine": 63,
+                  "startColumn": 38,
+                  "endLine": 63,
+                  "endColumn": 38
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??4?$DynamicVector@H@@QAEABV0@ABV0@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26432",
+          "message": {
+            "text": "If you define or delete any default operation in the type 'class DynamicVector<int>', define or delete them all (c.21)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/FacultyProjects/OOP/TravelAgency/Travel_Agency/Travel_Agency/DynamicArray.h"
+                },
+                "region": {
+                  "startLine": 57,
+                  "startColumn": 36,
+                  "endLine": 57,
+                  "endColumn": 36
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??4?$DynamicVector@H@@QAEABV0@ABV0@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26481",
+          "message": {
+            "text": "Don't use pointer arithmetic. Use span instead (bounds.1)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/FacultyProjects/OOP/TravelAgency/Travel_Agency/Travel_Agency/DynamicArray.h"
+                },
+                "region": {
+                  "startLine": 68,
+                  "startColumn": 4,
+                  "endLine": 68,
+                  "endColumn": 34
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??4?$DynamicVector@H@@QAEABV0@ABV0@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26481",
+          "message": {
+            "text": "Don't use pointer arithmetic. Use span instead (bounds.1)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/FacultyProjects/OOP/TravelAgency/Travel_Agency/Travel_Agency/DynamicArray.h"
+                },
+                "region": {
+                  "startLine": 68,
+                  "startColumn": 4,
+                  "endLine": 68,
+                  "endColumn": 34
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??4?$DynamicVector@H@@QAEABV0@ABV0@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26401",
+          "message": {
+            "text": "Do not delete a raw pointer that is not an owner<T> (i.11)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/FacultyProjects/OOP/TravelAgency/Travel_Agency/Travel_Agency/DynamicArray.h"
+                },
+                "region": {
+                  "startLine": 41,
+                  "startColumn": 3,
+                  "endLine": 41,
+                  "endColumn": 16
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??1?$DynamicVector@H@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26409",
+          "message": {
+            "text": "Avoid calling new and delete explicitly, use std::make_unique<T> instead (r.11)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/FacultyProjects/OOP/TravelAgency/Travel_Agency/Travel_Agency/DynamicArray.h"
+                },
+                "region": {
+                  "startLine": 41,
+                  "startColumn": 3,
+                  "endLine": 41,
+                  "endColumn": 16
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??1?$DynamicVector@H@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26409",
+          "message": {
+            "text": "Avoid calling new and delete explicitly, use std::make_unique<T> instead (r.11)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/FacultyProjects/OOP/TravelAgency/Travel_Agency/Travel_Agency/DynamicArray.h"
+                },
+                "region": {
+                  "startLine": 35,
+                  "startColumn": 37,
+                  "endLine": 35,
+                  "endColumn": 37
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0?$DynamicVector@H@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26447",
+          "message": {
+            "text": "The function is declared 'noexcept' but calls function 'operator new[]()' which may throw exceptions (f.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/FacultyProjects/OOP/TravelAgency/Travel_Agency/Travel_Agency/DynamicArray.h"
+                },
+                "region": {
+                  "startLine": 35,
+                  "startColumn": 37,
+                  "endLine": 35,
+                  "endColumn": 37
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0?$DynamicVector@H@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26481",
+          "message": {
+            "text": "Don't use pointer arithmetic. Use span instead (bounds.1)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/FacultyProjects/OOP/TravelAgency/Travel_Agency/Travel_Agency/DynamicArray.h"
+                },
+                "region": {
+                  "startLine": 149,
+                  "startColumn": 3,
+                  "endLine": 149,
+                  "endColumn": 31
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?element@?$IteratorVector@H@@QBEAAHXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26440",
+          "message": {
+            "text": "Function 'IteratorVector<int>::IteratorVector<int>' can be declared 'noexcept' (f.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/FacultyProjects/OOP/TravelAgency/Travel_Agency/Travel_Agency/DynamicArray.h"
+                },
+                "region": {
+                  "startLine": 146,
+                  "startColumn": 2,
+                  "endLine": 146,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0?$IteratorVector@H@@QAE@ABV?$DynamicVector@H@@H@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26440",
+          "message": {
+            "text": "Function 'IteratorVector<int>::IteratorVector<int>' can be declared 'noexcept' (f.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/FacultyProjects/OOP/TravelAgency/Travel_Agency/Travel_Agency/DynamicArray.h"
+                },
+                "region": {
+                  "startLine": 145,
+                  "startColumn": 2,
+                  "endLine": 145,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0?$IteratorVector@H@@QAE@ABV?$DynamicVector@H@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26409",
+          "message": {
+            "text": "Avoid calling new and delete explicitly, use std::make_unique<T> instead (r.11)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/FacultyProjects/OOP/TravelAgency/Travel_Agency/Travel_Agency/DynamicArray.h"
+                },
+                "region": {
+                  "startLine": 17,
+                  "startColumn": 52,
+                  "endLine": 17,
+                  "endColumn": 52
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?redim@?$DynamicVector@H@@AAEXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26400",
+          "message": {
+            "text": "Do not assign the result of an allocation or a function call with an owner<T> return value to a raw pointer, use owner<T> instead (i.11)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/FacultyProjects/OOP/TravelAgency/Travel_Agency/Travel_Agency/DynamicArray.h"
+                },
+                "region": {
+                  "startLine": 17,
+                  "startColumn": 28,
+                  "endLine": 17,
+                  "endColumn": 52
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?redim@?$DynamicVector@H@@AAEXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26401",
+          "message": {
+            "text": "Do not delete a raw pointer that is not an owner<T> (i.11)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/FacultyProjects/OOP/TravelAgency/Travel_Agency/Travel_Agency/DynamicArray.h"
+                },
+                "region": {
+                  "startLine": 25,
+                  "startColumn": 3,
+                  "endLine": 25,
+                  "endColumn": 16
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?redim@?$DynamicVector@H@@AAEXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26409",
+          "message": {
+            "text": "Avoid calling new and delete explicitly, use std::make_unique<T> instead (r.11)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/FacultyProjects/OOP/TravelAgency/Travel_Agency/Travel_Agency/DynamicArray.h"
+                },
+                "region": {
+                  "startLine": 25,
+                  "startColumn": 3,
+                  "endLine": 25,
+                  "endColumn": 16
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?redim@?$DynamicVector@H@@AAEXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26481",
+          "message": {
+            "text": "Don't use pointer arithmetic. Use span instead (bounds.1)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/FacultyProjects/OOP/TravelAgency/Travel_Agency/Travel_Agency/DynamicArray.h"
+                },
+                "region": {
+                  "startLine": 20,
+                  "startColumn": 4,
+                  "endLine": 20,
+                  "endColumn": 26
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?redim@?$DynamicVector@H@@AAEXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26481",
+          "message": {
+            "text": "Don't use pointer arithmetic. Use span instead (bounds.1)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/FacultyProjects/OOP/TravelAgency/Travel_Agency/Travel_Agency/DynamicArray.h"
+                },
+                "region": {
+                  "startLine": 20,
+                  "startColumn": 4,
+                  "endLine": 20,
+                  "endColumn": 26
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?redim@?$DynamicVector@H@@AAEXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.28.29912.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "commandLine": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.28.29910\\bin\\HostX86\\x86\\c1xx.dll\" -ACf{1F7B090C-16DB-4822-966A-A93D26ED4681} -ACpmspft140.dll -Alint -D_PREFAST_ -D_AST_FE_ -Analyze -zm0x00FAB1C0 -il C:\\Users\\Hodosi\\AppData\\Local\\Temp\\_CL_08a9cb34ast -typedil -f Test.cpp -Ze -D_MSC_EXTENSIONS -Zp8 -Gs -pc \\:/ -D_MSC_VER=1928 -D_MSC_FULL_VER=192829912 -D_MSC_BUILD=0 -D_WIN32 -D_M_IX86=600 -D_M_IX86_FP=2 -GR -D_CPPRTTI -nologo -W 4 -WX -diagnostics:column -D_GUARDOVERFLOW_CRT_ALLOCATORS=1 -Ot -DCODE_ANALYSIS -DWIN32 -D_DEBUG -D_CONSOLE -D_UNICODE -DUNICODE -EHs -D_CPPUNWIND -EHc -D__MSVC_RUNTIME_CHECKS -RTCs -RTCu -MDd -D_DEBUG -D_MT -D_DLL -GS -D_M_FP_PRECISE -permissive- -Zc:wchar_t -Zc:forScope -std:c++17 -FoDebug\\Test.obj -FdDebug\\vc142.pdb -Gd -analyze:projectdirectory D:\\FacultyProjects\\OOP\\TravelAgency\\Travel_Agency\\Travel_Agency -analyze:rulesetdirectory ;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Team Tools\\Static Analysis Tools\\\\Rule Sets; -analyze:ruleset CppCore.ruleset -analyze:quiet -analyze:plugin C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.28.29910\\bin\\HostX86\\x86\\EspXEngine.dll -FC -errorreport:prompt -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.28.29910\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.28.29910\\atlmfc\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary\\VS\\include -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -I C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8\\Include\\um",
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///D:/FacultyProjects/OOP/TravelAgency/Travel_Agency/Travel_Agency/ValueObject.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "730b3bb9c49e46967f9494a567260397"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/FacultyProjects/OOP/TravelAgency/Travel_Agency/Travel_Agency/Repository.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "be08b913dfdd331ab3a5bd130369deb3"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/FacultyProjects/OOP/TravelAgency/Travel_Agency/Travel_Agency/Undo.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "51fd9a60772c9780e8c861b97af9b7c3"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/FacultyProjects/OOP/TravelAgency/Travel_Agency/Travel_Agency/DynamicArray.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "8a734d1ab0cd12bdffa03fd32c004bd9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/facultyprojects/oop/travelagency/travel_agency/travel_agency/test.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "5b956b3f26426b3b5b0a10bba43c1278"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/facultyprojects/oop/travelagency/travel_agency/travel_agency/test.h"
+          },
+          "hashes": {
+            "md5": "1a6af3fab8a156a2f7a6010ebbc51dc2"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/facultyprojects/oop/travelagency/travel_agency/travel_agency/exception.h"
+          },
+          "hashes": {
+            "md5": "b758cc3604ab20ebc3029284b62d1121"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/facultyprojects/oop/travelagency/travel_agency/travel_agency/validator.h"
+          },
+          "hashes": {
+            "md5": "9b7d1993b99caba50c4444940f8bdf0f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/facultyprojects/oop/travelagency/travel_agency/travel_agency/service.h"
+          },
+          "hashes": {
+            "md5": "b10d6ee7c25121b3d12829521939f671"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/facultyprojects/oop/travelagency/travel_agency/travel_agency/wishlist.h"
+          },
+          "hashes": {
+            "md5": "d0ba35356500be56f4c6efc4c8e69de0"
+          }
+        }
+      ]
+    }
+  ]
+}

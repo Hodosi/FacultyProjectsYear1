@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/FacultyProjects/GraphAlgorithms/FleuryAlgorithm/domain.h
+
+D:/FacultyProjects/GraphAlgorithms/FleuryAlgorithm/fleury.cpp
+fleury.h
+D:/FacultyProjects/GraphAlgorithms/FleuryAlgorithm/fleury.h
+
+D:/FacultyProjects/GraphAlgorithms/FleuryAlgorithm/fleury.h
+vector
+-
+domain.h
+D:/FacultyProjects/GraphAlgorithms/FleuryAlgorithm/domain.h
+fstream
+D:/FacultyProjects/GraphAlgorithms/FleuryAlgorithm/fstream
+

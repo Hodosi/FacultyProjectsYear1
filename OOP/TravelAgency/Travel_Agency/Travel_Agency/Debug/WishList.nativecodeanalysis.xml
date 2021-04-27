@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\FacultyProjects\OOP\TravelAgency\Travel_Agency\Travel_Agency\</FILEPATH>
+      <FILENAME>ValueObject.h</FILENAME>
+      <LINE>23</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26455</DEFECTCODE>
+    <DESCRIPTION>Default constructor may not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>TouristOffer::{ctor}</FUNCTION>
+    <DECORATED>??0TouristOffer@@QAE@XZ</DECORATED>
+    <FUNCLINE>23</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\FacultyProjects\OOP\TravelAgency\Travel_Agency\Travel_Agency\</FILEPATH>
+      <FILENAME>ValueObject.h</FILENAME>
+      <LINE>48</LINE>
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>26432</DEFECTCODE>
+    <DESCRIPTION>If you define or delete any default operation in the type 'class TouristOffer', define or delete them all (c.21).</DESCRIPTION>
+    <FUNCTION>TouristOffer::{dtor}</FUNCTION>
+    <DECORATED>??1TouristOffer@@QAE@XZ</DECORATED>
+    <FUNCLINE>48</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\FacultyProjects\OOP\TravelAgency\Travel_Agency\Travel_Agency\</FILEPATH>
+      <FILENAME>ValueObject.h</FILENAME>
+      <LINE>115</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26455</DEFECTCODE>
+    <DESCRIPTION>Default constructor may not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>DtoOffer::{ctor}</FUNCTION>
+    <DECORATED>??0DtoOffer@@QAE@XZ</DECORATED>
+    <FUNCLINE>115</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

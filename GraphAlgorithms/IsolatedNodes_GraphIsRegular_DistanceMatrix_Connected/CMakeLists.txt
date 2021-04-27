@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.17)
+project(IsolatedNodes_GraphIsRegular_DistanceMatrix_Connected)
+
+set(CMAKE_CXX_STANDARD 14)
+
+add_executable(IsolatedNodes_GraphIsRegular_DistanceMatrix_Connected main.cpp adjacencyMatrix.cpp adjacencyMatrix.h checkIsolatedNodes.cpp checkIsolatedNodes.h graphRegular.cpp graphRegular.h warshallAlgoritm.cpp warshallAlgoritm.h)

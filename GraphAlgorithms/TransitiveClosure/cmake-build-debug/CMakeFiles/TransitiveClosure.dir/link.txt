@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\TransitiveClosure.dir/objects.a
+C:\TDM-GCC-64\bin\ar.exe cr CMakeFiles\TransitiveClosure.dir/objects.a @CMakeFiles\TransitiveClosure.dir\objects1.rsp
+C:\TDM-GCC-64\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\TransitiveClosure.dir/objects.a -Wl,--no-whole-archive  -o TransitiveClosure.exe -Wl,--out-implib,libTransitiveClosure.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\TransitiveClosure.dir\linklibs.rsp

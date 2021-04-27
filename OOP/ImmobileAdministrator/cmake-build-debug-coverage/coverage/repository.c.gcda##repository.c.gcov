@@ -1,0 +1,97 @@
+        -:    0:Source:D:/FacultyProjects/OOP/ImmobileAdministrator/persistence/repository.c
+        -:    0:Graph:D:\FacultyProjects\OOP\ImmobileAdministrator\cmake-build-debug-coverage\CMakeFiles\ImmobileAdministrator.dir\persistence\repository.c.gcno
+        -:    0:Data:D:\FacultyProjects\OOP\ImmobileAdministrator\cmake-build-debug-coverage\CMakeFiles\ImmobileAdministrator.dir\persistence\repository.c.gcda
+        -:    0:Runs:1
+        -:    1://
+        -:    2:// Created by Hodosi on 3/5/2021.
+        -:    3://
+        -:    4:
+        -:    5:#include "repository.h"
+        -:    6:#include <stdlib.h>
+        -:    7:
+        4:    8:RepositoryImmobile* createRepository(){
+        4:    9:    DynamicVector *dynamic_vector = createDynamicVector();
+        4:    9-block  0
+        -:   10:    //DynamicStaticVector *dynamic_vector = createDynamicStaticVector();
+        -:   11:
+        4:   12:    RepositoryImmobile *repository = malloc(sizeof(RepositoryImmobile));
+        4:   13:    repository -> dynamic_vector = dynamic_vector;
+        -:   14:
+        4:   15:    return repository;
+        -:   16:}
+        -:   17:
+        4:   18:void destroyRepository(RepositoryImmobile *repository){
+        4:   19:    DynamicVector *vector = repository -> dynamic_vector;
+        -:   20:    //DynamicStaticVector *vector = repository -> dynamic_vector;
+        -:   21:
+       12:   22:    for(int i =0; i < vector ->length; i++){
+        4:   22-block  0
+       12:   22-block  1
+        8:   23:        destroyApartment(vector -> items[i]);
+        8:   23-block  0
+        -:   24:    }
+        -:   25:
+        4:   26:    destroyDynamicVector(repository -> dynamic_vector);
+        4:   26-block  0
+        -:   27:    //destroyDynamicStaticVector(repository -> dynamic_vector);
+        -:   28:
+        4:   29:    free(repository);
+        4:   30:}
+        -:   31:
+        8:   32:void addApartment(RepositoryImmobile *repository, Apartment *apartment){
+        8:   33:    add(repository -> dynamic_vector, apartment);
+        8:   33-block  0
+        -:   34:    //addStatic(repository -> dynamic_vector, apartment);
+        8:   35:}
+        -:   36:
+        5:   37:Element getAllApartments(RepositoryImmobile *repository){
+        5:   38:    return repository -> dynamic_vector;
+        5:   38-block  0
+        -:   39:}
+        -:   40:
+       21:   41:Apartment* getApartmentByNumber(RepositoryImmobile *repository, int number_of_apartment){
+       21:   42:    DynamicVector *vector = repository -> dynamic_vector;
+        -:   43:    //DynamicStaticVector *vector = repository -> dynamic_vector;
+        -:   44:
+       43:   45:    for(int i = 0; i < vector -> length; i++) {
+       21:   45-block  0
+       22:   45-block  1
+       43:   45-block  2
+       43:   46:        if(i == number_of_apartment){
+       43:   46-block  0
+       21:   47:            return vector -> items[i];
+       21:   47-block  0
+        -:   48:        }
+        -:   49:    }
+    #####:   50:}
+    %%%%%:   50-block  0
+        -:   51:
+       33:   52:int getRepositorySize(RepositoryImmobile *repository){
+       33:   53:    return repository -> dynamic_vector -> length;
+       33:   53-block  0
+        -:   54:}
+        -:   55:
+        9:   56:void addApartmentExpense(RepositoryImmobile *repository, int number_of_apartment, double cost, char *type){
+        9:   57:    Apartment *apartment = getApartmentByNumber(repository, number_of_apartment);
+        9:   57-block  0
+        9:   58:    double old_cost = getCostByType(apartment, type);
+        9:   59:    double new_cost = old_cost + cost;
+        -:   60:
+        9:   61:    setCostByType(apartment, type, new_cost);
+        9:   62:}
+        -:   63:
+        5:   64:void modifyApartmentExpense(RepositoryImmobile *repository, int number_of_apartment, double cost, char *type){
+        5:   65:    Apartment *apartment = getApartmentByNumber(repository, number_of_apartment);
+        5:   65-block  0
+        -:   66:
+        5:   67:    setCostByType(apartment, type, cost);
+        5:   68:}
+        -:   69:
+        5:   70:void deleteApartmentExpense(RepositoryImmobile *repository, int number_of_apartment, char *type){
+        5:   71:    double cost = 0.0;
+        5:   72:    Apartment *apartment = getApartmentByNumber(repository, number_of_apartment);
+        5:   72-block  0
+        -:   73:
+        5:   74:    setCostByType(apartment, type, cost);
+        5:   75:}
+        -:   76:
