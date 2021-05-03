@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/FacultyProjects/GraphAlgorithms/Prufer/domain.h
+
+D:/FacultyProjects/GraphAlgorithms/Prufer/prufer.cpp
+prufer.h
+D:/FacultyProjects/GraphAlgorithms/Prufer/prufer.h
+iostream
+-
+queue
+-
+
+D:/FacultyProjects/GraphAlgorithms/Prufer/prufer.h
+domain.h
+D:/FacultyProjects/GraphAlgorithms/Prufer/domain.h
+vector
+-
+fstream
+-
+

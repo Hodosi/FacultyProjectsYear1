@@ -1,0 +1,3 @@
+D:/FacultyProjects/GraphAlgorithms/Prufer/cmake-build-debug/CMakeFiles/Prufer.dir
+D:/FacultyProjects/GraphAlgorithms/Prufer/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/FacultyProjects/GraphAlgorithms/Prufer/cmake-build-debug/CMakeFiles/rebuild_cache.dir
