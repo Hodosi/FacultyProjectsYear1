@@ -8,6 +8,20 @@
 
 D:/FacultyProjects/GraphAlgorithms/Kruskal/domain.h
 
+D:/FacultyProjects/GraphAlgorithms/Kruskal/edgeList.cpp
+edgeList.h
+D:/FacultyProjects/GraphAlgorithms/Kruskal/edgeList.h
+iostream
+-
+
+D:/FacultyProjects/GraphAlgorithms/Kruskal/edgeList.h
+domain.h
+D:/FacultyProjects/GraphAlgorithms/Kruskal/domain.h
+fstream
+-
+vector
+-
+
 D:/FacultyProjects/GraphAlgorithms/Kruskal/kruskal.cpp
 kruskal.h
 D:/FacultyProjects/GraphAlgorithms/Kruskal/kruskal.h
@@ -24,5 +38,19 @@ D:/FacultyProjects/GraphAlgorithms/Kruskal/domain.h
 vector
 -
 fstream
+-
+
+D:/FacultyProjects/GraphAlgorithms/Kruskal/main.cpp
+domain.h
+D:/FacultyProjects/GraphAlgorithms/Kruskal/domain.h
+edgeList.h
+D:/FacultyProjects/GraphAlgorithms/Kruskal/edgeList.h
+kruskal.h
+D:/FacultyProjects/GraphAlgorithms/Kruskal/kruskal.h
+iostream
+-
+fstream
+-
+vector
 -
 

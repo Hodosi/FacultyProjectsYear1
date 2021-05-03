@@ -9,6 +9,7 @@ typedef struct{
     int id;
     int distance;
     int parent;
+    int subset;
 } Node;
 
 typedef struct {

@@ -19,22 +19,53 @@ struct costumeCmpWeight{
     }
 };
 
-void union_subsets(vector<Node*> &subset_1, vector<Node*> &subset_2){
+int find_subset(vector<Node*> &nodes_list, Node* node){
 
+    Node* current = node;
+    while (current->parent != -1){
+        current = nodes_list[current->parent];
+    }
+
+    return current->subset;
 }
+
+Node* find_subset_boss(vector<Node*> &nodes_list, Node* node){
+
+    Node* current = node;
+    while (current->parent != -1){
+        current = nodes_list[current->parent];
+    }
+
+    return current;
+}
+
+void union_subsets(vector<Node*> &nodes_list, Node* predecessor, Node* successor){
+
+    Node* x = find_subset_boss(nodes_list, predecessor);
+    Node* y = find_subset_boss(nodes_list, successor);
+
+    y->parent = x->id;
+}
+
+
 
 vector<Edge*> kruskal(vector<Node*> &nodes_list, vector<Edge*> &edge_list){
     vector<Edge*> span_tree;
-    vector<set<int>> node_sets;
 
     for(auto node : nodes_list){
-
+        node->parent = -1;
+        node->subset = node->id;
     }
 
     sort(edge_list.begin(), edge_list.end(), costumeCmpWeight());
 
     for(auto edge : edge_list){
-
+       int x = find_subset(nodes_list, edge->predecessor);
+       int y = find_subset(nodes_list, edge->successor);
+       if(x != y){
+           span_tree.push_back(edge);
+           union_subsets(nodes_list, edge->predecessor, edge->successor);
+       }
     }
 
     return span_tree;
