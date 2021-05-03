@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/FacultyProjects/GraphAlgorithms/Huffman/domain.h
+
+D:/FacultyProjects/GraphAlgorithms/Huffman/huffman.cpp
+huffman.h
+D:/FacultyProjects/GraphAlgorithms/Huffman/huffman.h
+
+D:/FacultyProjects/GraphAlgorithms/Huffman/huffman.h
+domain.h
+D:/FacultyProjects/GraphAlgorithms/Huffman/domain.h
+vector
+-
+fstream
+-
+string
+-
+

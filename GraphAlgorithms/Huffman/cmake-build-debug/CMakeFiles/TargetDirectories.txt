@@ -1,0 +1,3 @@
+D:/FacultyProjects/GraphAlgorithms/Huffman/cmake-build-debug/CMakeFiles/Huffman.dir
+D:/FacultyProjects/GraphAlgorithms/Huffman/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/FacultyProjects/GraphAlgorithms/Huffman/cmake-build-debug/CMakeFiles/rebuild_cache.dir
