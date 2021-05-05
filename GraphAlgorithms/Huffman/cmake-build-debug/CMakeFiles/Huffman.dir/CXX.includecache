@@ -7,10 +7,16 @@
 #IncludeRegexTransform: 
 
 D:/FacultyProjects/GraphAlgorithms/Huffman/domain.h
+string
+-
 
 D:/FacultyProjects/GraphAlgorithms/Huffman/huffman.cpp
 huffman.h
 D:/FacultyProjects/GraphAlgorithms/Huffman/huffman.h
+map
+-
+queue
+-
 
 D:/FacultyProjects/GraphAlgorithms/Huffman/huffman.h
 domain.h

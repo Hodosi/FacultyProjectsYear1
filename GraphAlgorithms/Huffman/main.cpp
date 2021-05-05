@@ -17,7 +17,7 @@ int main() {
 
     int nodes;
 
-    fin_code >> nodes;
+    //fin_code >> nodes;
 
     vector<Node*> nodes_list(nodes, NULL);
     for(int id = 0; id < nodes; id++){
@@ -41,7 +41,7 @@ int main() {
     ifstream  fin_decode("D:\\FacultyProjects\\GraphAlgorithms\\Huffman\\graf_decode.txt");
     ofstream fout_decode("D:\\FacultyProjects\\GraphAlgorithms\\Huffman\\out_decode.txt");
 
-    fin_decode >> nodes;
+    //fin_decode >> nodes;
 
     nodes_list.resize(nodes, NULL);
     for(int id = 0; id < nodes; id++){

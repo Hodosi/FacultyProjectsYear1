@@ -5,11 +5,18 @@
 #ifndef HUFFMAN_DOMAIN_H
 #define HUFFMAN_DOMAIN_H
 
-typedef struct{
+#include <string>
+
+using std::string;
+
+typedef struct {
     int id;
     int parent;
+    int left_child;
+    int right_child;
     char ch;
     int freq;
+    string cod;
 } Node;
 
 

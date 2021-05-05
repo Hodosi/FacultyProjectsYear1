@@ -14,15 +14,18 @@ void initialization(vector<Node*> &nodes_list, Node* source_node){
     for(auto node : nodes_list){
         node -> distance = INT16_MAX;
         node -> parent = -1;
+        node -> visited = false;
     }
     source_node -> distance = 0;
 }
 
-void relax(Node* predecessor, Node* successor, int weight){
+bool relax(Node* predecessor, Node* successor, int weight){
     if(successor -> distance > predecessor -> distance + weight){
         successor -> distance = predecessor -> distance + weight;
         successor -> parent = predecessor -> id;
+        return true;
     }
+    return false;
 }
 
 struct costumeCmp{
@@ -32,27 +35,25 @@ struct costumeCmp{
 };
 
 void dijkstra(vector<Node*> &nodes_list, vector<vector<pair<Node*,int>>> &adjacency_list, Node *source_node){
+
     initialization(nodes_list, source_node);
-    source_node -> distance = 0;
 
     priority_queue<Node*, vector<Node*>, costumeCmp > p_queue;
-    for(auto node : nodes_list){
-        p_queue.push(node);
-    }
+
+    p_queue.push(source_node);
 
     while (!p_queue.empty()){
         auto predecessor = p_queue.top();
         p_queue.pop();
+        if(predecessor->visited){
+            continue;
+        }
         for(auto successor : adjacency_list[predecessor -> id]){
-            relax(predecessor, successor.first, successor.second);
+            if(relax(predecessor, successor.first, successor.second)){
+                p_queue.push(successor.first);
+            }
         }
-
-        priority_queue<Node*, vector<Node*>, costumeCmp > cpy_p_queue;
-        while (!p_queue.empty()){
-            cpy_p_queue.push(p_queue.top());
-            p_queue.pop();
-        }
-        swap(p_queue, cpy_p_queue);
+        predecessor->visited = true;
     }
 }
 
