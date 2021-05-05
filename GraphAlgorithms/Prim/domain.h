@@ -9,6 +9,7 @@ typedef struct{
     int id;
     long int distance;
     int parent;
+    bool visited;
 } Node;
 
 

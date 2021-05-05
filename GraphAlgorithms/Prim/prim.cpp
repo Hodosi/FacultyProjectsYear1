@@ -11,6 +11,7 @@ void initialization(vector<Node*> &nodes_list, Node* source_node){
     for(auto node : nodes_list){
         node -> distance = INT16_MAX;
         node -> parent = -1;
+        node -> visited = false;
     }
     source_node -> distance = 0;
 }
@@ -18,42 +19,42 @@ void initialization(vector<Node*> &nodes_list, Node* source_node){
 
 struct costumeCmp{
     bool operator()(const Node* predecessor, const Node* successor){
-        return  (predecessor -> distance > successor -> distance);
+        return  (predecessor -> distance >= successor -> distance);
     }
 };
 
 void prim(vector<Node*> &nodes_list, vector<vector<pair<Node*,int>>> &adjacency_list, Node *source_node){
+
     initialization(nodes_list, source_node);
-    source_node -> distance = 0;
 
     priority_queue<Node*, vector<Node*>, costumeCmp > p_queue;
-    for(auto node : nodes_list){
-        p_queue.push(node);
-    }
+
+    p_queue.push(source_node);
 
     set<int> extracted_from_queue;
 
     while (!p_queue.empty()){
+
         auto predecessor = p_queue.top();
         p_queue.pop();
 
-        extracted_from_queue.insert(predecessor->id);
+        if(predecessor->visited){
+           continue;
+        }
 
         for(auto successor : adjacency_list[predecessor -> id]){
-            if(extracted_from_queue.find(successor.first -> id) == extracted_from_queue.end()){
-                if(successor.second < successor.first->distance){
+            if(successor.second < successor.first->distance){
+                if(extracted_from_queue.find(successor.first -> id) == extracted_from_queue.end()) {
                     successor.first->parent = predecessor->id;
                     successor.first->distance = successor.second;
                 }
+                p_queue.push(successor.first);
             }
         }
 
-        priority_queue<Node*, vector<Node*>, costumeCmp > cpy_p_queue;
-        while (!p_queue.empty()){
-            cpy_p_queue.push(p_queue.top());
-            p_queue.pop();
-        }
-        swap(p_queue, cpy_p_queue);
+        extracted_from_queue.insert(predecessor->id);
+        predecessor->visited = true;
+
     }
 }
 
