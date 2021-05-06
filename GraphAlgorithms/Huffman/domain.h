@@ -9,15 +9,15 @@
 
 using std::string;
 
-typedef struct {
+struct Node {
     int id;
-    int parent;
-    int left_child;
-    int right_child;
+    Node* parent;
+    Node* left_child;
+    Node* right_child;
     char ch;
     int freq;
     string cod;
-} Node;
+};
 
 
 #endif //HUFFMAN_DOMAIN_H

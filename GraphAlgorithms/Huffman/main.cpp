@@ -15,17 +15,7 @@ int main() {
     ifstream  fin_code("D:\\FacultyProjects\\GraphAlgorithms\\Huffman\\graf_code.txt");
     ofstream fout_code("D:\\FacultyProjects\\GraphAlgorithms\\Huffman\\out_code.txt");
 
-    int nodes;
-
-    //fin_code >> nodes;
-
-    vector<Node*> nodes_list(nodes, NULL);
-    for(int id = 0; id < nodes; id++){
-        Node *new_node = new Node();
-        new_node -> id = id;
-        nodes_list[id] = new_node;
-    }
-
+    vector<Node*> nodes_list;
     vector<pair<char, int>> coded_tree;
 
     string cod = huffmanCode(nodes_list, coded_tree, fin_code);
@@ -41,15 +31,7 @@ int main() {
     ifstream  fin_decode("D:\\FacultyProjects\\GraphAlgorithms\\Huffman\\graf_decode.txt");
     ofstream fout_decode("D:\\FacultyProjects\\GraphAlgorithms\\Huffman\\out_decode.txt");
 
-    //fin_decode >> nodes;
-
-    nodes_list.resize(nodes, NULL);
-    for(int id = 0; id < nodes; id++){
-        Node *new_node = new Node();
-        new_node -> id = id;
-        nodes_list[id] = new_node;
-    }
-
+    nodes_list.clear();
     vector<pair<char, int>> decoded_tree;
 
     string decoded_text = huffmanDecode(nodes_list, decoded_tree, fin_decode);

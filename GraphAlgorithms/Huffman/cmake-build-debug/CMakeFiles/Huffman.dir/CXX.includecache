@@ -28,3 +28,17 @@ fstream
 string
 -
 
+D:/FacultyProjects/GraphAlgorithms/Huffman/main.cpp
+domain.h
+D:/FacultyProjects/GraphAlgorithms/Huffman/domain.h
+huffman.h
+D:/FacultyProjects/GraphAlgorithms/Huffman/huffman.h
+iostream
+-
+fstream
+-
+vector
+-
+string
+-
+
