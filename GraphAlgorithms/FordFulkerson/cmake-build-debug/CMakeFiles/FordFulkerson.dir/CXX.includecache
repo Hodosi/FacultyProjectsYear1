@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/FacultyProjects/GraphAlgorithms/FordFulkerson/domain.h
+map
+-
+
+D:/FacultyProjects/GraphAlgorithms/FordFulkerson/fordFulkerson.cpp
+fordFulkerson.h
+D:/FacultyProjects/GraphAlgorithms/FordFulkerson/fordFulkerson.h
+stack
+-
+algorithm
+-
+
+D:/FacultyProjects/GraphAlgorithms/FordFulkerson/fordFulkerson.h
+domain.h
+D:/FacultyProjects/GraphAlgorithms/FordFulkerson/domain.h
+vector
+-
+fstream
+-
+
