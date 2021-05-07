@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/FacultyProjects/GraphAlgorithms/FlowRelabelAlgorithms/domain.h
+
+D:/FacultyProjects/GraphAlgorithms/FlowRelabelAlgorithms/flowRelabel.cpp
+flowRelabel.h
+D:/FacultyProjects/GraphAlgorithms/FlowRelabelAlgorithms/flowRelabel.h
+queue
+-
+
+D:/FacultyProjects/GraphAlgorithms/FlowRelabelAlgorithms/flowRelabel.h
+domain.h
+D:/FacultyProjects/GraphAlgorithms/FlowRelabelAlgorithms/domain.h
+vector
+-
+fstream
+-
+
