@@ -11,9 +11,6 @@
 using namespace std;
 
 
-//ifstream  fin("D:\\FacultyProjects\\GraphAlgorithms\\Dijkstra\\graf.txt");
-//ofstream fout("D:\\FacultyProjects\\GraphAlgorithms\\Dijkstra\\out.txt");
-
 int main() {
     //ifstream  fin(argv[1]);
     //ofstream fout(argv[2]);
@@ -33,9 +30,11 @@ int main() {
 
     vector<vector<pair<Node*,int>>> adjacency_list(nodes);
     fromFileToAdjacencyList(adjacency_list, nodes_list, nodes, fin);
-    //printAdjacencyList(adjacency_list, nodes);
+    printAdjacencyList(adjacency_list, nodes);
 
+    unsigned int start = clock();
     dijkstra(nodes_list, adjacency_list, nodes_list[source]);
+    cout << "Time: " << clock() - start;
     printMinimumPath(nodes_list, nodes_list[source],fout);
 
 
