@@ -91,6 +91,12 @@
 		<Unit filename="D:/FacultyProjects/GraphAlgorithms/FordFulkerson/fordFulkerson.h">
 			<Option target="FordFulkerson"/>
 		</Unit>
+		<Unit filename="D:/FacultyProjects/GraphAlgorithms/FordFulkerson/fromFileToAdjacencyList.cpp">
+			<Option target="FordFulkerson"/>
+		</Unit>
+		<Unit filename="D:/FacultyProjects/GraphAlgorithms/FordFulkerson/fromFileToAdjacencyList.h">
+			<Option target="FordFulkerson"/>
+		</Unit>
 		<Unit filename="D:/FacultyProjects/GraphAlgorithms/FordFulkerson/fromFileToAdjacencyMap.cpp">
 			<Option target="FordFulkerson"/>
 		</Unit>

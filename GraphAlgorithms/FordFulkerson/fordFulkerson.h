@@ -12,7 +12,7 @@
 
 using namespace std;
 
-int fordFulkerson(vector<Node*> &nodes_list, vector<map<Edge*, int, costumeCmp> > &adjacency_map);
+int fordFulkerson(vector<Node*> &nodes_list, vector<vector<pair<int, Node*>>> &adjacency_list);
 void printMaximumFlow(int flow, ofstream &fout);
 
 

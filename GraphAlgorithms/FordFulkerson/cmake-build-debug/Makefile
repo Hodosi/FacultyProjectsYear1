@@ -169,6 +169,33 @@ fordFulkerson.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FordFulkerson.dir\build.make CMakeFiles/FordFulkerson.dir/fordFulkerson.cpp.s
 .PHONY : fordFulkerson.cpp.s
 
+fromFileToAdjacencyList.obj: fromFileToAdjacencyList.cpp.obj
+
+.PHONY : fromFileToAdjacencyList.obj
+
+# target to build an object file
+fromFileToAdjacencyList.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FordFulkerson.dir\build.make CMakeFiles/FordFulkerson.dir/fromFileToAdjacencyList.cpp.obj
+.PHONY : fromFileToAdjacencyList.cpp.obj
+
+fromFileToAdjacencyList.i: fromFileToAdjacencyList.cpp.i
+
+.PHONY : fromFileToAdjacencyList.i
+
+# target to preprocess a source file
+fromFileToAdjacencyList.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FordFulkerson.dir\build.make CMakeFiles/FordFulkerson.dir/fromFileToAdjacencyList.cpp.i
+.PHONY : fromFileToAdjacencyList.cpp.i
+
+fromFileToAdjacencyList.s: fromFileToAdjacencyList.cpp.s
+
+.PHONY : fromFileToAdjacencyList.s
+
+# target to generate assembly for a file
+fromFileToAdjacencyList.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FordFulkerson.dir\build.make CMakeFiles/FordFulkerson.dir/fromFileToAdjacencyList.cpp.s
+.PHONY : fromFileToAdjacencyList.cpp.s
+
 fromFileToAdjacencyMap.obj: fromFileToAdjacencyMap.cpp.obj
 
 .PHONY : fromFileToAdjacencyMap.obj
@@ -262,6 +289,9 @@ help:
 	@echo ... fordFulkerson.obj
 	@echo ... fordFulkerson.i
 	@echo ... fordFulkerson.s
+	@echo ... fromFileToAdjacencyList.obj
+	@echo ... fromFileToAdjacencyList.i
+	@echo ... fromFileToAdjacencyList.s
 	@echo ... fromFileToAdjacencyMap.obj
 	@echo ... fromFileToAdjacencyMap.i
 	@echo ... fromFileToAdjacencyMap.s

@@ -1,12 +1,14 @@
 #include "domain.h"
 //#include "fromFileToAdjacencyPriorityQueue.h"
-#include "fromFileToAdjacencyMap.h"
+//#include "fromFileToAdjacencyMap.h"
+#include "fromFileToAdjacencyList.h"
 #include "fordFulkerson.h"
 
 #include <iostream>
 #include <fstream>
 #include <vector>
 #include <queue>
+#include <ctime>
 
 using namespace std;
 
@@ -37,11 +39,19 @@ int main() {
     printAdjacencyPriorityQueue(adjacency_p_queue, nodes);
      */
 
+    /*
     vector<map<Edge*, int, costumeCmp>> adjacency_map(nodes);
     fromFileToAdjacencyMap(adjacency_map, nodes_list, edge_list, nodes, fin);
     printAdjacencyMap(adjacency_map, nodes);
+     */
 
-    int flow = fordFulkerson(nodes_list, adjacency_map);
+    vector<vector<pair<int, Node*>>> adjacency_list(nodes);
+    fromFileToAdjacencyList(adjacency_list, nodes_list, fin);
+    printAdjacencyList(adjacency_list, nodes);
+
+    unsigned int start = clock();
+    int flow = fordFulkerson(nodes_list, adjacency_list);
+    cout << "Time: " << clock() - start;
     printMaximumFlow(flow, fout);
 
     for(auto node : nodes_list){

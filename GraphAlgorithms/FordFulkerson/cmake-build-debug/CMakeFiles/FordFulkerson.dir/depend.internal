@@ -5,6 +5,10 @@ CMakeFiles/FordFulkerson.dir/fordFulkerson.cpp.obj
  D:/FacultyProjects/GraphAlgorithms/FordFulkerson/domain.h
  D:/FacultyProjects/GraphAlgorithms/FordFulkerson/fordFulkerson.cpp
  D:/FacultyProjects/GraphAlgorithms/FordFulkerson/fordFulkerson.h
+CMakeFiles/FordFulkerson.dir/fromFileToAdjacencyList.cpp.obj
+ D:/FacultyProjects/GraphAlgorithms/FordFulkerson/domain.h
+ D:/FacultyProjects/GraphAlgorithms/FordFulkerson/fromFileToAdjacencyList.cpp
+ D:/FacultyProjects/GraphAlgorithms/FordFulkerson/fromFileToAdjacencyList.h
 CMakeFiles/FordFulkerson.dir/fromFileToAdjacencyMap.cpp.obj
  D:/FacultyProjects/GraphAlgorithms/FordFulkerson/domain.h
  D:/FacultyProjects/GraphAlgorithms/FordFulkerson/fromFileToAdjacencyMap.cpp
@@ -16,5 +20,5 @@ CMakeFiles/FordFulkerson.dir/fromFileToAdjacencyPriorityQueue.cpp.obj
 CMakeFiles/FordFulkerson.dir/main.cpp.obj
  D:/FacultyProjects/GraphAlgorithms/FordFulkerson/domain.h
  D:/FacultyProjects/GraphAlgorithms/FordFulkerson/fordFulkerson.h
- D:/FacultyProjects/GraphAlgorithms/FordFulkerson/fromFileToAdjacencyMap.h
+ D:/FacultyProjects/GraphAlgorithms/FordFulkerson/fromFileToAdjacencyList.h
  D:/FacultyProjects/GraphAlgorithms/FordFulkerson/main.cpp

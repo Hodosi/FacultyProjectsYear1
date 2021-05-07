@@ -5,6 +5,10 @@ CMakeFiles/FordFulkerson.dir/fordFulkerson.cpp.obj: ../domain.h
 CMakeFiles/FordFulkerson.dir/fordFulkerson.cpp.obj: ../fordFulkerson.cpp
 CMakeFiles/FordFulkerson.dir/fordFulkerson.cpp.obj: ../fordFulkerson.h
 
+CMakeFiles/FordFulkerson.dir/fromFileToAdjacencyList.cpp.obj: ../domain.h
+CMakeFiles/FordFulkerson.dir/fromFileToAdjacencyList.cpp.obj: ../fromFileToAdjacencyList.cpp
+CMakeFiles/FordFulkerson.dir/fromFileToAdjacencyList.cpp.obj: ../fromFileToAdjacencyList.h
+
 CMakeFiles/FordFulkerson.dir/fromFileToAdjacencyMap.cpp.obj: ../domain.h
 CMakeFiles/FordFulkerson.dir/fromFileToAdjacencyMap.cpp.obj: ../fromFileToAdjacencyMap.cpp
 CMakeFiles/FordFulkerson.dir/fromFileToAdjacencyMap.cpp.obj: ../fromFileToAdjacencyMap.h
@@ -15,6 +19,6 @@ CMakeFiles/FordFulkerson.dir/fromFileToAdjacencyPriorityQueue.cpp.obj: ../fromFi
 
 CMakeFiles/FordFulkerson.dir/main.cpp.obj: ../domain.h
 CMakeFiles/FordFulkerson.dir/main.cpp.obj: ../fordFulkerson.h
-CMakeFiles/FordFulkerson.dir/main.cpp.obj: ../fromFileToAdjacencyMap.h
+CMakeFiles/FordFulkerson.dir/main.cpp.obj: ../fromFileToAdjacencyList.h
 CMakeFiles/FordFulkerson.dir/main.cpp.obj: ../main.cpp
 
