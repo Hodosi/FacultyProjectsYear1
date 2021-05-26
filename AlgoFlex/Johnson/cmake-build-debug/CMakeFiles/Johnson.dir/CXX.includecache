@@ -11,8 +11,10 @@ iostream
 -
 fstream
 -
+string
+-
 vector
 -
-string
+queue
 -
 
