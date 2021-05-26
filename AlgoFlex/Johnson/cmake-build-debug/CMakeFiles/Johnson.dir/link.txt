@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\Johnson.dir/objects.a
+C:\TDM-GCC-64\bin\ar.exe cr CMakeFiles\Johnson.dir/objects.a @CMakeFiles\Johnson.dir\objects1.rsp
+C:\TDM-GCC-64\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\Johnson.dir/objects.a -Wl,--no-whole-archive  -o Johnson.exe -Wl,--out-implib,libJohnson.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Johnson.dir\linklibs.rsp
