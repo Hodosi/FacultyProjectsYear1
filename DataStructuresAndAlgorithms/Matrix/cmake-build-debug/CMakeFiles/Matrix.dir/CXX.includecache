@@ -6,13 +6,17 @@
 
 #IncludeRegexTransform: 
 
-D:/FacultyProjects/DataStructuresAndAlgorithms/Matrix/ProiectC++/Matrice.cpp
-Matrice.h
 D:/FacultyProjects/DataStructuresAndAlgorithms/Matrix/ProiectC++/Matrice.h
-math.h
-D:/FacultyProjects/DataStructuresAndAlgorithms/Matrix/ProiectC++/math.h
-exception
+
+D:/FacultyProjects/DataStructuresAndAlgorithms/Matrix/Teste/TestScurt.cpp
+TestScurt.h
+D:/FacultyProjects/DataStructuresAndAlgorithms/Matrix/Teste/TestScurt.h
+assert.h
+-
+../ProiectC++/Matrice.h
+D:/FacultyProjects/DataStructuresAndAlgorithms/Matrix/ProiectC++/Matrice.h
+iostream
 -
 
-D:/FacultyProjects/DataStructuresAndAlgorithms/Matrix/ProiectC++/Matrice.h
+D:/FacultyProjects/DataStructuresAndAlgorithms/Matrix/Teste/TestScurt.h
 

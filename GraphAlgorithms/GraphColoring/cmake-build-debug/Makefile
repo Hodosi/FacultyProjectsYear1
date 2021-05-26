@@ -169,6 +169,33 @@ chromaticNumber.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GraphColoring.dir\build.make CMakeFiles/GraphColoring.dir/chromaticNumber.cpp.s
 .PHONY : chromaticNumber.cpp.s
 
+fromFileToAdjacencyList.obj: fromFileToAdjacencyList.cpp.obj
+
+.PHONY : fromFileToAdjacencyList.obj
+
+# target to build an object file
+fromFileToAdjacencyList.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GraphColoring.dir\build.make CMakeFiles/GraphColoring.dir/fromFileToAdjacencyList.cpp.obj
+.PHONY : fromFileToAdjacencyList.cpp.obj
+
+fromFileToAdjacencyList.i: fromFileToAdjacencyList.cpp.i
+
+.PHONY : fromFileToAdjacencyList.i
+
+# target to preprocess a source file
+fromFileToAdjacencyList.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GraphColoring.dir\build.make CMakeFiles/GraphColoring.dir/fromFileToAdjacencyList.cpp.i
+.PHONY : fromFileToAdjacencyList.cpp.i
+
+fromFileToAdjacencyList.s: fromFileToAdjacencyList.cpp.s
+
+.PHONY : fromFileToAdjacencyList.s
+
+# target to generate assembly for a file
+fromFileToAdjacencyList.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GraphColoring.dir\build.make CMakeFiles/GraphColoring.dir/fromFileToAdjacencyList.cpp.s
+.PHONY : fromFileToAdjacencyList.cpp.s
+
 fromFileToAdjacencySet.obj: fromFileToAdjacencySet.cpp.obj
 
 .PHONY : fromFileToAdjacencySet.obj
@@ -262,6 +289,9 @@ help:
 	@echo ... chromaticNumber.obj
 	@echo ... chromaticNumber.i
 	@echo ... chromaticNumber.s
+	@echo ... fromFileToAdjacencyList.obj
+	@echo ... fromFileToAdjacencyList.i
+	@echo ... fromFileToAdjacencyList.s
 	@echo ... fromFileToAdjacencySet.obj
 	@echo ... fromFileToAdjacencySet.i
 	@echo ... fromFileToAdjacencySet.s

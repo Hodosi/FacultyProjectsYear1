@@ -1,6 +1,8 @@
 #include "domain.h"
-#include "fromFileToAdjacencySet.h"
+//#include "fromFileToAdjacencySet.h"
+#include "fromFileToAdjacencyList.h"
 #include "chromaticNumber.h"
+#include "graphColoring.h"
 
 #include <fstream>
 #include <vector>
@@ -30,12 +32,20 @@ int main() {
         node_list.push_back(new_node);
     }
 
-    adjacency_set.resize(nr_nodes);
-    fromFileToAdjacencySet(adjacency_set, fin);
-    printAdjacencySet(adjacency_set);
+    vector<vector<Node*>> adjacency_list(nr_nodes);
+    fromFileToAdjacencyList(adjacency_list, node_list, fin);
+    printAdjacencyList(adjacency_list, nr_nodes);
 
-    int chromatic_number = chromaticNumber(adjacency_set, node_list);
-    printChromaticNumber(chromatic_number, fout);
+    int min_color = greedyColoring(adjacency_list, node_list);
+    printColoredGraph(node_list, min_color, fout);
+
+    //adjacency_set.resize(nr_nodes);
+    //fromFileToAdjacencySet(adjacency_set, fin);
+    //printAdjacencySet(adjacency_set);
+
+    //int chromatic_number = chromaticNumber(adjacency_set, node_list);
+    //printChromaticNumber(chromatic_number, fout);
+
 
     for(int i = 0; i < nr_nodes; i++){
         delete node_list[i];

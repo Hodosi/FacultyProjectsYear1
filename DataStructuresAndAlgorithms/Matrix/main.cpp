@@ -9,6 +9,8 @@ using namespace std;
 int main() {
 
 	testAll();
+	testIterator();
+    testIteratorAssert();
 	testAllExtins();
 
     cout<<"End";

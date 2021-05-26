@@ -7,7 +7,7 @@ typedef int TElem;
 
 #define NULL_TELEMENT 0
 
-//class Iterator;
+class IteratorMatrice;
 
 class Nod;
 
@@ -23,7 +23,8 @@ private:
 
 public:
     friend class Matrice;
-    //friend class Iterator;
+    friend class IteratorMatrice;
+
     Nod(TElem _element, PNod _urmator, int _linie, int _coloana);
     TElem element();
     PNod urmator();
@@ -44,11 +45,11 @@ private:
     int hashFunction(int _linie, int _coloana) const;
 
 public:
+    friend class IteratorMatrice;
 
     //constructor
     //se arunca exceptie daca nrLinii<=0 sau nrColoane<=0
     Matrice(int nrLinii, int nrColoane);
-
 
     //destructor
     ~Matrice();
@@ -57,7 +58,6 @@ public:
     //se arunca exceptie daca (i,j) nu e pozitie valida in Matrice
     //indicii se considera incepand de la 0
     TElem element(int i, int j) const;
-
 
     // returnare numar linii
     int nrLinii() const;
@@ -70,6 +70,35 @@ public:
     // se arunca exceptie daca (i,j) nu e o pozitie valida in Matrice
     TElem modifica(int i, int j, TElem);
 
+    IteratorMatrice iterator(int _linie) const;
+
+};
+
+class IteratorMatrice {
+private:
+    IteratorMatrice(const Matrice& _matrix, int _linie);
+
+    const Matrice& matrix;
+
+    int linie;
+
+    int coloana;
+
+public:
+
+    friend class Matrice;
+
+    void prim();
+
+    void ultim();
+
+    void urmator();
+
+    void precedent();
+
+    bool valid() const;
+
+    TElem element() const;
 };
 
 
