@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\FordFulkerson.dir/objects.a
+C:\TDM-GCC-64\bin\ar.exe cr CMakeFiles\FordFulkerson.dir/objects.a @CMakeFiles\FordFulkerson.dir\objects1.rsp
+C:\TDM-GCC-64\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\FordFulkerson.dir/objects.a -Wl,--no-whole-archive  -o FordFulkerson.exe -Wl,--out-implib,libFordFulkerson.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\FordFulkerson.dir\linklibs.rsp
