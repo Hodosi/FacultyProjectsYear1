@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/FacultyProjects/GraphAlgorithms/EdmondsKarp/domain.h
+
+D:/FacultyProjects/GraphAlgorithms/EdmondsKarp/edmondsKarp.cpp
+edmondsKarp.h
+D:/FacultyProjects/GraphAlgorithms/EdmondsKarp/edmondsKarp.h
+
+D:/FacultyProjects/GraphAlgorithms/EdmondsKarp/edmondsKarp.h
+domain.h
+D:/FacultyProjects/GraphAlgorithms/EdmondsKarp/domain.h
+vector
+-
+fstream
+-
+stack
+-
+queue
+-
+algorithm
+-
+

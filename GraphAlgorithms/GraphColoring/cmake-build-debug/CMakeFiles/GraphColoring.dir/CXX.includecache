@@ -6,25 +6,45 @@
 
 #IncludeRegexTransform: 
 
-D:/FacultyProjects/GraphAlgorithms/GraphColoring/chromaticNumber.cpp
-chromaticNumber.h
-D:/FacultyProjects/GraphAlgorithms/GraphColoring/chromaticNumber.h
+D:/FacultyProjects/GraphAlgorithms/GraphColoring/domain.h
+vector
+-
 
-D:/FacultyProjects/GraphAlgorithms/GraphColoring/chromaticNumber.h
+D:/FacultyProjects/GraphAlgorithms/GraphColoring/fromFileToAdjacencyList.h
+domain.h
+D:/FacultyProjects/GraphAlgorithms/GraphColoring/domain.h
+iostream
+-
+fstream
+-
+vector
+-
+string
+-
+
+D:/FacultyProjects/GraphAlgorithms/GraphColoring/graphColoring.h
 domain.h
 D:/FacultyProjects/GraphAlgorithms/GraphColoring/domain.h
 fstream
 -
 vector
 -
-set
--
-stack
+string
 -
 queue
 -
 
+D:/FacultyProjects/GraphAlgorithms/GraphColoring/main.cpp
+domain.h
 D:/FacultyProjects/GraphAlgorithms/GraphColoring/domain.h
+fromFileToAdjacencyList.h
+D:/FacultyProjects/GraphAlgorithms/GraphColoring/fromFileToAdjacencyList.h
+graphColoring.h
+D:/FacultyProjects/GraphAlgorithms/GraphColoring/graphColoring.h
+fstream
+-
 vector
+-
+set
 -
 

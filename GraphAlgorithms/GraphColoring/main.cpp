@@ -4,12 +4,10 @@
 
 #include <fstream>
 #include <vector>
-#include <set>
 
 using std::ifstream;
 using std::ofstream;
 using std::vector;
-using std::set;
 
 int main() {
 
@@ -18,11 +16,11 @@ int main() {
 
     int nr_nodes, nr_edges;
     vector<Node*> node_list;
-    vector<set<int>> adjacency_set;
 
     fin >> nr_nodes >> nr_edges;
 
     for(int i = 0; i < nr_nodes; i++){
+
         Node* new_node = new Node();
         new_node->id = i;
         new_node->parent = -1;
