@@ -97,12 +97,6 @@
 		<Unit filename="D:/FacultyProjects/GraphAlgorithms/GraphColoring/fromFileToAdjacencyList.h">
 			<Option target="GraphColoring"/>
 		</Unit>
-		<Unit filename="D:/FacultyProjects/GraphAlgorithms/GraphColoring/fromFileToAdjacencySet.cpp">
-			<Option target="GraphColoring"/>
-		</Unit>
-		<Unit filename="D:/FacultyProjects/GraphAlgorithms/GraphColoring/fromFileToAdjacencySet.h">
-			<Option target="GraphColoring"/>
-		</Unit>
 		<Unit filename="D:/FacultyProjects/GraphAlgorithms/GraphColoring/graphColoring.cpp">
 			<Option target="GraphColoring"/>
 		</Unit>

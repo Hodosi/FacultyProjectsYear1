@@ -1,7 +1,3 @@
-//
-// Created by Hodosi on 5/15/2021.
-//
-
 #ifndef GRAPHCOLORING_CHROMATICNUMBER_H
 #define GRAPHCOLORING_CHROMATICNUMBER_H
 

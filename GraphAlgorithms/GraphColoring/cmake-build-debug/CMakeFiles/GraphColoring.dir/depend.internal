@@ -9,16 +9,11 @@ CMakeFiles/GraphColoring.dir/fromFileToAdjacencyList.cpp.obj
  D:/FacultyProjects/GraphAlgorithms/GraphColoring/domain.h
  D:/FacultyProjects/GraphAlgorithms/GraphColoring/fromFileToAdjacencyList.cpp
  D:/FacultyProjects/GraphAlgorithms/GraphColoring/fromFileToAdjacencyList.h
-CMakeFiles/GraphColoring.dir/fromFileToAdjacencySet.cpp.obj
- D:/FacultyProjects/GraphAlgorithms/GraphColoring/domain.h
- D:/FacultyProjects/GraphAlgorithms/GraphColoring/fromFileToAdjacencySet.cpp
- D:/FacultyProjects/GraphAlgorithms/GraphColoring/fromFileToAdjacencySet.h
 CMakeFiles/GraphColoring.dir/graphColoring.cpp.obj
  D:/FacultyProjects/GraphAlgorithms/GraphColoring/domain.h
  D:/FacultyProjects/GraphAlgorithms/GraphColoring/graphColoring.cpp
  D:/FacultyProjects/GraphAlgorithms/GraphColoring/graphColoring.h
 CMakeFiles/GraphColoring.dir/main.cpp.obj
- D:/FacultyProjects/GraphAlgorithms/GraphColoring/chromaticNumber.h
  D:/FacultyProjects/GraphAlgorithms/GraphColoring/domain.h
  D:/FacultyProjects/GraphAlgorithms/GraphColoring/fromFileToAdjacencyList.h
  D:/FacultyProjects/GraphAlgorithms/GraphColoring/graphColoring.h

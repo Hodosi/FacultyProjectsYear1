@@ -6,7 +6,6 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "D:/FacultyProjects/GraphAlgorithms/GraphColoring/chromaticNumber.cpp" "D:/FacultyProjects/GraphAlgorithms/GraphColoring/cmake-build-debug/CMakeFiles/GraphColoring.dir/chromaticNumber.cpp.obj"
   "D:/FacultyProjects/GraphAlgorithms/GraphColoring/fromFileToAdjacencyList.cpp" "D:/FacultyProjects/GraphAlgorithms/GraphColoring/cmake-build-debug/CMakeFiles/GraphColoring.dir/fromFileToAdjacencyList.cpp.obj"
-  "D:/FacultyProjects/GraphAlgorithms/GraphColoring/fromFileToAdjacencySet.cpp" "D:/FacultyProjects/GraphAlgorithms/GraphColoring/cmake-build-debug/CMakeFiles/GraphColoring.dir/fromFileToAdjacencySet.cpp.obj"
   "D:/FacultyProjects/GraphAlgorithms/GraphColoring/graphColoring.cpp" "D:/FacultyProjects/GraphAlgorithms/GraphColoring/cmake-build-debug/CMakeFiles/GraphColoring.dir/graphColoring.cpp.obj"
   "D:/FacultyProjects/GraphAlgorithms/GraphColoring/main.cpp" "D:/FacultyProjects/GraphAlgorithms/GraphColoring/cmake-build-debug/CMakeFiles/GraphColoring.dir/main.cpp.obj"
   )

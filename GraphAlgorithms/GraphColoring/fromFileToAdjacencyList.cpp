@@ -1,10 +1,7 @@
-//
-// Created by Hodosi on 5/22/2021.
-//
-
 #include "fromFileToAdjacencyList.h"
 
-void fromFileToAdjacencyList(vector<vector<Node*>> &adjacency_list, vector<Node*> &nodes_list,ifstream &fin){
+void fromFileToAdjacencyList(vector<vector<Node*>> &adjacency_list, vector<Node*> &nodes_list, ifstream &fin) {
+
     int predecessor_id, successor_id;
     while (fin >> predecessor_id >> successor_id){
         Node *predecessor, *successor;
@@ -16,6 +13,7 @@ void fromFileToAdjacencyList(vector<vector<Node*>> &adjacency_list, vector<Node*
 }
 
 void printAdjacencyList(vector<vector<Node*>> &adjacency_list, int nr_nodes){
+
     int predecessor;
     for(predecessor = 0; predecessor < nr_nodes; predecessor++){
         cout << predecessor << " : ";

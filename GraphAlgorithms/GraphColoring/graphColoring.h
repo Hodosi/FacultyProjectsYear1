@@ -1,7 +1,3 @@
-//
-// Created by Hodosi on 5/15/2021.
-//
-
 #ifndef GRAPHCOLORING_GRAPHCOLORING_H
 #define GRAPHCOLORING_GRAPHCOLORING_H
 

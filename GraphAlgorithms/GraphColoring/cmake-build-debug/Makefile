@@ -196,33 +196,6 @@ fromFileToAdjacencyList.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GraphColoring.dir\build.make CMakeFiles/GraphColoring.dir/fromFileToAdjacencyList.cpp.s
 .PHONY : fromFileToAdjacencyList.cpp.s
 
-fromFileToAdjacencySet.obj: fromFileToAdjacencySet.cpp.obj
-
-.PHONY : fromFileToAdjacencySet.obj
-
-# target to build an object file
-fromFileToAdjacencySet.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\GraphColoring.dir\build.make CMakeFiles/GraphColoring.dir/fromFileToAdjacencySet.cpp.obj
-.PHONY : fromFileToAdjacencySet.cpp.obj
-
-fromFileToAdjacencySet.i: fromFileToAdjacencySet.cpp.i
-
-.PHONY : fromFileToAdjacencySet.i
-
-# target to preprocess a source file
-fromFileToAdjacencySet.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\GraphColoring.dir\build.make CMakeFiles/GraphColoring.dir/fromFileToAdjacencySet.cpp.i
-.PHONY : fromFileToAdjacencySet.cpp.i
-
-fromFileToAdjacencySet.s: fromFileToAdjacencySet.cpp.s
-
-.PHONY : fromFileToAdjacencySet.s
-
-# target to generate assembly for a file
-fromFileToAdjacencySet.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\GraphColoring.dir\build.make CMakeFiles/GraphColoring.dir/fromFileToAdjacencySet.cpp.s
-.PHONY : fromFileToAdjacencySet.cpp.s
-
 graphColoring.obj: graphColoring.cpp.obj
 
 .PHONY : graphColoring.obj
@@ -292,9 +265,6 @@ help:
 	@echo ... fromFileToAdjacencyList.obj
 	@echo ... fromFileToAdjacencyList.i
 	@echo ... fromFileToAdjacencyList.s
-	@echo ... fromFileToAdjacencySet.obj
-	@echo ... fromFileToAdjacencySet.i
-	@echo ... fromFileToAdjacencySet.s
 	@echo ... graphColoring.obj
 	@echo ... graphColoring.i
 	@echo ... graphColoring.s

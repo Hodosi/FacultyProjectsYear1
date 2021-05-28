@@ -1,7 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/GraphColoring.dir/chromaticNumber.cpp.obj"
   "CMakeFiles/GraphColoring.dir/fromFileToAdjacencyList.cpp.obj"
-  "CMakeFiles/GraphColoring.dir/fromFileToAdjacencySet.cpp.obj"
   "CMakeFiles/GraphColoring.dir/graphColoring.cpp.obj"
   "CMakeFiles/GraphColoring.dir/main.cpp.obj"
   "GraphColoring.exe"

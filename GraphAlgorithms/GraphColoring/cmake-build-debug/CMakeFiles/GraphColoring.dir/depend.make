@@ -9,15 +9,10 @@ CMakeFiles/GraphColoring.dir/fromFileToAdjacencyList.cpp.obj: ../domain.h
 CMakeFiles/GraphColoring.dir/fromFileToAdjacencyList.cpp.obj: ../fromFileToAdjacencyList.cpp
 CMakeFiles/GraphColoring.dir/fromFileToAdjacencyList.cpp.obj: ../fromFileToAdjacencyList.h
 
-CMakeFiles/GraphColoring.dir/fromFileToAdjacencySet.cpp.obj: ../domain.h
-CMakeFiles/GraphColoring.dir/fromFileToAdjacencySet.cpp.obj: ../fromFileToAdjacencySet.cpp
-CMakeFiles/GraphColoring.dir/fromFileToAdjacencySet.cpp.obj: ../fromFileToAdjacencySet.h
-
 CMakeFiles/GraphColoring.dir/graphColoring.cpp.obj: ../domain.h
 CMakeFiles/GraphColoring.dir/graphColoring.cpp.obj: ../graphColoring.cpp
 CMakeFiles/GraphColoring.dir/graphColoring.cpp.obj: ../graphColoring.h
 
-CMakeFiles/GraphColoring.dir/main.cpp.obj: ../chromaticNumber.h
 CMakeFiles/GraphColoring.dir/main.cpp.obj: ../domain.h
 CMakeFiles/GraphColoring.dir/main.cpp.obj: ../fromFileToAdjacencyList.h
 CMakeFiles/GraphColoring.dir/main.cpp.obj: ../graphColoring.h

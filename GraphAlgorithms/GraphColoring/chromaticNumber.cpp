@@ -1,7 +1,3 @@
-//
-// Created by Hodosi on 5/15/2021.
-//
-
 #include "chromaticNumber.h"
 
 void dfsVisit(const vector<set<int>> &adjacency_set, vector<Node*> &node_list, Node* source, vector<bool> &visited_node){

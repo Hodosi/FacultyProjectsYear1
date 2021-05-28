@@ -6,23 +6,25 @@
 
 #IncludeRegexTransform: 
 
-D:/FacultyProjects/GraphAlgorithms/GraphColoring/domain.h
-vector
--
+D:/FacultyProjects/GraphAlgorithms/GraphColoring/chromaticNumber.cpp
+chromaticNumber.h
+D:/FacultyProjects/GraphAlgorithms/GraphColoring/chromaticNumber.h
 
-D:/FacultyProjects/GraphAlgorithms/GraphColoring/graphColoring.cpp
-graphColoring.h
-D:/FacultyProjects/GraphAlgorithms/GraphColoring/graphColoring.h
-
-D:/FacultyProjects/GraphAlgorithms/GraphColoring/graphColoring.h
+D:/FacultyProjects/GraphAlgorithms/GraphColoring/chromaticNumber.h
 domain.h
 D:/FacultyProjects/GraphAlgorithms/GraphColoring/domain.h
 fstream
 -
 vector
 -
-string
+set
+-
+stack
 -
 queue
+-
+
+D:/FacultyProjects/GraphAlgorithms/GraphColoring/domain.h
+vector
 -
 
