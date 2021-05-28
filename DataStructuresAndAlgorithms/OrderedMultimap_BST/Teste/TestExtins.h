@@ -1,0 +1,10 @@
+//
+// Created by Hodosi on 5/28/2021.
+//
+
+#ifndef ORDEREDMULTIMAP_BST_TESTEXTINS_H
+#define ORDEREDMULTIMAP_BST_TESTEXTINS_H
+
+void testAllExtins();
+
+#endif //ORDEREDMULTIMAP_BST_TESTEXTINS_H
