@@ -6,15 +6,41 @@
 
 #IncludeRegexTransform: 
 
+D:/FacultyProjects/DataStructuresAndAlgorithms/OrderedMultimap_BST/ProiectC++/IteratorMDO.cpp
+IteratorMDO.h
+D:/FacultyProjects/DataStructuresAndAlgorithms/OrderedMultimap_BST/ProiectC++/IteratorMDO.h
+MDO.h
+D:/FacultyProjects/DataStructuresAndAlgorithms/OrderedMultimap_BST/ProiectC++/MDO.h
+stack
+D:/FacultyProjects/DataStructuresAndAlgorithms/OrderedMultimap_BST/ProiectC++/stack
+
+D:/FacultyProjects/DataStructuresAndAlgorithms/OrderedMultimap_BST/ProiectC++/IteratorMDO.h
+MDO.h
+D:/FacultyProjects/DataStructuresAndAlgorithms/OrderedMultimap_BST/ProiectC++/MDO.h
+
+D:/FacultyProjects/DataStructuresAndAlgorithms/OrderedMultimap_BST/ProiectC++/MDO.h
+vector
+-
+utility
+-
+
+D:/FacultyProjects/DataStructuresAndAlgorithms/OrderedMultimap_BST/Teste/TestExtins.cpp
+TestExtins.h
+D:/FacultyProjects/DataStructuresAndAlgorithms/OrderedMultimap_BST/Teste/TestExtins.h
+exception
+-
+assert.h
+-
+algorithm
+-
+vector
+-
+../ProiectC++/IteratorMDO.h
+D:/FacultyProjects/DataStructuresAndAlgorithms/OrderedMultimap_BST/ProiectC++/IteratorMDO.h
+../ProiectC++/MDO.h
+D:/FacultyProjects/DataStructuresAndAlgorithms/OrderedMultimap_BST/ProiectC++/MDO.h
+TestExtins.h
 D:/FacultyProjects/DataStructuresAndAlgorithms/OrderedMultimap_BST/Teste/TestExtins.h
 
-D:/FacultyProjects/DataStructuresAndAlgorithms/OrderedMultimap_BST/Teste/TestScurt.h
-
-D:/FacultyProjects/DataStructuresAndAlgorithms/OrderedMultimap_BST/main.cpp
-iostream
--
-Teste/TestScurt.h
-D:/FacultyProjects/DataStructuresAndAlgorithms/OrderedMultimap_BST/Teste/TestScurt.h
-Teste/TestExtins.h
 D:/FacultyProjects/DataStructuresAndAlgorithms/OrderedMultimap_BST/Teste/TestExtins.h
 

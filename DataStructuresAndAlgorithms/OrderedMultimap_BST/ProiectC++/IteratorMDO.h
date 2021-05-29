@@ -20,6 +20,9 @@ private:
     const MDO& dict;
     /* aici e reprezentarea  specifica a iteratorului */
 
+    int curent_chei;
+    int curent_val;
+    vector<pair<TCheie, vector<TValoare>>> _elemente_inordine;
 
 public:
 

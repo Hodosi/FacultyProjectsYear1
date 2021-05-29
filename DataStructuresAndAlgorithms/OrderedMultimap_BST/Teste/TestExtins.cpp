@@ -71,6 +71,7 @@ void testCauta(Relatie r) {
         vector<TValoare> v= d.cauta(i);
         assert(v.size()==0);
     }
+
 }
 
 void testCauta() {
