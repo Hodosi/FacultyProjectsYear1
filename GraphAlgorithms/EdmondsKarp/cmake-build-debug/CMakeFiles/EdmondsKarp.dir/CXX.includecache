@@ -8,10 +8,6 @@
 
 D:/FacultyProjects/GraphAlgorithms/EdmondsKarp/domain.h
 
-D:/FacultyProjects/GraphAlgorithms/EdmondsKarp/edmondsKarp.cpp
-edmondsKarp.h
-D:/FacultyProjects/GraphAlgorithms/EdmondsKarp/edmondsKarp.h
-
 D:/FacultyProjects/GraphAlgorithms/EdmondsKarp/edmondsKarp.h
 domain.h
 D:/FacultyProjects/GraphAlgorithms/EdmondsKarp/domain.h
@@ -24,5 +20,33 @@ stack
 queue
 -
 algorithm
+-
+
+D:/FacultyProjects/GraphAlgorithms/EdmondsKarp/fromFileToAdjacencyList.h
+domain.h
+D:/FacultyProjects/GraphAlgorithms/EdmondsKarp/domain.h
+iostream
+-
+fstream
+-
+vector
+-
+string
+-
+
+D:/FacultyProjects/GraphAlgorithms/EdmondsKarp/main.cpp
+domain.h
+D:/FacultyProjects/GraphAlgorithms/EdmondsKarp/domain.h
+fromFileToAdjacencyList.h
+D:/FacultyProjects/GraphAlgorithms/EdmondsKarp/fromFileToAdjacencyList.h
+edmondsKarp.h
+D:/FacultyProjects/GraphAlgorithms/EdmondsKarp/edmondsKarp.h
+iostream
+-
+fstream
+-
+vector
+-
+ctime
 -
 

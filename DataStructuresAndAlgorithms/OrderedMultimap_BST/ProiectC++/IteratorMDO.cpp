@@ -7,44 +7,49 @@
 #include "stack"
 IteratorMDO::IteratorMDO(const MDO& d) : dict(d){
     /* de adaugat */
+
     this->curent_chei = 0;
     this->curent_val = 0;
 
-    PNod curent_nod = dict.radacina();
-    if(curent_nod == nullptr){
+    if(dict._index_radacina == -1){
         return;
     }
 
-    vector<bool> deja_adaugat(this->dict._capacitate, false);
-    deja_adaugat[this->dict._index_radacina] = true;
+    //Nod curent_nod = dict.radacina();
 
-    stack<PNod> stiva;
-    stiva.push(curent_nod);
+    int curent = dict._index_radacina;
+
+    stack<pair<int, bool>> stiva; //index, prelucrat
+    stiva.push(make_pair(curent, false));
 
     while (!stiva.empty()) {
-        PNod crt = stiva.top();
+        auto crt = stiva.top();
+        int crt_index = crt.first;
 
-        if (!deja_adaugat[crt->stanga()]) {
-            deja_adaugat[crt->stanga()] = true;
+        if (crt.second == false) {
+            crt.second = true;
+            stiva.pop();
+            stiva.push(crt);
 
-            PNod stanga_nod = this->dict._elemente[crt->stanga()];
+            int index_stanga = dict._stanga[crt_index];
 
-            while (stanga_nod != nullptr) {
-                crt = stanga_nod;
-                stiva.push(crt);
-                stanga_nod = this->dict._elemente[crt->stanga()];
+            while (index_stanga != -1) {
+                crt_index = index_stanga;
+                stiva.push(make_pair(crt_index, true));
+                index_stanga = dict._stanga[index_stanga];
             }
         }
 
-        this->_elemente_inordine.push_back({crt->cheie(), crt->valori()});
+        this->_elemente_inordine.push_back(dict._elemente[crt_index]);
         stiva.pop();
 
-        PNod dreapta_nod = this->dict._elemente[crt->dreapta()];
+        int index_dreapta = dict._dreapta[crt_index];
 
-        if (dreapta_nod != nullptr) {
-            stiva.push(dreapta_nod);
+        if (index_dreapta != -1) {
+            stiva.push(make_pair(index_dreapta, false));
         }
     }
+
 }
 
 void IteratorMDO::prim(){

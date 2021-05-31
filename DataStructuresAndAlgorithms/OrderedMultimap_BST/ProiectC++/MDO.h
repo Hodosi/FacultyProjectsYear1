@@ -10,31 +10,14 @@
 typedef int TCheie;
 typedef int TValoare;
 
+
 #include <utility>
 typedef std::pair<TCheie, TValoare> TElem;
+typedef std::pair<TCheie, std::vector<TValoare>> Nod;
 
 using namespace std;
 
 class MDO;
-
-class Nod;
-
-typedef Nod *PNod;
-class Nod {
-public:
-    friend class MDO;
-
-    Nod(TElem elem, int st, int dr);
-    int stanga() const;
-    int dreapta() const;
-    TCheie cheie() const;
-    vector<TValoare> valori() const;
-
-private:
-    TCheie _cheie;
-    vector<TValoare> _valori;
-    int _stanga, _dreapta;
-};
 
 class IteratorMDO;
 
@@ -45,18 +28,30 @@ class MDO {
 private:
     /* aici e reprezentarea */
 
-    int _index_radacina;
 
-    PNod radacina() const;
+    int _index_radacina;
+    Nod radacina() const;
     Relatie _relatie;
 
     int _capacitate;
     int _dimensiune;
 
-    PNod *_elemente;
+    Nod *_elemente;
+    int *_stanga;
+    int *_dreapta;
+
+    int prim_liber;
 
     void stergeNod(int index, int index_parinte);
-    PNod stergeMin(int index, int index_parinte);
+    Nod stergeMin(int index, int index_parinte);
+
+    int aloca();
+
+    // dealoca spatiul de indice i
+    void dealoca(int i);
+
+    int creeazaNod(TElem elem);
+
     void redim();
 
 public:
