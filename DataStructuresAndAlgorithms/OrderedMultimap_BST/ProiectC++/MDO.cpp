@@ -11,36 +11,13 @@
 
 #include <exception>
 using namespace std;
-/*
-Nod::Nod(TElem elem, int st, int dr) {
-    this->_cheie = elem.first;
-    _valori.push_back(elem.second);
-    this->_stanga = st;
-    this->_dreapta = dr;
-}
 
-int Nod::stanga() const{
-    return this->_stanga;
-}
-
-int Nod::dreapta() const {
-    return this->_dreapta;
-}
-
-TCheie Nod::cheie() const {
-    return this->_cheie;
-};
-
-vector<TValoare> Nod::valori() const{
-    return this->_valori;
-}
-*/
-
+//Q(1)
 Nod MDO::radacina() const {
     return this->_elemente[_index_radacina];
 }
 
-
+//Q(2 * capacitate)
 void MDO::redim() {
 
     Nod *new_elemente = new Nod [2 * this->_capacitate];
@@ -73,6 +50,7 @@ void MDO::redim() {
     this->_capacitate = this->_capacitate * 2;
 }
 
+//Q(1)
 MDO::MDO(Relatie r) {
     /* de adaugat */
 
@@ -96,6 +74,7 @@ MDO::MDO(Relatie r) {
     this->prim_liber = 0;
 }
 
+//Q(1)
 int MDO::aloca() {
     int i = this->prim_liber;
     this->prim_liber = this->_dreapta[prim_liber];
@@ -104,7 +83,7 @@ int MDO::aloca() {
     return i;
 }
 
-
+//Q(1)
 void MDO::dealoca(int i) {
     this->_stanga[i] = -1;
     this->_dreapta[i] = this->prim_liber;
@@ -130,6 +109,7 @@ int MDO::creeazaNod(TElem elem) {
     return i;
 }
 
+//Q(h)
 void MDO::adauga(TCheie c, TValoare v) {
     /* de adaugat */
 
@@ -179,6 +159,7 @@ void MDO::adauga(TCheie c, TValoare v) {
 
 }
 
+//Q(h)
 vector<TValoare> MDO::cauta(TCheie c) const {
     /* de adaugat */
     //return vector<TValoare>  ();
@@ -207,8 +188,9 @@ vector<TValoare> MDO::cauta(TCheie c) const {
     }
 }
 
-
+//Q(h)
 Nod MDO::stergeMin(int index, int index_parinte){
+
     int index_bunic = index_parinte;
     while (index != -1){
         index_bunic = index_parinte;
@@ -220,8 +202,7 @@ Nod MDO::stergeMin(int index, int index_parinte){
     return min_nod;
 }
 
-
-
+//Q(h)
 void MDO::stergeNod(int index, int index_parinte) {
     Nod curent_nod = this->_elemente[index];
    // Nod stanga_nod = this->_elemente[this->_stanga[index]];
@@ -272,7 +253,7 @@ void MDO::stergeNod(int index, int index_parinte) {
     this->_elemente[index] = min_nod;
 }
 
-
+//Q(h)
 bool MDO::sterge(TCheie c, TValoare v) {
     /* de adaugat */
     //return false;
@@ -315,6 +296,7 @@ bool MDO::sterge(TCheie c, TValoare v) {
     }
 }
 
+//Q(1)
 int MDO::dim() const {
     /* de adaugat */
     //return 0;
@@ -322,6 +304,7 @@ int MDO::dim() const {
     return this->_dimensiune;
 }
 
+//Q(1)
 bool MDO::vid() const {
     /* de adaugat */
     //return true;
@@ -332,10 +315,12 @@ bool MDO::vid() const {
     return false;
 }
 
+//Q(1)
 IteratorMDO MDO::iterator() const {
     return IteratorMDO(*this);
 }
 
+//Q(capacitate)
 MDO::~MDO() {
     /* de adaugat */
 

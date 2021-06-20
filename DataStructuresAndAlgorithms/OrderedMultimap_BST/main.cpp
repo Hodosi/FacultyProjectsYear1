@@ -5,6 +5,7 @@
 
 int main(){
         testAll();
+        testNou();
         testAllExtins();
     std::cout<<"Finished Tests!"<<std::endl;
 }

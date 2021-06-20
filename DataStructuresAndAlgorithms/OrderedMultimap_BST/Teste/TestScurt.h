@@ -6,5 +6,6 @@
 #define ORDEREDMULTIMAP_BST_TESTSCURT_H
 
 void testAll();
+void testNou();
 
 #endif //ORDEREDMULTIMAP_BST_TESTSCURT_H

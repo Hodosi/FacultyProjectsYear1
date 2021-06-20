@@ -5,6 +5,8 @@
 #include "IteratorMDO.h"
 #include "MDO.h"
 #include "stack"
+
+//Q(nr_elemente)
 IteratorMDO::IteratorMDO(const MDO& d) : dict(d){
     /* de adaugat */
 
@@ -52,12 +54,14 @@ IteratorMDO::IteratorMDO(const MDO& d) : dict(d){
 
 }
 
+//Q(1)
 void IteratorMDO::prim(){
     /* de adaugat */
     this->curent_chei = 0;
     this->curent_val = 0;
 }
 
+//Q(1)
 void IteratorMDO::urmator(){
     /* de adaugat */
     curent_val++;
@@ -67,6 +71,7 @@ void IteratorMDO::urmator(){
     }
 }
 
+//Q(1)
 bool IteratorMDO::valid() const{
     /* de adaugat */
     if(curent_chei < _elemente_inordine.size()){
@@ -75,10 +80,90 @@ bool IteratorMDO::valid() const{
     return false;
 }
 
+//Q(1)
 TElem IteratorMDO::element() const{
     /* de adaugat */
     //return pair <TCheie, TValoare>  (-1, -1);
     return { _elemente_inordine[curent_chei].first, _elemente_inordine[curent_chei].second[curent_val] };
 }
+
+/*
+ * Caz defavorabil: O(k)
+ * Caz favorabil: O(1)
+ * Caz mediu: O(k)
+ * Total: O(k)
+ */
+
+void IteratorMDO::revinoKPasi(int k){
+    if(curent_chei >= _elemente_inordine.size()){
+        throw exception();
+    }
+    if(k <= 0){
+        throw exception();
+    }
+    int old_chei = curent_chei;
+    int old_val = curent_val;
+
+    while (k > 0){
+        int nr_elemente_nod = _elemente_inordine[curent_chei].second.size();
+        if(nr_elemente_nod <= k){
+            k -= nr_elemente_nod;
+            curent_chei--;
+            if(curent_chei < 0){
+                curent_chei = old_chei;
+                curent_val = old_val;
+                throw exception();
+            }
+            curent_val = _elemente_inordine[curent_chei].second.size() - 1;
+        }
+        else{
+            curent_val -= k;
+            k = 0;
+        }
+    }
+}
+
+/*
+ *Subalgoritm revinoKPasi(mdo, it, k)
+ * {
+ * pre:
+ *     mdo : MDO
+ *     it : MDO.ITERATOR
+ *     k: int
+ * }
+ * {
+ * post:
+ *     it : revenit k pasi daca se poate
+ *     exceptie altfel
+ * }
+ *
+ * daca curent_chei >= size(_elemente_inordine) atunci
+        @arunca execeptie;
+   sfarsit_daca
+
+   daca k <= 0 atunci
+        @arunca execeptie
+   sfarsit_daca
+
+   old_chei <- curent_chei;
+   old_val <- curent_val;
+
+   cat_timp k > 0 executa
+        nr_elemente_nod = size(_elemente_inordine[curent_chei].second);
+        daca nr_elemente_nod <= k atunci
+            k <- k - nr_elemente_nod;
+            curent_chei--;
+            daca curent_chei < 0 atunci
+                curent_chei <- old_chei;
+                curent_val <- old_val;
+                arunca execeptie;
+
+            curent_val <- size(_elemente_inordine[curent_chei].second) - 1;
+        alfel
+            curent_val <- curent_val - k;
+            k <- 0;
+        sfarsit_daca
+    sfarsit cat_timp
+ */
 
 

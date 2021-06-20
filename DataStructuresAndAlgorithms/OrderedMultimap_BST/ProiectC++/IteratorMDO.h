@@ -39,6 +39,11 @@ public:
     //returneaza valoarea elementului din container referit de iterator
     //arunca exceptie daca iteratorul nu e valid
     TElem element() const;
+
+    // mută cursorul iteratorului a.î. să refere a k-a pereche în urmă, începând de la cea curentă. Iteratorul devine nevalid în cazul în care există mai puțin de  k perechi anterioare perechi curente în multidicționar.
+
+    // aruncă excepție în cazul în care iteratorul este nevalid sau k este zero ori negativ.
+    void revinoKPasi(int k);
 };
 
 
